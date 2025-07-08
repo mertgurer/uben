@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+    /* light values */
+    --background: #d6dbdc;
+    --primary: #e5e7eb;
+    --secondary: #000000;
+    --tertiary: #000000;
+    --text: #000000;
+}
+
+.dark {
+    /* dark values */
+    --background: #000000;
+    --primary: #1f2937;
+    --secondary: #000000;
+    --tertiary: #000000;
+    --text: #d6dbdc;
+}
+
+@theme {
+    --color-background: var(--background);
+    --color-primary: var(--primary);
+    --color-secondary: var(--secondary);
+    --color-tertiary: var(--tertiary);
+    --color-text: var(--text);
+}
+
+@layer base {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 75px;
+    }
+
+    body {
+        color: var(--text);
+        background: var(--background);
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    input {
+        outline: none;
+    }
+
+    textarea {
+        outline: none;
+        resize: none;
+    }
+
+    select {
+        background-color: transparent;
+        cursor: pointer;
+        outline: none;
+    }
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}
