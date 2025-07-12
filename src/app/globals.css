@@ -2,20 +2,24 @@
 
 :root {
     /* light values */
-    --background: #d6dbdc;
-    --primary: #e5e7eb;
-    --secondary: #000000;
-    --tertiary: #000000;
-    --text: #000000;
+    --background: #efefef;
+    --primary: #113b65;
+    --secondary: #0b2545;
+    --tertiary: #fff;
+    --test-1: #8da9c4;
+    --test-2: #eef4ed;
+    --text: #000;
 }
 
 .dark {
     /* dark values */
-    --background: #000000;
-    --primary: #1f2937;
-    --secondary: #000000;
-    --tertiary: #000000;
-    --text: #d6dbdc;
+    --background: #efefef;
+    --primary: #113b65;
+    --secondary: #0b2545;
+    --tertiary: #fff;
+    --test-1: #8da9c4;
+    --test-2: #eef4ed;
+    --text: #000;
 }
 
 @theme {
@@ -23,6 +27,8 @@
     --color-primary: var(--primary);
     --color-secondary: var(--secondary);
     --color-tertiary: var(--tertiary);
+    --color-test-1: var(--test-1);
+    --color-test-2: var(--test-2);
     --color-text: var(--text);
 }
 

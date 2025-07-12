@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Common.home",
+        "href": "/"
+    },
+    {
+        "name": "Common.products",
+        "href": "/products"
+    },
+    {
+        "name": "Common.about",
+        "href": "/about"
+    }
+]

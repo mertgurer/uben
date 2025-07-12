@@ -1,10 +1,12 @@
-import { Poppins } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import "../globals.css";
+import Navbar from "@/components/common/navbar";
+import ReactLenis from "lenis/react";
 
-const poppins = Poppins({
+const montserrat = Montserrat({
     subsets: ["latin"],
     weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
@@ -26,9 +28,12 @@ export default async function RootLayout({
 
     return (
         <html lang={locale}>
-            <body className={poppins.className}>
+            <body className={montserrat.className}>
                 <NextIntlClientProvider messages={messages}>
-                    {children}
+                    <ReactLenis root>
+                        <Navbar />
+                        <div className="flex flex-col">{children}</div>
+                    </ReactLenis>
                 </NextIntlClientProvider>
             </body>
         </html>

@@ -2,30 +2,31 @@
 
 import React from "react";
 import { useTranslations } from "next-intl";
-import { LocaleButtonProps } from "@/interfaces/LocaleComponentProps";
+import { LocaleLinkProps } from "@/interfaces/LocaleComponentProps";
+import Link from "next/link";
 import { motion } from "motion/react";
 
-function ButtonL({
+function LinkL({
     key,
     children,
     className,
-    onClick,
+    href,
     beforeElement,
     afterElement,
-}: LocaleButtonProps) {
+}: LocaleLinkProps) {
     const t = useTranslations();
 
     return (
-        <button
+        <Link
             key={key}
-            onClick={onClick}
+            href={href}
             className={`flex items-center gap-2 text-balance w-max ${className}`}
         >
             {beforeElement}
             {t(children)}
             {afterElement}
-        </button>
+        </Link>
     );
 }
 
-export default motion(ButtonL);
+export default motion(LinkL);

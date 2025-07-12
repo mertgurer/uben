@@ -10,6 +10,37 @@
     },
     "Common": {
         "welcome": "Welcome",
-        "goodbye": "Good Bye"
+        "goodbye": "Good Bye",
+        "home": "Home",
+        "products": "Products",
+        "about": "About Us",
+        "contact": "Contact Us",
+        "countries": "Countries",
+        "ton": "Ton"
+    },
+    "Intro": {
+        "title": "Professional Paper Solutions. Global Scale. Industrial Precision.",
+        "description": "At UBEN, we pride ourselves on delivering high-quality paper products from our state-of-the-art facilities in Turkey. With a strong presence across Europe and North America, we are committed to excellence and sustainability in every aspect of our operations.",
+        "explore": "Explore Products"
+    },
+    "IntroDetail": {
+        "title": "Professional Paper Solutions. Global Scale. Industrial Precision.",
+        "description": "At UBEN, we pride ourselves on delivering high-quality paper products from our state-of-the-art facilities in Turkey. With a strong presence across Europe and North America, we are committed to excellence and sustainability in every aspect of our operations."
+    },
+    "Stats": {
+        "title": "Professional Paper Solutions. Global Scale. Industrial Precision.",
+        "description": "At UBEN, we pride ourselves on delivering high-quality paper products from our state-of-the-art facilities in Turkey. With a strong presence across Europe and North America, we are committed to excellence and sustainability in every aspect of our operations.",
+        "tagline": "Growth",
+        "detail": "Detail",
+        "yearlyProduction": "Yearly Production",
+        "sustainabilityGrowth": "Sustainability Growth"
+    },
+    "WorldDistribution": {
+        "title": "Proto Around the World",
+        "description": "We have offices around world. Contact us for a LIVE demo today!",
+        "tagline": "Get in Touch"
+    },
+    "Partners": {
+        "title": "Trusted by Different Industries Worldwide"
     }
 }
