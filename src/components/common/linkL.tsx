@@ -7,6 +7,7 @@ import Link from "next/link";
 
 function LinkL({
     children,
+    style,
     className,
     href,
     beforeElement,
@@ -17,6 +18,7 @@ function LinkL({
     return (
         <Link
             href={href}
+            style={{ ...style }}
             className={`flex items-center gap-2 text-balance w-max ${className}`}
         >
             {beforeElement}

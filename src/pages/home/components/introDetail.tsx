@@ -46,7 +46,7 @@ function IntroDetail() {
                     transition={{ duration: 1.2 }}
                 >
                     <LinkL
-                        href={"/"}
+                        href={"/about#contact"}
                         className="bg-primary text-tertiary px-9 py-2 rounded-full hover:-translate-y-1 duration-500 max-2xl:px-7"
                     >
                         Common.contactUs

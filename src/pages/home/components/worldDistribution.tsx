@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { Dot } from "lucide-react";
-import WorldCountries from "@/data/world-countries.json";
+import WorldCities from "@/data/world-cities.json";
 import WorldSvg from "../../../../public/images/world.svg";
 import MarkerSvg from "../../../../public/images/marker.svg";
 import MarkerPrimarySvg from "../../../../public/images/marker-primary.svg";
@@ -39,23 +39,23 @@ function WorldDistribution() {
                     sizes="100%"
                     className="object-contain"
                 />
-                {WorldCountries.map((country, index) => (
+                {WorldCities.map((city, index) => (
                     <motion.button
                         initial={{ opacity: 0, y: -20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.7, delay: 0.2 + index * 0.1 }}
-                        key={country.key}
+                        key={city.key}
                         className="group absolute flex justify-center h-[2vw] -translate-x-1/2 aspect-square max-2xl:h-[2.5vw] max-md:h-[4vw]"
                         style={{
-                            bottom: `${country.yValue}%`,
-                            left: `${country.xValue}%`,
+                            bottom: `${city.yValue}%`,
+                            left: `${city.xValue}%`,
                         }}
                     >
                         <SpanL
                             className="absolute bg-primary text-tertiary px-2 w-max rounded-sm opacity-0 -translate-y-[95%] 
                         group-hover:opacity-100 group-hover:-translate-y-[120%] duration-500"
                         >
-                            {`Countries.${country.key}`}
+                            {`Cities.${city.key}`}
                         </SpanL>
                         <Image
                             src={MarkerSvg}

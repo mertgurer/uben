@@ -16,13 +16,13 @@ function Intro() {
                 <SpanL>Home.Intro.description</SpanL>
                 <div className="flex gap-12 max-2xl:gap-10">
                     <LinkL
-                        href={"/"}
+                        href={"/about"}
                         className="bg-primary text-tertiary px-9 py-2 rounded-full hover:-translate-y-1 duration-500 max-2xl:px-7"
                     >
                         Common.about
                     </LinkL>
                     <LinkL
-                        href={"/"}
+                        href={"/products"}
                         className="group font-medium p-2 hover:translate-x-1 duration-500"
                         afterElement={
                             <ChevronRight

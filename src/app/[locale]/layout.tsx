@@ -14,8 +14,11 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-    title: "Template Next.js",
-    description: "Starting template for Next.js app",
+    title: "UBEN",
+    description: "UBEN world-class papers",
+    icons: {
+        icon: "/images/uben-logo-square.png",
+    },
 };
 
 export default async function RootLayout({

@@ -25,9 +25,9 @@
         "terms": "Terms And Conditions",
         "privacy": "Privacy And Cookies Policy"
     },
-    "Countries": {
+    "Cities": {
         "dubai": "Dubai",
-        "turkey": "Turkey",
+        "istanbul": "Istanbul",
         "new-york": "New York",
         "london": "London"
     },
@@ -80,7 +80,57 @@
     },
     "About": {
         "Intro": {
-            "title": ""
+            "title": "About UBEN",
+            "description": "UBEN operates a state-of-the-art facility in Bursa, serving clients across multiple continents."
+        },
+        "IntroDetail": {
+            "title": "Professional Paper Solutions. Global Scale. Industrial Precision.",
+            "description": "At UBEN, we pride ourselves on delivering high-quality paper products from our state-of-the-art facilities in Turkey. With a strong presence across Europe and North America, we are committed to excellence and sustainability in every aspect of our operations."
+        },
+        "Stats": {
+            "title": "Our Production Capacity: Precision and Reliability Across Continents",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
+            "info-1": {
+                "title": "1 Short heading goes here",
+                "detail": "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            "info-2": {
+                "title": "2 Short heading goes here",
+                "detail": "2 Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            "info-3": {
+                "title": "3 Short heading goes here",
+                "detail": "3 Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            }
+        },
+        "Contact": {
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "name": "First name",
+            "lastName": "Last name",
+            "email": "Email",
+            "phone": "Phone number",
+            "topic": "Choose a topic",
+            "topicPlaceholder": "Select one.",
+            "topicOptions": {
+                "option-1": "First option",
+                "option-2": "Second option",
+                "option-3": "Third option",
+                "option-4": "Fourth option",
+                "option-5": "Fifth option"
+            },
+            "needsQuestion": "Which best describes your needs?",
+            "needsOptions": {
+                "option-1": "First choice",
+                "option-2": "Second choice",
+                "option-3": "Third choice",
+                "option-4": "Fourth choice",
+                "option-5": "Fifth choice",
+                "other": "Other"
+            },
+            "message": "Message",
+            "messagePlaceholder": "Type your message.",
+            "acceptTerms": "I accept the terms and conditions.",
+            "submit": "Submit"
         }
     }
 }

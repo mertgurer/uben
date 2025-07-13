@@ -8,10 +8,12 @@ import Navigation from "@/data/navigation.json";
 import LinkL from "./linkL";
 import { useLenis } from "lenis/react";
 import BurgerMenu from "../navbar/burgerMenu";
+import { usePathname } from "next/navigation";
 
 function Navbar() {
     const [scrolled, setScrolled] = useState(false);
     const [menu, setMenu] = useState(false);
+    const pathname = usePathname();
 
     useLenis((lenis) => {
         setScrolled(lenis.animatedScroll < 200);
@@ -19,8 +21,10 @@ function Navbar() {
 
     return (
         <div
-            className={`fixed w-full top-0 flex z-30 justify-between items-center-safe text-tertiary px-[13%] h-[88px] max-md:sticky max-md:h-[72px] max-md:px-6 ${
-                scrolled ? "bg-primary/40" : "bg-primary"
+            className={`${
+                pathname === "/" ? "fixed max-md:sticky" : "sticky"
+            } w-full top-0 flex z-30 justify-between items-center text-tertiary px-[13%] h-[88px] max-md:h-[72px] max-md:px-6 ${
+                pathname === "/" && scrolled ? "bg-primary/40" : "bg-primary"
             } duration-700 max-md:bg-primary`}
         >
             <Link
@@ -51,13 +55,14 @@ function Navbar() {
                         afterElement={
                             <span className="absolute left-0 top-full -mt-1 h-px w-0 bg-tertiary transition-all duration-300 group-hover:w-full" />
                         }
+                        onClick={() => setMenu(false)}
                         className="group relative py-1 max-2xl:text-sm max-md:p-2 max-md:text-2xl"
                     >
                         {navigation.name}
                     </LinkL>
                 ))}
                 <LinkL
-                    href="/contact"
+                    href="/about#contact"
                     className="bg-tertiary text-primary px-8 py-1.5 rounded-full font-bold text-lg hover:scale-[97%] duration-500 max-2xl:text-base max-2xl:px-6 max-md:px-8 max-md:p-2 max-md:mt-2 max-md:text-2xl"
                 >
                     Common.contactUs

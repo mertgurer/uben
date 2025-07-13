@@ -1,6 +1,9 @@
+import { CSSProperties } from "react";
+
 export interface LocaleComponentProps {
     children: string;
     className?: string;
+    style?: CSSProperties;
 }
 
 export interface LocaleButtonComponentProps extends LocaleComponentProps {

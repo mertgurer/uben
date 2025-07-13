@@ -25,7 +25,7 @@ function Products() {
             <div className="flex justify-between gap-[5%] max-2xl:gap-[6%] max-md:flex-col max-md:gap-6">
                 {ProductItems.map((x, i) => (
                     <div key={i} className="flex-1 flex flex-col items-center">
-                        <div className="relative w-full aspect-square rounded-t-lg overflow-hidden bg-tertiary">
+                        <div className="relative w-full aspect-square rounded-t-md overflow-hidden bg-tertiary">
                             <Image
                                 src={x.image}
                                 alt={"product-" + i}
@@ -35,10 +35,10 @@ function Products() {
                                 className="object-cover max-2xl:scale-90"
                             />
                         </div>
-                        <SpanL className="font-medium text-xl mt-0 mb-3 pb-2 rounded-b-lg bg-tertiary max-2xl:text-lg">{`Home.Products.items.${x.key}.title`}</SpanL>
+                        <SpanL className="font-medium text-xl mt-0 mb-3 pb-2 rounded-b-md bg-tertiary max-2xl:text-lg">{`Home.Products.items.${x.key}.title`}</SpanL>
                         <SpanL className="mb-1 max-md:mb-0">{`Home.Products.items.${x.key}.description`}</SpanL>
                         <LinkL
-                            href={"/"}
+                            href={"/products"}
                             className="group mt-auto font-medium p-2 hover:translate-x-1 duration-500"
                             afterElement={
                                 <ChevronRight

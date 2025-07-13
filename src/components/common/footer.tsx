@@ -50,7 +50,15 @@ function Footer() {
                             {Contact.mail}
                             <span className="absolute left-0 top-full h-px w-0 bg-tertiary transition-all duration-300 group-hover:w-full" />
                         </button>
-                        <div className="font-light">{Contact.address}</div>
+                        <button
+                            onClick={() => {
+                                window.open(Contact.address.map, "_blank");
+                            }}
+                            className="font-light w-max group relative"
+                        >
+                            {Contact.address.address}
+                            <span className="absolute left-0 top-full h-px w-0 bg-tertiary transition-all duration-300 group-hover:w-full" />
+                        </button>
                     </div>
                     <div className="flex-1 flex flex-col gap-2">
                         <SpanL className="text-xl font-medium mb-1 max-2xl:text-lg">
