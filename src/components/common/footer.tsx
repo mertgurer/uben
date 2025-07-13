@@ -18,7 +18,7 @@ function Footer() {
                 <div className="flex-1 flex gap-[15%] max-md:gap-8">
                     <div className="flex-1 flex flex-col gap-2 max-md:flex-2">
                         <SpanL className="text-xl font-medium mb-1 max-2xl:text-lg">
-                            Footer.contact
+                            Common.contact
                         </SpanL>
                         <button
                             onClick={() => {
@@ -54,7 +54,7 @@ function Footer() {
                     </div>
                     <div className="flex-1 flex flex-col gap-2">
                         <SpanL className="text-xl font-medium mb-1 max-2xl:text-lg">
-                            Footer.pages
+                            Common.pages
                         </SpanL>
                         {Navigation.map((navigation) => (
                             <LinkL

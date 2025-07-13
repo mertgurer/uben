@@ -20,7 +20,7 @@ function Products() {
             className="flex flex-col items-center px-[15%] py-[100px] gap-16 text-primary text-center max-2xl:px-[10%] max-2xl:gap-10 max-md:px-[10%] max-md:pt-16 max-md:pb-10"
         >
             <SpanL className="flex-1 text-5xl max-2xl:text-4xl max-md:text-3xl">
-                Products.title
+                Home.Products.title
             </SpanL>
             <div className="flex justify-between gap-[5%] max-2xl:gap-[6%] max-md:flex-col max-md:gap-6">
                 {ProductItems.map((x, i) => (
@@ -35,8 +35,8 @@ function Products() {
                                 className="object-cover max-2xl:scale-90"
                             />
                         </div>
-                        <SpanL className="font-medium text-xl mt-0 mb-3 pb-2 rounded-b-lg bg-tertiary max-2xl:text-lg">{`Products.items.${x.key}.title`}</SpanL>
-                        <SpanL className="mb-1 max-md:mb-0">{`Products.items.${x.key}.description`}</SpanL>
+                        <SpanL className="font-medium text-xl mt-0 mb-3 pb-2 rounded-b-lg bg-tertiary max-2xl:text-lg">{`Home.Products.items.${x.key}.title`}</SpanL>
+                        <SpanL className="mb-1 max-md:mb-0">{`Home.Products.items.${x.key}.description`}</SpanL>
                         <LinkL
                             href={"/"}
                             className="group mt-auto font-medium p-2 hover:translate-x-1 duration-500"
@@ -48,7 +48,7 @@ function Products() {
                                 />
                             }
                         >
-                            {`Products.items.${x.key}.detail`}
+                            {`Home.Products.items.${x.key}.detail`}
                         </LinkL>
                     </div>
                 ))}

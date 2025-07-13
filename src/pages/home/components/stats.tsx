@@ -54,14 +54,14 @@ function Stats() {
                     <div className="flex-1 flex flex-col">
                         <div className="flex items-center -ml-6">
                             <Dot size={28} strokeWidth={1.75} />
-                            <SpanL>Stats.tagline</SpanL>
+                            <SpanL>Home.Stats.tagline</SpanL>
                         </div>
                         <SpanL className="text-5xl mt-1 max-2xl:text-4xl">
-                            Stats.title
+                            Home.Stats.title
                         </SpanL>
                     </div>
                     <div className="flex-1 flex flex-col mt-7 gap-8 max-2xl:gap-5 max-md:gap-3 max-md:mt-0">
-                        <SpanL>Stats.description</SpanL>
+                        <SpanL>Home.Stats.description</SpanL>
                         <LinkL
                             href={"/"}
                             className="group py-2 hover:translate-x-1 duration-500"
@@ -73,7 +73,7 @@ function Stats() {
                                 />
                             }
                         >
-                            Stats.detail
+                            Home.Stats.detail
                         </LinkL>
                     </div>
                 </div>
@@ -89,7 +89,7 @@ function Stats() {
                             <SpanL>Common.ton</SpanL>
                         </motion.div>
                         <SpanL className="font-light">
-                            Stats.yearlyProduction
+                            Home.Stats.yearlyProduction
                         </SpanL>
                     </div>
                     <div className="flex-1 flex flex-col border-l border-tertiary px-6 py-2 gap-2 overflow-hidden">
@@ -113,7 +113,7 @@ function Stats() {
                             30%
                         </motion.span>
                         <SpanL className="font-light">
-                            Stats.sustainabilityGrowth
+                            Home.Stats.sustainabilityGrowth
                         </SpanL>
                     </div>
                 </div>

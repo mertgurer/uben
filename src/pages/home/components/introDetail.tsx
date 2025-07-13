@@ -20,7 +20,7 @@ function IntroDetail() {
                     transition={{ duration: 1.2 }}
                 >
                     <SpanL className="flex-1 text-5xl max-2xl:text-4xl">
-                        IntroDetail.title
+                        Home.IntroDetail.title
                     </SpanL>
                 </motion.div>
                 <motion.div
@@ -37,7 +37,7 @@ function IntroDetail() {
                     transition={{ duration: 1.2 }}
                 >
                     <SpanL className="max-md:text-end">
-                        IntroDetail.description
+                        Home.IntroDetail.description
                     </SpanL>
                 </motion.div>
                 <motion.div
@@ -49,7 +49,7 @@ function IntroDetail() {
                         href={"/"}
                         className="bg-primary text-tertiary px-9 py-2 rounded-full hover:-translate-y-1 duration-500 max-2xl:px-7"
                     >
-                        Common.contact
+                        Common.contactUs
                     </LinkL>
                 </motion.div>
             </div>

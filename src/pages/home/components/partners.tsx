@@ -17,7 +17,7 @@ function Partners() {
         >
             <div className="flex items-center bg-tertiary/50 px-[10%] py-10 gap-40 max-2xl:px-[8%] max-2xl:gap-32 max-2xl:py-6 max-md:flex-col max-md:gap-4">
                 <SpanL className="text-primary text-lg font-black max-2xl:text-base max-2xl:font-bold max-md:text-center">
-                    Partners.title
+                    Home.Partners.title
                 </SpanL>
                 <div className="relative flex-1 aspect-video max-md:w-1/2">
                     <Image

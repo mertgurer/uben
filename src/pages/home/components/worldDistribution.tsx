@@ -20,14 +20,14 @@ function WorldDistribution() {
                 <div className="flex-1 flex flex-col">
                     <div className="flex items-center -ml-6">
                         <Dot size={28} strokeWidth={1.75} />
-                        <SpanL>WorldDistribution.tagline</SpanL>
+                        <SpanL>Home.WorldDistribution.tagline</SpanL>
                     </div>
                     <SpanL className="text-5xl font-medium mt-1 max-2xl:text-4xl">
-                        WorldDistribution.title
+                        Home.WorldDistribution.title
                     </SpanL>
                 </div>
                 <SpanL className="flex-1 md:text-end">
-                    WorldDistribution.description
+                    Home.WorldDistribution.description
                 </SpanL>
             </div>
             <div className="relative aspect-[2.1933]">

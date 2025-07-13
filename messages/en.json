@@ -14,9 +14,16 @@
         "home": "Home",
         "products": "Products",
         "about": "About Us",
-        "contact": "Contact Us",
+        "contactUs": "Contact Us",
         "countries": "Countries",
-        "ton": "Ton"
+        "ton": "Ton",
+        "contact": "Contact",
+        "pages": "Pages"
+    },
+    "Footer": {
+        "copyright": "Copyright © 2025 UBEN. All rights reserved.",
+        "terms": "Terms And Conditions",
+        "privacy": "Privacy And Cookies Policy"
     },
     "Countries": {
         "dubai": "Dubai",
@@ -24,56 +31,56 @@
         "new-york": "New York",
         "london": "London"
     },
-    "Intro": {
-        "title": "Professional Paper Solutions. Global Scale. Industrial Precision.",
-        "description": "At UBEN, we pride ourselves on delivering high-quality paper products from our state-of-the-art facilities in Turkey. With a strong presence across Europe and North America, we are committed to excellence and sustainability in every aspect of our operations.",
-        "explore": "Explore Products"
-    },
-    "IntroDetail": {
-        "title": "Professional Paper Solutions. Global Scale. Industrial Precision.",
-        "description": "At UBEN, we pride ourselves on delivering high-quality paper products from our state-of-the-art facilities in Turkey. With a strong presence across Europe and North America, we are committed to excellence and sustainability in every aspect of our operations."
-    },
-    "Stats": {
-        "title": "Professional Paper Solutions. Global Scale. Industrial Precision.",
-        "description": "At UBEN, we pride ourselves on delivering high-quality paper products from our state-of-the-art facilities in Turkey. With a strong presence across Europe and North America, we are committed to excellence and sustainability in every aspect of our operations.",
-        "tagline": "Growth",
-        "detail": "Detail",
-        "yearlyProduction": "Yearly Production",
-        "sustainabilityGrowth": "Sustainability Growth"
-    },
-    "WorldDistribution": {
-        "title": "Proto Around the World",
-        "description": "We have offices around world. Contact us for a LIVE demo today!",
-        "tagline": "Get in Touch"
-    },
-    "Partners": {
-        "title": "Trusted by Different Industries Worldwide"
-    },
-    "Products": {
-        "title": "Long heading is what you see here in this feature section",
-        "items": {
-            "fold": {
-                "title": "Long heading is what you see here in this feature section",
-                "description": "Highly absorbent and perfect for quick clean-ups.",
-                "detail": "Go to Product"
-            },
-            "towel": {
-                "title": "Long heading is what you see here in this feature section",
-                "description": "Soft and durable, ideal for any setting.",
-                "detail": "Explore Product"
-            },
-            "dispenser": {
-                "title": "Long heading is what you see here in this feature section",
-                "description": "Designed for high-traffic environments, ensuring longevity.",
-                "detail": "Compare Variants"
+    "Home": {
+        "Intro": {
+            "title": "Professional Paper Solutions. Global Scale. Industrial Precision.",
+            "description": "At UBEN, we pride ourselves on delivering high-quality paper products from our state-of-the-art facilities in Turkey. With a strong presence across Europe and North America, we are committed to excellence and sustainability in every aspect of our operations.",
+            "explore": "Explore Products"
+        },
+        "IntroDetail": {
+            "title": "Professional Paper Solutions. Global Scale. Industrial Precision.",
+            "description": "At UBEN, we pride ourselves on delivering high-quality paper products from our state-of-the-art facilities in Turkey. With a strong presence across Europe and North America, we are committed to excellence and sustainability in every aspect of our operations."
+        },
+        "Stats": {
+            "title": "Professional Paper Solutions. Global Scale. Industrial Precision.",
+            "description": "At UBEN, we pride ourselves on delivering high-quality paper products from our state-of-the-art facilities in Turkey. With a strong presence across Europe and North America, we are committed to excellence and sustainability in every aspect of our operations.",
+            "tagline": "Growth",
+            "detail": "Detail",
+            "yearlyProduction": "Yearly Production",
+            "sustainabilityGrowth": "Sustainability Growth"
+        },
+        "WorldDistribution": {
+            "title": "Proto Around the World",
+            "description": "We have offices around world. Contact us for a LIVE demo today!",
+            "tagline": "Get in Touch"
+        },
+        "Partners": {
+            "title": "Trusted by Different Industries Worldwide"
+        },
+        "Products": {
+            "title": "Long heading is what you see here in this feature section",
+            "items": {
+                "fold": {
+                    "title": "Long heading is what you see here in this feature section",
+                    "description": "Highly absorbent and perfect for quick clean-ups.",
+                    "detail": "Go to Product"
+                },
+                "towel": {
+                    "title": "Long heading is what you see here in this feature section",
+                    "description": "Soft and durable, ideal for any setting.",
+                    "detail": "Explore Product"
+                },
+                "dispenser": {
+                    "title": "Long heading is what you see here in this feature section",
+                    "description": "Designed for high-traffic environments, ensuring longevity.",
+                    "detail": "Compare Variants"
+                }
             }
         }
     },
-    "Footer": {
-        "contact": "Contact",
-        "pages": "Pages",
-        "copyright": "Copyright © 2025 UBEN. All rights reserved.",
-        "terms": "Terms And Conditions",
-        "privacy": "Privacy And Cookies Policy"
+    "About": {
+        "Intro": {
+            "title": ""
+        }
     }
 }

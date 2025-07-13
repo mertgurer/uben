@@ -60,7 +60,7 @@ function Navbar() {
                     href="/contact"
                     className="bg-tertiary text-primary px-8 py-1.5 rounded-full font-bold text-lg hover:scale-[97%] duration-500 max-2xl:text-base max-2xl:px-6 max-md:px-8 max-md:p-2 max-md:mt-2 max-md:text-2xl"
                 >
-                    Common.contact
+                    Common.contactUs
                 </LinkL>
             </div>
             <BurgerMenu menu={menu} setMenu={setMenu} />

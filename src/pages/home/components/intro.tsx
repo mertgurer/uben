@@ -10,10 +10,10 @@ function Intro() {
             className="flex justify-between gap-[10%] px-[15%] py-[140px] text-primary max-2xl:px-[10%] max-md:flex-col max-md:px-[5%] max-md:pt-14 max-md:pb-16 max-md:gap-7"
         >
             <SpanL className="flex-1 text-5xl max-2xl:text-4xl">
-                Intro.title
+                Home.Intro.title
             </SpanL>
             <div className="flex-1 flex flex-col items-start gap-8 max-2xl:gap-5">
-                <SpanL>Intro.description</SpanL>
+                <SpanL>Home.Intro.description</SpanL>
                 <div className="flex gap-12 max-2xl:gap-10">
                     <LinkL
                         href={"/"}
@@ -32,7 +32,7 @@ function Intro() {
                             />
                         }
                     >
-                        Intro.explore
+                        Home.Intro.explore
                     </LinkL>
                 </div>
             </div>
