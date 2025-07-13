@@ -1,0 +1,96 @@
+"use client";
+
+import React from "react";
+import SpanL from "./spanL";
+import Link from "next/link";
+import Image from "next/image";
+import Logo from "../../../public/images/uben-logo.png";
+import Navigation from "@/data/navigation.json";
+import LinkL from "./linkL";
+import { ContactHelpers } from "@/helpers/helpers";
+import Contact from "@/data/contact.json";
+import toast from "react-hot-toast";
+
+function Footer() {
+    return (
+        <div className="flex flex-col w-full pb-10 pt-20 px-40 gap-16 bg-primary text-tertiary">
+            <div className="flex justify-between">
+                <div className="flex-1 flex gap-[15%]">
+                    <div className="flex-1 flex flex-col gap-2">
+                        <SpanL className="text-xl font-medium mb-1">
+                            Footer.contact
+                        </SpanL>
+                        <button
+                            onClick={() => {
+                                try {
+                                    ContactHelpers.copyToClipboard(
+                                        Contact.phone
+                                    );
+                                    toast.success("Text copied to clipboard");
+                                } catch {
+                                    toast.error("Failed to copy text");
+                                }
+                            }}
+                            className="font-light w-max"
+                        >
+                            {Contact.phone}
+                        </button>
+                        <button
+                            onClick={() => {
+                                try {
+                                    ContactHelpers.copyToClipboard(
+                                        Contact.mail
+                                    );
+                                    ContactHelpers.openMail(Contact.mail);
+                                } catch {}
+                            }}
+                            className="font-light w-max"
+                        >
+                            {Contact.mail}
+                        </button>
+                        <div className="font-light">{Contact.address}</div>
+                    </div>
+                    <div className="flex-1 flex flex-col gap-2">
+                        <SpanL className="text-xl font-medium mb-1">
+                            Footer.pages
+                        </SpanL>
+                        {Navigation.map((navigation) => (
+                            <LinkL
+                                key={navigation.name}
+                                href={navigation.href}
+                                className="font-light"
+                            >
+                                {navigation.name}
+                            </LinkL>
+                        ))}
+                    </div>
+                </div>
+                <div className="flex-1 flex justify-end items-start">
+                    <Link href="/" className="relative w-1/4 aspect-[2.3]">
+                        <Image
+                            src={Logo}
+                            alt={"uben-logo"}
+                            fill
+                            priority
+                            sizes="100%"
+                            className="object-contain"
+                        />
+                    </Link>
+                </div>
+            </div>
+            <div className="flex justify-between items-center text-xs">
+                <SpanL>Footer.copyright</SpanL>
+                <div className="flex gap-3">
+                    <LinkL href={"/"} className="opacity-70 underline">
+                        Footer.terms
+                    </LinkL>
+                    <LinkL href={"/"} className="opacity-70 underline">
+                        Footer.privacy
+                    </LinkL>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default Footer;

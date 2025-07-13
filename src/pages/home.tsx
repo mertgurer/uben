@@ -4,6 +4,7 @@ import IntroDetail from "@/components/home/introDetail";
 import Stats from "@/components/home/stats";
 import WorldDistribution from "@/components/home/worldDistribution";
 import Partners from "@/components/home/partners";
+import Products from "@/components/home/products";
 
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
             <Stats />
             <WorldDistribution />
             <Partners />
+            <Products />
         </main>
     );
 }

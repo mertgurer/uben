@@ -13,8 +13,8 @@ function Partners() {
             style={{ backgroundImage: `url(${ToiletPaperPattern.src})` }}
             className="bg-repeat bg-contain shadow-[0_0_50px_0)] z-10"
         >
-            <div className="flex items-center bg-tertiary/50 px-[10%] py-20 gap-40">
-                <SpanL className="text-primary text-lg font-bold">
+            <div className="flex items-center bg-tertiary/50 px-[10%] py-10 gap-40">
+                <SpanL className="text-primary text-lg font-black">
                     Partners.title
                 </SpanL>
                 <div className="relative flex-1 aspect-video">

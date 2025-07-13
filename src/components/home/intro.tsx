@@ -12,7 +12,7 @@ function Intro() {
             <SpanL className="flex-1 text-5xl">Intro.title</SpanL>
             <div className="flex-1 flex flex-col items-start gap-8">
                 <SpanL>Intro.description</SpanL>
-                <div className="flex gap-14">
+                <div className="flex gap-12">
                     <LinkL
                         href={"/"}
                         className="bg-primary text-tertiary px-9 py-2 rounded-full"
@@ -21,7 +21,7 @@ function Intro() {
                     </LinkL>
                     <LinkL
                         href={"/"}
-                        className="font-medium"
+                        className="font-medium p-2"
                         afterElement={
                             <ChevronRight size={20} strokeWidth={1.5} />
                         }

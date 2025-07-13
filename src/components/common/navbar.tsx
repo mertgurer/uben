@@ -17,11 +17,11 @@ function Navbar() {
 
     return (
         <div
-            className={`fixed w-full top-0 flex z-30 justify-between items-center-safe bg-primary text-tertiary px-[13%] h-[88px] ${
+            className={`fixed w-full top-0 flex z-30 justify-between items-center-safe text-tertiary px-[13%] h-[88px] ${
                 scrolled ? "bg-primary/40" : "bg-primary"
             } duration-700`}
         >
-            <Link href="/" className="relative h-2/3 aspect-[2]">
+            <Link href="/" className="relative h-[60%] aspect-[2.3]">
                 <Image
                     src={Logo}
                     alt={"uben-logo"}

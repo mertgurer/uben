@@ -2,9 +2,11 @@ import { Montserrat } from "next/font/google";
 import { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import ReactLenis from "lenis/react";
 import "../globals.css";
 import Navbar from "@/components/common/navbar";
-import ReactLenis from "lenis/react";
+import Footer from "@/components/common/footer";
+import { Toaster } from "react-hot-toast";
 
 const montserrat = Montserrat({
     subsets: ["latin"],
@@ -31,8 +33,27 @@ export default async function RootLayout({
             <body className={montserrat.className}>
                 <NextIntlClientProvider messages={messages}>
                     <ReactLenis root>
+                        <Toaster
+                            position="top-right"
+                            containerStyle={{ marginTop: "88px" }}
+                            toastOptions={{
+                                style: {
+                                    background:
+                                        "color-mix(in srgb, var(--primary), transparent 40%)",
+                                    color: "var(--tertiary)",
+                                    border: "1px solid var(--primary)",
+                                    borderRadius: "12px",
+                                    paddingLeft: "20px",
+                                    paddingRight: "20px",
+                                    paddingTop: "12px",
+                                    paddingBlock: "12px",
+                                    gap: "8px",
+                                },
+                            }}
+                        />
                         <Navbar />
                         <div className="flex flex-col">{children}</div>
+                        <Footer />
                     </ReactLenis>
                 </NextIntlClientProvider>
             </body>

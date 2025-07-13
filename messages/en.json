@@ -42,5 +42,32 @@
     },
     "Partners": {
         "title": "Trusted by Different Industries Worldwide"
+    },
+    "Products": {
+        "title": "Long heading is what you see here in this feature section",
+        "items": {
+            "fold": {
+                "title": "Long heading is what you see here in this feature section",
+                "description": "Highly absorbent and perfect for quick clean-ups.",
+                "detail": "Go to Product"
+            },
+            "towel": {
+                "title": "Long heading is what you see here in this feature section",
+                "description": "Soft and durable, ideal for any setting.",
+                "detail": "Explore Product"
+            },
+            "dispenser": {
+                "title": "Long heading is what you see here in this feature section",
+                "description": "Designed for high-traffic environments, ensuring longevity.",
+                "detail": "Compare Variants"
+            }
+        }
+    },
+    "Footer": {
+        "contact": "Contact",
+        "pages": "Pages",
+        "copyright": "Copyright © 2025 UBEN. All rights reserved.",
+        "terms": "Terms And Conditions",
+        "privacy": "Privacy And Cookies Policy"
     }
 }

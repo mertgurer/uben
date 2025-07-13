@@ -30,7 +30,7 @@ function Stats() {
                             afterElement={
                                 <ChevronRight size={20} strokeWidth={1.5} />
                             }
-                            className="mt-10 text-justify"
+                            className="mt-8 py-2 text-justify"
                         >
                             Stats.detail
                         </LinkL>
@@ -41,7 +41,7 @@ function Stats() {
                         <motion.div
                             initial={{ x: `calc(-100% - ${24}px)` }}
                             whileInView={{ x: 0 }}
-                            transition={{ duration: 1.5, delay: 0.25 }}
+                            transition={{ duration: 1.3, delay: 0.25 }}
                             viewport={{ once: true }}
                             className="text-6xl font-semibold w-max"
                         >
@@ -56,7 +56,7 @@ function Stats() {
                         <motion.span
                             initial={{ x: `calc(-100% - ${24}px)` }}
                             whileInView={{ x: 0 }}
-                            transition={{ duration: 1.3, delay: 0.65 }}
+                            transition={{ duration: 1.1, delay: 0.65 }}
                             viewport={{ once: true }}
                             className="text-6xl font-semibold w-max"
                         >
@@ -68,7 +68,7 @@ function Stats() {
                         <motion.span
                             initial={{ x: `calc(-100% - ${24}px)` }}
                             whileInView={{ x: 0 }}
-                            transition={{ duration: 1.3, delay: 1.05 }}
+                            transition={{ duration: 1.1, delay: 1.05 }}
                             viewport={{ once: true }}
                             className="text-6xl font-semibold w-max"
                         >
