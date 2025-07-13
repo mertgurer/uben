@@ -3,10 +3,8 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 import { LocaleButtonProps } from "@/interfaces/LocaleComponentProps";
-import { motion } from "motion/react";
 
 function ButtonL({
-    key,
     children,
     className,
     onClick,
@@ -17,7 +15,6 @@ function ButtonL({
 
     return (
         <button
-            key={key}
             onClick={onClick}
             className={`flex items-center gap-2 text-balance w-max ${className}`}
         >
@@ -28,4 +25,4 @@ function ButtonL({
     );
 }
 
-export default motion(ButtonL);
+export default ButtonL;

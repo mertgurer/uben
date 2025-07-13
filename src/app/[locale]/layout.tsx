@@ -35,7 +35,7 @@ export default async function RootLayout({
                     <ReactLenis root>
                         <Toaster
                             position="top-right"
-                            containerStyle={{ marginTop: "88px" }}
+                            containerStyle={{ marginTop: "80px" }}
                             toastOptions={{
                                 style: {
                                     background:

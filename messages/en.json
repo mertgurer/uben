@@ -18,6 +18,12 @@
         "countries": "Countries",
         "ton": "Ton"
     },
+    "Countries": {
+        "dubai": "Dubai",
+        "turkey": "Turkey",
+        "new-york": "New York",
+        "london": "London"
+    },
     "Intro": {
         "title": "Professional Paper Solutions. Global Scale. Industrial Precision.",
         "description": "At UBEN, we pride ourselves on delivering high-quality paper products from our state-of-the-art facilities in Turkey. With a strong presence across Europe and North America, we are committed to excellence and sustainability in every aspect of our operations.",

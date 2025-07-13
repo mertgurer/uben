@@ -1,5 +1,4 @@
 export interface LocaleComponentProps {
-    key?: string;
     children: string;
     className?: string;
 }
@@ -16,6 +15,6 @@ export interface LocaleButtonProps extends LocaleButtonComponentProps {
     onClick?: () => void;
 }
 
-export interface LocaleLinkProps extends LocaleButtonComponentProps {
+export interface LocaleLinkProps extends LocaleButtonProps {
     href: string;
 }
