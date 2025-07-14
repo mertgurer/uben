@@ -108,7 +108,8 @@
             "name": "First name",
             "lastName": "Last name",
             "email": "Email",
-            "phone": "Phone number",
+            "phone": "Phone",
+            "phoneNumber": "Phone number",
             "topic": "Choose a topic",
             "topicPlaceholder": "Select one.",
             "topicOptions": {
@@ -125,12 +126,16 @@
                 "option-3": "Third choice",
                 "option-4": "Fourth choice",
                 "option-5": "Fifth choice",
-                "other": "Other"
+                "option-6": "Other"
             },
             "message": "Message",
             "messagePlaceholder": "Type your message.",
             "acceptTerms": "I accept the terms and conditions.",
-            "submit": "Submit"
+            "submit": "Submit",
+            "emailInfo": "Mail Us For All Inquires",
+            "phoneInfo": "Lorem ipsum dolor sit amet.",
+            "office": "Office",
+            "getDirections": "Get Directions"
         }
     }
 }
