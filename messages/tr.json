@@ -10,6 +10,132 @@
     },
     "Common": {
         "welcome": "Hoş geldin",
-        "goodbye": "Hoşçakal"
+        "goodbye": "Hoşçakal",
+        "home": "Ana Sayfa",
+        "products": "Ürünler",
+        "about": "Hakkımızda",
+        "contactUs": "Bize Ulaşın",
+        "countries": "Ülkeler",
+        "ton": "Ton",
+        "contact": "İletişim",
+        "pages": "Sayfalar"
+    },
+    "Footer": {
+        "copyright": "Telif Hakkı © 2025 UBEN. Tüm hakları saklıdır.",
+        "terms": "Şartlar ve Koşullar",
+        "privacy": "Gizlilik ve Çerez Politikası"
+    },
+    "Cities": {
+        "dubai": "Dubai",
+        "istanbul": "İstanbul",
+        "new-york": "New York",
+        "london": "Londra"
+    },
+    "Home": {
+        "Intro": {
+            "title": "Profesyonel Kağıt Çözümleri. Küresel Ölçek. Endüstriyel Hassasiyet.",
+            "description": "UBEN olarak, Türkiye'deki son teknoloji tesislerimizden yüksek kaliteli kağıt ürünleri sunmaktan gurur duyuyoruz. Avrupa ve Kuzey Amerika'daki güçlü varlığımızla, her alanda mükemmellik ve sürdürülebilirliği taahhüt ediyoruz.",
+            "explore": "Ürünleri Keşfet"
+        },
+        "IntroDetail": {
+            "title": "Profesyonel Kağıt Çözümleri. Küresel Ölçek. Endüstriyel Hassasiyet.",
+            "description": "UBEN olarak, Türkiye'deki son teknoloji tesislerimizden yüksek kaliteli kağıt ürünleri sunmaktan gurur duyuyoruz. Avrupa ve Kuzey Amerika'daki güçlü varlığımızla, her alanda mükemmellik ve sürdürülebilirliği taahhüt ediyoruz."
+        },
+        "Stats": {
+            "title": "Profesyonel Kağıt Çözümleri. Küresel Ölçek. Endüstriyel Hassasiyet.",
+            "description": "UBEN olarak, Türkiye'deki son teknoloji tesislerimizden yüksek kaliteli kağıt ürünleri sunmaktan gurur duyuyoruz. Avrupa ve Kuzey Amerika'daki güçlü varlığımızla, her alanda mükemmellik ve sürdürülebilirliği taahhüt ediyoruz.",
+            "tagline": "Büyüme",
+            "detail": "Detay",
+            "yearlyProduction": "Yıllık Üretim",
+            "sustainabilityGrowth": "Sürdürülebilirlik Büyümesi"
+        },
+        "WorldDistribution": {
+            "title": "Dünyada Proto",
+            "description": "Dünya genelinde ofislerimiz var. Canlı demo için bizimle iletişime geçin!",
+            "tagline": "İletişime Geçin"
+        },
+        "Partners": {
+            "title": "Dünya Genelinde Güvenilen Endüstriler"
+        },
+        "Products": {
+            "title": "Bu özellik bölümünde gördüğünüz uzun başlık",
+            "items": {
+                "fold": {
+                    "title": "Bu özellik bölümünde gördüğünüz uzun başlık",
+                    "description": "Yüksek emici, hızlı temizlikler için mükemmel.",
+                    "detail": "Ürüne Git"
+                },
+                "towel": {
+                    "title": "Bu özellik bölümünde gördüğünüz uzun başlık",
+                    "description": "Yumuşak ve dayanıklı, her ortam için ideal.",
+                    "detail": "Ürünü Keşfet"
+                },
+                "dispenser": {
+                    "title": "Bu özellik bölümünde gördüğünüz uzun başlık",
+                    "description": "Yoğun kullanım alanları için tasarlanmıştır, uzun ömürlüdür.",
+                    "detail": "Varyantları Karşılaştır"
+                }
+            }
+        }
+    },
+    "About": {
+        "Intro": {
+            "title": "UBEN Hakkında",
+            "description": "UBEN, Bursa'daki son teknoloji tesisinde çok kıtaya hizmet vermektedir."
+        },
+        "IntroDetail": {
+            "title": "Profesyonel Kağıt Çözümleri. Küresel Ölçek. Endüstriyel Hassasiyet.",
+            "description": "UBEN olarak, Türkiye'deki son teknoloji tesislerimizden yüksek kaliteli kağıt ürünleri sunmaktan gurur duyuyoruz. Avrupa ve Kuzey Amerika'daki güçlü varlığımızla, her alanda mükemmellik ve sürdürülebilirliği taahhüt ediyoruz."
+        },
+        "Stats": {
+            "title": "Üretim Kapasitemiz: Kıtalar Arasında Hassasiyet ve Güvenilirlik",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
+            "info-1": {
+                "title": "1 Kısa başlık buraya gelir",
+                "detail": "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            "info-2": {
+                "title": "2 Kısa başlık buraya gelir",
+                "detail": "2 Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            "info-3": {
+                "title": "3 Kısa başlık buraya gelir",
+                "detail": "3 Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            }
+        },
+        "Contact": {
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "name": "Ad",
+            "lastName": "Soyad",
+            "email": "E-posta",
+            "phone": "Telefon",
+            "phoneNumber": "Telefon numarası",
+            "topic": "Bir konu seçin",
+            "topicPlaceholder": "Birini seçin.",
+            "topicOptions": {
+                "option-1": "Birinci seçenek",
+                "option-2": "İkinci seçenek",
+                "option-3": "Üçüncü seçenek",
+                "option-4": "Dördüncü seçenek",
+                "option-5": "Beşinci seçenek"
+            },
+            "needsQuestion": "İhtiyaçlarınızı en iyi hangi ifade tanımlar?",
+            "needsOptions": {
+                "option-1": "Birinci tercih",
+                "option-2": "İkinci tercih",
+                "option-3": "Üçüncü tercih",
+                "option-4": "Dördüncü tercih",
+                "option-5": "Beşinci tercih",
+                "option-6": "Diğer"
+            },
+            "message": "Mesaj",
+            "messagePlaceholder": "Mesajınızı yazın.",
+            "acceptTerms": "Şartlar ve koşulları kabul ediyorum.",
+            "submit": "Gönder",
+            "emailInfo": "Tüm Sorular İçin Bize E-posta Gönderin",
+            "phoneInfo": "Bir telefon kadar yakınız.",
+            "office": "Ofis",
+            "getDirections": "Yol Tarifi Al"
+        }
     }
 }

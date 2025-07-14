@@ -46,7 +46,10 @@ function Contact() {
     };
 
     return (
-        <section id="contact" className="flex px-[15%] py-20 text-primary">
+        <section
+            id="contact"
+            className="flex px-[15%] py-20 text-primary max-2xl:px-[10%] max-md:px-[5%] max-md:py-8 max-md:flex-col"
+        >
             <div className="flex-1 flex flex-col gap-4">
                 <span className="font-bold">UBEN</span>
                 <SpanL className="text-5xl max-2xl:text-4xl">
@@ -55,10 +58,10 @@ function Contact() {
                 <SpanL>About.Contact.description</SpanL>
                 <form
                     action=""
-                    className="flex flex-col mt-7 gap-8"
+                    className="flex flex-col mt-7 gap-8 max-2xl:gap-6"
                     onSubmit={handleSubmit}
                 >
-                    <div className="flex gap-5">
+                    <div className="flex gap-5 max-md:flex-col">
                         <Input
                             name="name"
                             label="About.Contact.name"
@@ -70,7 +73,7 @@ function Contact() {
                             required
                         />
                     </div>
-                    <div className="flex gap-5">
+                    <div className="flex gap-5 max-md:flex-col">
                         <Input
                             name="email"
                             label="About.Contact.email"
@@ -106,20 +109,22 @@ function Contact() {
                     />
                     <ButtonL
                         type="submit"
-                        className="bg-primary text-tertiary px-9 py-2 rounded-full hover:-translate-y-1 duration-500 max-2xl:px-7"
+                        className="bg-primary text-tertiary px-9 py-2 rounded-full hover:-translate-y-1 duration-500 max-2xl:px-7 max-md:self-center max-md:px-12 max-md:py-2.5"
                     >
                         About.Contact.submit
                     </ButtonL>
                 </form>
             </div>
-            <div className="flex-1 flex items-center justify-center mb-auto mt-[12%]">
-                <div className="grid grid-cols-2 gap-x-10 gap-y-14 w-full pl-[18%] pr-[2%]">
-                    <div className="flex flex-col justify-center">
+            <div className="flex-1 flex items-center justify-center mb-auto mt-[12%] max-md:mt-20">
+                <div className="grid grid-cols-2 gap-x-10 gap-y-14 w-full pl-[18%] pr-[2%] max-md:flex max-md:flex-wrap max-md:p-0 max-md:gap-0 max-md:items-start">
+                    <div className="flex flex-col justify-center max-md:items-center max-md:w-1/2">
                         <Mail size={28} strokeWidth={1.5} className="ml-1" />
                         <SpanL className="text-lg font-medium mt-2 mb-2">
                             About.Contact.email
                         </SpanL>
-                        <SpanL>About.Contact.emailInfo</SpanL>
+                        <SpanL className="max-md:text-center max-md:text-sm">
+                            About.Contact.emailInfo
+                        </SpanL>
                         <button
                             onClick={() => {
                                 try {
@@ -136,12 +141,14 @@ function Contact() {
                             {ContactInformation.mail}
                         </button>
                     </div>
-                    <div className="flex flex-col justify-center">
+                    <div className="flex flex-col justify-center max-md:items-center max-md:w-1/2">
                         <Phone size={28} strokeWidth={1.5} className="ml-1" />
                         <SpanL className="text-lg font-medium mt-2 mb-2">
                             About.Contact.phone
                         </SpanL>
-                        <SpanL>About.Contact.phoneInfo</SpanL>
+                        <SpanL className="max-md:text-center max-md:text-sm">
+                            About.Contact.phoneInfo
+                        </SpanL>
                         <button
                             onClick={() => {
                                 try {
@@ -158,12 +165,14 @@ function Contact() {
                             {ContactInformation.phone}
                         </button>
                     </div>
-                    <div className="flex flex-col justify-center">
+                    <div className="flex flex-col justify-center max-md:items-center max-md:mt-10">
                         <Mail size={28} strokeWidth={1.5} className="ml-1" />
                         <SpanL className="text-lg font-medium mt-2 mb-2">
                             About.Contact.office
                         </SpanL>
-                        <span>{ContactInformation.address.address}</span>
+                        <span className="max-md:text-center">
+                            {ContactInformation.address.address}
+                        </span>
                         <ButtonL
                             onClick={() => {
                                 window.open(

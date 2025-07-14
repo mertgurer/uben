@@ -10,8 +10,11 @@ import FactoryInside from "../../../../public/images/factory-inside.png";
 
 function IntroDetail() {
     return (
-        <section id="introDetail" className="flex px-[15%] py-20 gap-[10%]">
-            <div className="flex-1 flex flex-col py-20 gap-8 text-primary">
+        <section
+            id="introDetail"
+            className="flex px-[15%] py-20 gap-[10%] overflow-hidden max-2xl:px-[10%] max-md:px-[5%] max-md:py-16"
+        >
+            <div className="flex-1 flex flex-col py-20 gap-8 text-primary max-md:py-0">
                 <span className="font-bold -mb-4">UBEN</span>
                 <motion.div
                     initial={{ x: 75, opacity: 0, filter: "blur(2px)" }}
@@ -39,7 +42,7 @@ function IntroDetail() {
                         About.IntroDetail.description
                     </SpanL>
                 </motion.div>
-                <div className="flex gap-12 max-2xl:gap-10">
+                <div className="flex gap-12 max-2xl:gap-10 max-md:flex-col-reverse max-md:gap-2">
                     <LinkL
                         href={"/about#contact"}
                         className="bg-primary text-tertiary px-9 py-2 rounded-full hover:-translate-y-1 duration-500 max-2xl:px-7"
@@ -61,8 +64,8 @@ function IntroDetail() {
                     </LinkL>
                 </div>
             </div>
-            <div className="flex-1 flex justify-center">
-                <div className="relative w-3/4 h-full rounded-sm overflow-hidden ">
+            <div className="flex-1 flex justify-center max-md:hidden">
+                <div className="relative w-3/4 h-full rounded-sm overflow-hidden">
                     <Image
                         src={FactoryInside}
                         alt={"uben-factory-inside"}

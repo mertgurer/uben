@@ -10,6 +10,7 @@ import LinkL from "./linkL";
 import { ContactHelpers } from "@/helpers/helpers";
 import Contact from "@/data/contact.json";
 import toast from "react-hot-toast";
+import LocaleButton from "./localeButton";
 
 function Footer() {
     return (
@@ -54,7 +55,7 @@ function Footer() {
                             onClick={() => {
                                 window.open(Contact.address.map, "_blank");
                             }}
-                            className="font-light w-max group relative"
+                            className="font-light group relative text-start"
                         >
                             {Contact.address.address}
                             <span className="absolute left-0 top-full h-px w-0 bg-tertiary transition-all duration-300 group-hover:w-full" />
@@ -91,8 +92,14 @@ function Footer() {
                     </Link>
                 </div>
             </div>
-            <div className="flex justify-between items-center text-xs max-md:flex-col">
+            <div className="flex justify-between items-center text-xs max-md:flex-col max-md:text-center max-md:gap-4">
+                <div className="md:hidden">
+                    <LocaleButton />
+                </div>
                 <SpanL>Footer.copyright</SpanL>
+                <div className="max-md:hidden">
+                    <LocaleButton />
+                </div>
                 <div className="flex gap-3">
                     <LinkL href={"/"} className="opacity-70 underline">
                         Footer.terms

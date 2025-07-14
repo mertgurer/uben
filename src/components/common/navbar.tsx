@@ -5,12 +5,14 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../../public/images/uben-logo.png";
 import Navigation from "@/data/navigation.json";
-import LinkL from "./linkL";
 import { useLenis } from "lenis/react";
 import BurgerMenu from "../navbar/burgerMenu";
 import { usePathname } from "next/navigation";
+import ButtonL from "./buttonL";
+import { useRouter } from "@/i18n/navigation";
 
 function Navbar() {
+    const router = useRouter();
     const [scrolled, setScrolled] = useState(false);
     const [menu, setMenu] = useState(false);
     const pathname = usePathname();
@@ -42,31 +44,36 @@ function Navbar() {
             </Link>
             <div
                 className={`flex items-center gap-10 font-semibold 
-                    max-md:fixed max-md:top-0 max-md:left-0 max-md:flex-col max-md:py-[20%] max-md:gap-2 max-md:w-full max-md:bg-primary/80 max-md:backdrop-blur-md ${
+                    max-md:fixed max-md:top-0 max-md:left-0 max-md:flex-col max-md:py-[20%] max-md:gap-5 max-md:w-full max-md:bg-primary/80 max-md:backdrop-blur-md ${
                         menu
                             ? "max-md:translate-y-0"
                             : "max-md:-translate-y-full"
                     } duration-500`}
             >
                 {Navigation.map((navigation) => (
-                    <LinkL
+                    <ButtonL
                         key={navigation.name}
-                        href={navigation.href}
                         afterElement={
                             <span className="absolute left-0 top-full -mt-1 h-px w-0 bg-tertiary transition-all duration-300 group-hover:w-full" />
                         }
-                        onClick={() => setMenu(false)}
+                        onClick={() => {
+                            setMenu(false);
+                            router.push(navigation.href);
+                        }}
                         className="group relative py-1 max-2xl:text-sm max-md:p-2 max-md:text-2xl"
                     >
                         {navigation.name}
-                    </LinkL>
+                    </ButtonL>
                 ))}
-                <LinkL
-                    href="/about#contact"
+                <ButtonL
+                    onClick={() => {
+                        setMenu(false);
+                        router.push("/about#contact");
+                    }}
                     className="bg-tertiary text-primary px-8 py-1.5 rounded-full font-bold text-lg hover:scale-[97%] duration-500 max-2xl:text-base max-2xl:px-6 max-md:px-8 max-md:p-2 max-md:mt-2 max-md:text-2xl"
                 >
                     Common.contactUs
-                </LinkL>
+                </ButtonL>
             </div>
             <BurgerMenu menu={menu} setMenu={setMenu} />
         </div>

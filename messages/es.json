@@ -5,11 +5,137 @@
         "es": "Español"
     },
     "Theme": {
-        "darkMode": "Modo oscuro",
-        "lightMode": "Modo claro"
+        "darkMode": "Modo Oscuro",
+        "lightMode": "Modo Claro"
     },
     "Common": {
         "welcome": "Bienvenido",
-        "goodbye": "Adiós"
+        "goodbye": "Adiós",
+        "home": "Inicio",
+        "products": "Productos",
+        "about": "Sobre Nosotros",
+        "contactUs": "Contáctenos",
+        "countries": "Países",
+        "ton": "Tonelada",
+        "contact": "Contacto",
+        "pages": "Páginas"
+    },
+    "Footer": {
+        "copyright": "Derechos de autor © 2025 UBEN. Todos los derechos reservados.",
+        "terms": "Términos y Condiciones",
+        "privacy": "Política de Privacidad y Cookies"
+    },
+    "Cities": {
+        "dubai": "Dubái",
+        "istanbul": "Estambul",
+        "new-york": "Nueva York",
+        "london": "Londres"
+    },
+    "Home": {
+        "Intro": {
+            "title": "Soluciones Profesionales de Papel. Escala Global. Precisión Industrial.",
+            "description": "En UBEN, nos enorgullece ofrecer productos de papel de alta calidad desde nuestras instalaciones de última generación en Turquía. Con una sólida presencia en Europa y América del Norte, estamos comprometidos con la excelencia y la sostenibilidad en cada aspecto de nuestras operaciones.",
+            "explore": "Explorar Productos"
+        },
+        "IntroDetail": {
+            "title": "Soluciones Profesionales de Papel. Escala Global. Precisión Industrial.",
+            "description": "En UBEN, nos enorgullece ofrecer productos de papel de alta calidad desde nuestras instalaciones de última generación en Turquía. Con una sólida presencia en Europa y América del Norte, estamos comprometidos con la excelencia y la sostenibilidad en cada aspecto de nuestras operaciones."
+        },
+        "Stats": {
+            "title": "Soluciones Profesionales de Papel. Escala Global. Precisión Industrial.",
+            "description": "En UBEN, nos enorgullece ofrecer productos de papel de alta calidad desde nuestras instalaciones de última generación en Turquía. Con una sólida presencia en Europa y América del Norte, estamos comprometidos con la excelencia y la sostenibilidad en cada aspecto de nuestras operaciones.",
+            "tagline": "Crecimiento",
+            "detail": "Detalle",
+            "yearlyProduction": "Producción Anual",
+            "sustainabilityGrowth": "Crecimiento de Sostenibilidad"
+        },
+        "WorldDistribution": {
+            "title": "Proto Around the World",
+            "description": "Tenemos oficinas en todo el mundo. ¡Contáctenos para una demostración EN VIVO hoy!",
+            "tagline": "Ponte en Contacto"
+        },
+        "Partners": {
+            "title": "Confiado por Diversas Industrias a Nivel Mundial"
+        },
+        "Products": {
+            "title": "Encabezado largo que ves aquí en esta sección de características",
+            "items": {
+                "fold": {
+                    "title": "Encabezado largo que ves aquí en esta sección de características",
+                    "description": "Altamente absorbente y perfecto para limpiezas rápidas.",
+                    "detail": "Ver Producto"
+                },
+                "towel": {
+                    "title": "Encabezado largo que ves aquí en esta sección de características",
+                    "description": "Suave y duradero, ideal para cualquier entorno.",
+                    "detail": "Explorar Producto"
+                },
+                "dispenser": {
+                    "title": "Encabezado largo que ves aquí en esta sección de características",
+                    "description": "Diseñado para entornos de alto tráfico, garantizando durabilidad.",
+                    "detail": "Comparar Variantes"
+                }
+            }
+        }
+    },
+    "About": {
+        "Intro": {
+            "title": "Sobre UBEN",
+            "description": "UBEN opera una instalación de última generación en Bursa, atendiendo clientes en múltiples continentes."
+        },
+        "IntroDetail": {
+            "title": "Soluciones Profesionales de Papel. Escala Global. Precisión Industrial.",
+            "description": "En UBEN, nos enorgullece ofrecer productos de papel de alta calidad desde nuestras instalaciones de última generación en Turquía. Con una sólida presencia en Europa y América del Norte, estamos comprometidos con la excelencia y la sostenibilidad en cada aspecto de nuestras operaciones."
+        },
+        "Stats": {
+            "title": "Nuestra Capacidad de Producción: Precisión y Fiabilidad a Través de Continentes",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
+            "info-1": {
+                "title": "1 Título corto va aquí",
+                "detail": "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            "info-2": {
+                "title": "2 Título corto va aquí",
+                "detail": "2 Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            "info-3": {
+                "title": "3 Título corto va aquí",
+                "detail": "3 Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            }
+        },
+        "Contact": {
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "name": "Nombre",
+            "lastName": "Apellido",
+            "email": "Correo electrónico",
+            "phone": "Teléfono",
+            "phoneNumber": "Número de teléfono",
+            "topic": "Elige un tema",
+            "topicPlaceholder": "Seleccione uno.",
+            "topicOptions": {
+                "option-1": "Primera opción",
+                "option-2": "Segunda opción",
+                "option-3": "Tercera opción",
+                "option-4": "Cuarta opción",
+                "option-5": "Quinta opción"
+            },
+            "needsQuestion": "¿Cuál describe mejor sus necesidades?",
+            "needsOptions": {
+                "option-1": "Primera elección",
+                "option-2": "Segunda elección",
+                "option-3": "Tercera elección",
+                "option-4": "Cuarta elección",
+                "option-5": "Quinta elección",
+                "option-6": "Otro"
+            },
+            "message": "Mensaje",
+            "messagePlaceholder": "Escriba su mensaje.",
+            "acceptTerms": "Acepto los términos y condiciones.",
+            "submit": "Enviar",
+            "emailInfo": "Envíenos un correo para todas las consultas",
+            "phoneInfo": "A solo una llamada de distancia.",
+            "office": "Oficina",
+            "getDirections": "Obtener direcciones"
+        }
     }
 }

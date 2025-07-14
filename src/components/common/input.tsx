@@ -24,7 +24,7 @@ function Input({ name, label, placeholder, required, textArea }: InputProps) {
                 <textarea
                     name={name}
                     placeholder={placeholder ? t(placeholder) : ""}
-                    className="border border-primary/30 rounded-xl px-4 py-2 min-h-44"
+                    className="border border-primary/30 rounded-xl px-4 py-2 min-h-44 max-md:min-h-32"
                 />
             ) : (
                 <input

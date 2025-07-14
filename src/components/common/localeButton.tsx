@@ -2,41 +2,42 @@
 
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
-import { useLocale, useTranslations } from "next-intl";
-import React, { ChangeEvent } from "react";
-import { MdArrowDropDown } from "react-icons/md";
+import React from "react";
+import Image from "next/image";
+
+import EN from "../../../public/images/countries/en.png";
+import TR from "../../../public/images/countries/tr.png";
+import ES from "../../../public/images/countries/es.png";
 
 export default function LocaleButton() {
     const router = useRouter();
     const pathname = usePathname();
 
-    const locale = useLocale();
-    const t = useTranslations("Locale");
-
     return (
-        <div className="flex relative items-center rounded bg-primary">
-            <select
-                className="p-2 pr-8 appearance-none bg-primary"
-                defaultValue={locale}
-                onChange={(event: ChangeEvent<HTMLSelectElement>) => {
-                    const nextLocale = event.target
-                        .value as (typeof routing.locales)[number];
+        <div className="flex gap-3 max-2xl:gap-2">
+            {routing.locales.map((x) => {
+                const localeValue =
+                    x === "en" ? EN : x === "tr" ? TR : x === "es" ? ES : null;
 
-                    if (nextLocale !== locale) {
-                        router.replace(pathname, { locale: nextLocale });
-                    }
-                }}
-            >
-                {routing.locales.map((x) => (
-                    <option key={x} value={x} className="text-text font-light">
-                        {t(x)}
-                    </option>
-                ))}
-            </select>
-            <MdArrowDropDown
-                size={30}
-                className="absolute right-1 pointer-events-none"
-            />
+                if (!localeValue) return;
+
+                return (
+                    <button
+                        key={x}
+                        onClick={() => router.replace(pathname, { locale: x })}
+                        className="relative w-12 aspect-[1.5] max-2xl:w-10 "
+                    >
+                        <Image
+                            src={localeValue}
+                            alt={"locale-logo"}
+                            fill
+                            priority
+                            sizes="100%"
+                            className="object-contain"
+                        />
+                    </button>
+                );
+            })}
         </div>
     );
 }
