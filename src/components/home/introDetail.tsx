@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import ToiletRollInteraction from "../../../../public/images/toilet-roll-interaction.png";
+import ToiletRollInteraction from "../../../public/images/toilet-roll-interaction.png";
 import SpanL from "@/components/common/spanL";
 import LinkL from "@/components/common/linkL";
 import { motion } from "motion/react";

@@ -1,10 +1,10 @@
 import React from "react";
 import SpanL from "@/components/common/spanL";
-import ToiletPaperPattern from "../../../../public/images/toilet-paper-pattern.png";
+import ToiletPaperPattern from "../../../public/images/toilet-paper-pattern.png";
 import Image from "next/image";
-import Haksan from "../../../../public/images/partners/haksan.png";
-import Joco from "../../../../public/images/partners/joco.png";
-import Seger from "../../../../public/images/partners/seger.png";
+import Haksan from "../../../public/images/partners/haksan.png";
+import Joco from "../../../public/images/partners/joco.png";
+import Seger from "../../../public/images/partners/seger.png";
 
 function Partners() {
     return (

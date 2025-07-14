@@ -3,8 +3,8 @@
 import React from "react";
 import SpanL from "@/components/common/spanL";
 import Image from "next/image";
-import PaperTowelInteraction from "../../../../public/images/paper-towel-interaction.png";
-import ToiletRollInteraction from "../../../../public/images/toilet-roll-interaction.png";
+import PaperTowelInteraction from "../../../public/images/paper-towel-interaction.png";
+import ToiletRollInteraction from "../../../public/images/toilet-roll-interaction.png";
 import { motion } from "motion/react";
 import { useMobile } from "@/hooks/useMobile";
 

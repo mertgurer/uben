@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import Factory from "../../../../public/images/uben-factory.png";
+import Factory from "../../../public/images/uben-factory.png";
 import { ArrowDownToDot } from "lucide-react";
 import { motion } from "framer-motion";
 import { useLenis } from "lenis/react";

@@ -4,9 +4,9 @@ import React from "react";
 import Image from "next/image";
 import { Dot } from "lucide-react";
 import WorldCities from "@/data/world-cities.json";
-import WorldSvg from "../../../../public/images/world.svg";
-import MarkerSvg from "../../../../public/images/marker.svg";
-import MarkerPrimarySvg from "../../../../public/images/marker-primary.svg";
+import WorldSvg from "../../../public/images/world.svg";
+import MarkerSvg from "../../../public/images/marker.svg";
+import MarkerPrimarySvg from "../../../public/images/marker-primary.svg";
 import { motion } from "motion/react";
 import SpanL from "@/components/common/spanL";
 

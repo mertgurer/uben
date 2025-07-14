@@ -6,7 +6,7 @@ import SpanL from "@/components/common/spanL";
 import LinkL from "@/components/common/linkL";
 import { ChevronRight } from "lucide-react";
 import Image from "next/image";
-import FactoryInside from "../../../../public/images/factory-inside.png";
+import FactoryInside from "../../../public/images/factory-inside.png";
 
 function IntroDetail() {
     return (

@@ -3,9 +3,9 @@ import SpanL from "@/components/common/spanL";
 import LinkL from "@/components/common/linkL";
 import Image from "next/image";
 import { ChevronRight } from "lucide-react";
-import Fold from "../../../../public/images/products/fold-paper.png";
-import Towel from "../../../../public/images/products/paper-towel.png";
-import Dispenser from "../../../../public/images/products/dispenser-paper.png";
+import Fold from "../../../public/images/products/fold-paper.png";
+import Towel from "../../../public/images/products/paper-towel.png";
+import Dispenser from "../../../public/images/products/dispenser-paper.png";
 
 const ProductItems = [
     { key: "fold", image: Fold },

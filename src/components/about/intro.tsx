@@ -1,7 +1,7 @@
 import SpanL from "@/components/common/spanL";
 import React from "react";
 import Image from "next/image";
-import PaperDispenserInteraction from "../../../../public/images/paper-dispenser-interaction.png";
+import PaperDispenserInteraction from "../../../public/images/paper-dispenser-interaction.png";
 
 function Intro() {
     return (
