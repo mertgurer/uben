@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../../public/images/uben-logo.png";
 import Navigation from "@/data/navigation.json";
@@ -9,7 +8,7 @@ import { useLenis } from "lenis/react";
 import BurgerMenu from "../navbar/burgerMenu";
 import { usePathname } from "next/navigation";
 import ButtonL from "./buttonL";
-import { useRouter } from "@/i18n/navigation";
+import { Link, useRouter } from "@/i18n/navigation";
 
 function Navbar() {
     const router = useRouter();

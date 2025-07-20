@@ -6,8 +6,6 @@
     --primary: #113b65;
     --secondary: #0b2545;
     --tertiary: #fff;
-    --test-1: #8da9c4;
-    --test-2: #eef4ed;
     --text: #000;
 }
 
@@ -17,8 +15,6 @@
     --primary: #113b65;
     --secondary: #0b2545;
     --tertiary: #fff;
-    --test-1: #8da9c4;
-    --test-2: #eef4ed;
     --text: #000;
 }
 
@@ -27,8 +23,6 @@
     --color-primary: var(--primary);
     --color-secondary: var(--secondary);
     --color-tertiary: var(--tertiary);
-    --color-test-1: var(--test-1);
-    --color-test-2: var(--test-2);
     --color-text: var(--text);
 }
 
@@ -67,9 +61,7 @@
         cursor: pointer;
         outline: none;
     }
-}
 
-@layer utilities {
     .text-balance {
         text-wrap: balance;
     }

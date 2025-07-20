@@ -3,7 +3,7 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 import { LocaleLinkProps } from "@/interfaces/LocaleComponentProps";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 function LinkL({
     children,

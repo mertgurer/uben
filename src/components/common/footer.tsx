@@ -2,7 +2,6 @@
 
 import React from "react";
 import SpanL from "./spanL";
-import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../../public/images/uben-logo.png";
 import Navigation from "@/data/navigation.json";
@@ -11,6 +10,7 @@ import { ContactHelpers } from "@/helpers/helpers";
 import Contact from "@/data/contact.json";
 import toast from "react-hot-toast";
 import LocaleButton from "./localeButton";
+import { Link } from "@/i18n/navigation";
 
 function Footer() {
     return (

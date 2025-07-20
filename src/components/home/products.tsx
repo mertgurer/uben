@@ -3,14 +3,14 @@ import SpanL from "@/components/common/spanL";
 import LinkL from "@/components/common/linkL";
 import Image from "next/image";
 import { ChevronRight } from "lucide-react";
-import Fold from "../../../public/images/products/fold-paper.png";
-import Towel from "../../../public/images/products/paper-towel.png";
-import Dispenser from "../../../public/images/products/dispenser-paper.png";
+import ZPaper from "../../../public/images/products/z-paper.png";
+import PaperTowel from "../../../public/images/products/paper-towel.png";
+import CenterPullPaper from "../../../public/images/products/center-pull-paper.png";
 
 const ProductItems = [
-    { key: "fold", image: Fold },
-    { key: "towel", image: Towel },
-    { key: "dispenser", image: Dispenser },
+    { key: "zPaper", image: ZPaper },
+    { key: "paperTowel", image: PaperTowel },
+    { key: "centerPullPaper", image: CenterPullPaper },
 ];
 
 function Products() {
@@ -35,8 +35,8 @@ function Products() {
                                 className="object-cover max-2xl:scale-90"
                             />
                         </div>
-                        <SpanL className="font-medium text-xl mt-0 mb-3 pb-2 rounded-b-md bg-tertiary max-2xl:text-lg">{`Home.Products.items.${x.key}.title`}</SpanL>
-                        <SpanL className="mb-1 max-md:mb-0">{`Home.Products.items.${x.key}.description`}</SpanL>
+                        <SpanL className="font-medium text-xl mt-0 mb-3 pb-2 rounded-b-md bg-tertiary max-2xl:text-lg">{`Home.Products.${x.key}.title`}</SpanL>
+                        <SpanL className="mb-1 max-md:mb-0">{`Home.Products.${x.key}.description`}</SpanL>
                         <LinkL
                             href={"/products"}
                             className="group mt-auto font-medium p-2 hover:translate-x-1 duration-500"
@@ -48,7 +48,7 @@ function Products() {
                                 />
                             }
                         >
-                            {`Home.Products.items.${x.key}.detail`}
+                            {`Home.Products.${x.key}.detail`}
                         </LinkL>
                     </div>
                 ))}

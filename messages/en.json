@@ -18,7 +18,8 @@
         "countries": "Countries",
         "ton": "Ton",
         "contact": "Contact",
-        "pages": "Pages"
+        "pages": "Pages",
+        "all": "All"
     },
     "Footer": {
         "copyright": "Copyright © 2025 UBEN. All rights reserved.",
@@ -59,22 +60,20 @@
         },
         "Products": {
             "title": "Long heading is what you see here in this feature section",
-            "items": {
-                "fold": {
-                    "title": "Long heading is what you see here in this feature section",
-                    "description": "Highly absorbent and perfect for quick clean-ups.",
-                    "detail": "Go to Product"
-                },
-                "towel": {
-                    "title": "Long heading is what you see here in this feature section",
-                    "description": "Soft and durable, ideal for any setting.",
-                    "detail": "Explore Product"
-                },
-                "dispenser": {
-                    "title": "Long heading is what you see here in this feature section",
-                    "description": "Designed for high-traffic environments, ensuring longevity.",
-                    "detail": "Compare Variants"
-                }
+            "zPaper": {
+                "title": "Long heading is what you see here in this feature section",
+                "description": "Highly absorbent and perfect for quick clean-ups.",
+                "detail": "Go to Product"
+            },
+            "paperTowel": {
+                "title": "Long heading is what you see here in this feature section",
+                "description": "Soft and durable, ideal for any setting.",
+                "detail": "Explore Product"
+            },
+            "centerPullPaper": {
+                "title": "Long heading is what you see here in this feature section",
+                "description": "Designed for high-traffic environments, ensuring longevity.",
+                "detail": "Compare Variants"
             }
         }
     },
@@ -137,5 +136,30 @@
             "office": "Office",
             "getDirections": "Get Directions"
         }
+    },
+    "Products": {
+        "title": "Our Products",
+        "description": "Product availability for different countries may be vary",
+        "zPaper": {
+            "title": "Z Fold Paper",
+            "description": "Commercial"
+        },
+        "paperTowel": {
+            "title": "Paper Towel",
+            "description": "Professional"
+        },
+        "centerPullPaper": {
+            "title": "Center-Pull Paper",
+            "description": "Dispenser Products"
+        },
+        "dinnerNapkin": {
+            "title": "Dinner Napkin",
+            "description": "Kitchen"
+        },
+        "toiletPaper": {
+            "title": "Jumbo Bath Tissues",
+            "description": "Professional"
+        },
+        "allProducts": "All Products"
     }
 }
