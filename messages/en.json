@@ -32,6 +32,10 @@
         "new-york": "New York",
         "london": "London"
     },
+    "Colors": {
+        "white": "White",
+        "brown": "Brown"
+    },
     "Home": {
         "Intro": {
             "title": "Professional Paper Solutions. Global Scale. Industrial Precision.",
@@ -142,24 +146,76 @@
         "description": "Product availability for different countries may be vary",
         "zPaper": {
             "title": "Z Fold Paper",
-            "description": "Commercial"
+            "description": "Commercial",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "bulletPoints": {
+                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
+                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
+                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+            }
         },
         "paperTowel": {
             "title": "Paper Towel",
-            "description": "Professional"
+            "description": "Professional",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "bulletPoints": {
+                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
+                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
+                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+            }
         },
         "centerPullPaper": {
             "title": "Center-Pull Paper",
-            "description": "Dispenser Products"
+            "description": "Dispenser Products",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "bulletPoints": {
+                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
+                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
+                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+            }
         },
         "dinnerNapkin": {
             "title": "Dinner Napkin",
-            "description": "Kitchen"
+            "description": "Kitchen",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "bulletPoints": {
+                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
+                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
+                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+            }
         },
         "toiletPaper": {
             "title": "Jumbo Bath Tissues",
-            "description": "Professional"
+            "description": "Professional",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "bulletPoints": {
+                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
+                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
+                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+            }
         },
         "allProducts": "All Products"
+    },
+    "Product": {
+        "variants": "Variants",
+        "pdfDownload": "PDF Download",
+        "paperKind": "Paper Kind",
+        "metric": "Metric",
+        "imperial": "Imperial",
+        "productDetail": {
+            "title": "Product Detail",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "subTitle": "Description"
+        },
+        "shippingDetails": {
+            "title": "Shipping Details",
+            "info": "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "subTitle": "Shipping Specs"
+        },
+        "comparison": {
+            "title": "Compare",
+            "info": "consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "subTitle": "Comparison"
+        }
     }
 }

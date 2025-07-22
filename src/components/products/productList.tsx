@@ -29,7 +29,7 @@ function ProductList({ selectedCategories }: ProductListProps) {
                     >
                         <div className="relative aspect-[6/7] w-full rounded-md bg-tertiary overflow-hidden">
                             <Image
-                                src={product.image}
+                                src={product.cover}
                                 alt={product.key}
                                 fill
                                 priority

@@ -5,8 +5,14 @@ import Categories from "./categories";
 import ProductList from "./productList";
 import { CategoryData } from "@/data/categoryData";
 
-function ProductDisplay() {
-    const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+interface Props {
+    category?: string;
+}
+
+function ProductDisplay({ category }: Props) {
+    const [selectedCategories, setSelectedCategories] = useState<string[]>(
+        category ? [category] : []
+    );
 
     useEffect(() => {
         if (selectedCategories.length === CategoryData.length) {

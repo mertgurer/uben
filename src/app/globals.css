@@ -6,6 +6,7 @@
     --primary: #113b65;
     --secondary: #0b2545;
     --tertiary: #fff;
+    --trim: #ddd;
     --text: #000;
 }
 
@@ -15,6 +16,7 @@
     --primary: #113b65;
     --secondary: #0b2545;
     --tertiary: #fff;
+    --trim: #d3d3d3;
     --text: #000;
 }
 
@@ -23,6 +25,7 @@
     --color-primary: var(--primary);
     --color-secondary: var(--secondary);
     --color-tertiary: var(--tertiary);
+    --color-trim: var(--trim);
     --color-text: var(--text);
 }
 

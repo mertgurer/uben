@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import { CategoryData } from "@/data/categoryData";
 import Logo from "../../../public/images/uben-logo-square.png";
 import SpanL from "../common/spanL";
+import { CategoryData } from "@/data/categoryData";
 
 interface CategoriesProps {
     selectedCategories: string[];
