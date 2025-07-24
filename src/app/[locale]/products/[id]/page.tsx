@@ -22,7 +22,7 @@ async function ProductPage({ params }: Props) {
     }
 
     return (
-        <main className="flex flex-col pt-12 gap-14">
+        <main className="flex flex-col pt-12 gap-14 max-md:pt-8">
             <div className="flex gap-[4%] px-[15%] max-2xl:px-[10%] max-md:px-[5%] max-md:flex-col">
                 <div className="flex flex-col gap-6 md:hidden">
                     <div className="flex flex-col gap-2">
@@ -35,7 +35,7 @@ async function ProductPage({ params }: Props) {
                 </div>
                 <ImageCarousel images={[product.cover, ...product.images]} />
                 <div className="flex-1 flex flex-col gap-5">
-                    <div className="flex flex-col gap-2 max-md:hidden">
+                    <div className="flex flex-col gap-1 max-md:hidden">
                         <HierarchyNavigation product={product} />
                         <span className="opacity-70 text-sm">
                             {product.itemCode}
