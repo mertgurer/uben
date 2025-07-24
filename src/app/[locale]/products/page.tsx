@@ -6,9 +6,8 @@ interface Props {
     searchParams: { category?: string };
 }
 
-async function Products({ searchParams }: Props) {
-    const params = await searchParams;
-    const category = params.category;
+function Products({ searchParams }: Props) {
+    const category = searchParams.category;
 
     return (
         <main className="flex flex-col">
