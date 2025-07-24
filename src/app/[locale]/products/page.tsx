@@ -3,11 +3,11 @@ import Intro from "@/components/products/intro";
 import ProductDisplay from "@/components/products/productDisplay";
 
 interface Props {
-    searchParams: { category?: string };
+    searchParams: Promise<{ category?: string }>;
 }
 
-function Products({ searchParams }: Props) {
-    const category = searchParams.category;
+async function Products({ searchParams }: Props) {
+    const { category } = await searchParams;
 
     return (
         <main className="flex flex-col">
