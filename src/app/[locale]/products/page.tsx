@@ -10,8 +10,6 @@ async function Products({ searchParams }: Props) {
     const params = await searchParams;
     const category = params.category;
 
-    console.log(category);
-
     return (
         <main className="flex flex-col">
             <Intro />

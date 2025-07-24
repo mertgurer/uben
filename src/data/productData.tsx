@@ -16,7 +16,25 @@ export interface ProductModel {
     colors: string[];
     pdf: string;
     bulletPointCount: number;
+    detail: ProductDetailModel;
 }
+
+export interface ProductDetailModel {
+    sheetCount: { data: number; unit: string };
+    sheetSize: {
+        data: { width: number; height: number };
+        unit: string;
+    };
+    numberOfPiles: { data: number; unit: string };
+    caseCount: { data: number; unit: string };
+    sheetCountPerCase: { data: number; unit: string };
+    caseSize: {
+        data: { width: number; height: number; depth: number };
+        unit: string;
+    };
+    caseWeight: { data: number; unit: string };
+}
+
 export const ProductData: ProductModel[] = [
     {
         key: "centerPullPaper",
@@ -28,6 +46,36 @@ export const ProductData: ProductModel[] = [
         colors: ["white", "brown"],
         pdf: "",
         bulletPointCount: 3,
+        detail: {
+            sheetCount: {
+                data: 200,
+                unit: "sheets",
+            },
+            sheetSize: {
+                data: { width: 21, height: 21 },
+                unit: "length",
+            },
+            numberOfPiles: {
+                data: 2,
+                unit: "piles",
+            },
+            caseCount: {
+                data: 12,
+                unit: "packs",
+            },
+            sheetCountPerCase: {
+                data: 1800,
+                unit: "sheets",
+            },
+            caseSize: {
+                data: { width: 43, height: 33, depth: 22 },
+                unit: "length",
+            },
+            caseWeight: {
+                data: 2.7,
+                unit: "weight",
+            },
+        },
     },
     {
         key: "toiletPaper",
@@ -39,6 +87,36 @@ export const ProductData: ProductModel[] = [
         colors: ["white", "brown"],
         pdf: "",
         bulletPointCount: 3,
+        detail: {
+            sheetCount: {
+                data: 200,
+                unit: "sheets",
+            },
+            sheetSize: {
+                data: { width: 21, height: 21 },
+                unit: "length",
+            },
+            numberOfPiles: {
+                data: 2,
+                unit: "piles",
+            },
+            caseCount: {
+                data: 12,
+                unit: "packs",
+            },
+            sheetCountPerCase: {
+                data: 1800,
+                unit: "sheets",
+            },
+            caseSize: {
+                data: { width: 43, height: 33, depth: 22 },
+                unit: "length",
+            },
+            caseWeight: {
+                data: 2.7,
+                unit: "weight",
+            },
+        },
     },
     {
         key: "zPaper",
@@ -50,6 +128,36 @@ export const ProductData: ProductModel[] = [
         colors: ["white", "brown"],
         pdf: "",
         bulletPointCount: 3,
+        detail: {
+            sheetCount: {
+                data: 200,
+                unit: "sheets",
+            },
+            sheetSize: {
+                data: { width: 21, height: 21 },
+                unit: "length",
+            },
+            numberOfPiles: {
+                data: 2,
+                unit: "piles",
+            },
+            caseCount: {
+                data: 12,
+                unit: "packs",
+            },
+            sheetCountPerCase: {
+                data: 1800,
+                unit: "sheets",
+            },
+            caseSize: {
+                data: { width: 43, height: 33, depth: 22 },
+                unit: "length",
+            },
+            caseWeight: {
+                data: 2.7,
+                unit: "weight",
+            },
+        },
     },
     {
         key: "paperTowel",
@@ -61,6 +169,36 @@ export const ProductData: ProductModel[] = [
         colors: ["white", "brown"],
         pdf: "",
         bulletPointCount: 3,
+        detail: {
+            sheetCount: {
+                data: 200,
+                unit: "sheets",
+            },
+            sheetSize: {
+                data: { width: 21, height: 21 },
+                unit: "length",
+            },
+            numberOfPiles: {
+                data: 2,
+                unit: "piles",
+            },
+            caseCount: {
+                data: 12,
+                unit: "packs",
+            },
+            sheetCountPerCase: {
+                data: 1800,
+                unit: "sheets",
+            },
+            caseSize: {
+                data: { width: 43, height: 33, depth: 22 },
+                unit: "length",
+            },
+            caseWeight: {
+                data: 2.7,
+                unit: "weight",
+            },
+        },
     },
 
     {
@@ -73,5 +211,35 @@ export const ProductData: ProductModel[] = [
         colors: ["white", "brown"],
         pdf: "",
         bulletPointCount: 3,
+        detail: {
+            sheetCount: {
+                data: 200,
+                unit: "sheets",
+            },
+            sheetSize: {
+                data: { width: 21, height: 21 },
+                unit: "length",
+            },
+            numberOfPiles: {
+                data: 2,
+                unit: "piles",
+            },
+            caseCount: {
+                data: 12,
+                unit: "packs",
+            },
+            sheetCountPerCase: {
+                data: 1800,
+                unit: "sheets",
+            },
+            caseSize: {
+                data: { width: 43, height: 33, depth: 22 },
+                unit: "length",
+            },
+            caseWeight: {
+                data: 2.7,
+                unit: "weight",
+            },
+        },
     },
 ];

@@ -17,7 +17,7 @@ function Navbar() {
     const pathname = usePathname();
 
     useLenis((lenis) => {
-        setScrolled(lenis.animatedScroll < 200);
+        setScrolled(lenis.animatedScroll < 20);
     });
 
     return (

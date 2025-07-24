@@ -61,7 +61,9 @@ function Stats() {
                         </SpanL>
                     </div>
                     <div className="flex-1 flex flex-col mt-7 gap-8 max-2xl:gap-5 max-md:gap-3 max-md:mt-0">
-                        <SpanL>Home.Stats.description</SpanL>
+                        <SpanL className="max-md:text-justify">
+                            Home.Stats.description
+                        </SpanL>
                         <LinkL
                             href={"/products"}
                             className="group py-2 hover:translate-x-1 duration-500"

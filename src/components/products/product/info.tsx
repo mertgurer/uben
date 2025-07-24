@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import { ProductModel } from "@/data/productData";
-import HierarchyNavigation from "./hierarchyNavigation";
 import SpanL from "@/components/common/spanL";
 import Combobox from "@/components/common/combobox";
 import ButtonL from "@/components/common/buttonL";
@@ -16,12 +15,7 @@ function Info({ product }: Props) {
     const [selectedColorIndex, setSelectedColorIndex] = useState(0);
 
     return (
-        <div className="flex-1 flex flex-col gap-6 mt-2">
-            <div className="flex flex-col gap-2">
-                <HierarchyNavigation product={product} />
-                <span className="opacity-70 text-sm">{product.itemCode}</span>
-            </div>
-            <SpanL className="text-4xl font-medium mb-2 text-primary">{`Products.${product.key}.title`}</SpanL>
+        <div className="flex-1 flex flex-col gap-6 mt-3">
             <Combobox
                 name="Product.variants"
                 label="Product.variants"
@@ -37,7 +31,7 @@ function Info({ product }: Props) {
                         {product.colors.map((color, index) => (
                             <ButtonL
                                 key={color}
-                                className={`bg-trim px-3 py-2 rounded-md ${
+                                className={`bg-trim px-4 py-2 rounded-md max-2xl:px-3 max-2xl:py-1.5 ${
                                     selectedColorIndex !== index
                                         ? "opacity-50"
                                         : "shadow-[0_2px_5px_-3px] shadow-text"
@@ -47,7 +41,7 @@ function Info({ product }: Props) {
                         ))}
                     </div>
                     <ButtonL
-                        className="bg-trim px-3 py-2 rounded-md shadow-[0_2px_5px_-3px] shadow-text"
+                        className="bg-trim px-4 py-2 rounded-md shadow-[0_2px_5px_-3px] shadow-text max-2xl:px-3 max-2xl:py-1.5"
                         afterElement={<Download size={16} strokeWidth={1.75} />}
                         onClick={() => console.log(product.pdf)}
                     >

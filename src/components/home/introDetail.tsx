@@ -35,10 +35,9 @@ function IntroDetail() {
                         filter: "blur(0px)",
                     }}
                     transition={{ duration: 1.2 }}
+                    className="max-md:text-justify"
                 >
-                    <SpanL className="max-md:text-end">
-                        Home.IntroDetail.description
-                    </SpanL>
+                    <SpanL>Home.IntroDetail.description</SpanL>
                 </motion.div>
                 <motion.div
                     initial={{ x: 75, opacity: 0, filter: "blur(2px)" }}

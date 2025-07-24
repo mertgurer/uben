@@ -1,32 +1,32 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import Factory from "../../../public/images/uben-factory.png";
-import { ArrowDownToDot } from "lucide-react";
-import { motion } from "framer-motion";
-import { useLenis } from "lenis/react";
+// import { ArrowDownToDot } from "lucide-react";
+// import { motion } from "framer-motion";
+// import { useLenis } from "lenis/react";
 
 function Welcome() {
-    const [isVisible, setIsVisible] = useState(true);
-    const [progress, setProgress] = useState(0);
+    // const [isVisible, setIsVisible] = useState(true);
+    // const [progress, setProgress] = useState(0);
 
-    const lenis = useLenis((lenis) => {
-        setProgress(-lenis.animatedScroll / 3);
-        setIsVisible(lenis.animatedScroll < window.innerHeight / 2);
-    });
+    // const lenis = useLenis((lenis) => {
+    //     setProgress(-lenis.animatedScroll / 3);
+    //     setIsVisible(lenis.animatedScroll < window.innerHeight / 2);
+    // });
 
-    const handleScrollTop = () => {
-        const element = document.getElementById("intro");
+    // const handleScrollTop = () => {
+    //     const element = document.getElementById("intro");
 
-        if (!element) return;
+    //     if (!element) return;
 
-        lenis?.scrollTo(element, {
-            offset: -88,
-            duration: 1,
-            easing: (x) => 1 - Math.pow(1 - x, 3),
-        });
-    };
+    //     lenis?.scrollTo(element, {
+    //         offset: -88,
+    //         duration: 1,
+    //         easing: (x) => 1 - Math.pow(1 - x, 3),
+    //     });
+    // };
 
     return (
         <section id="welcome" className="flex justify-center">
@@ -40,7 +40,7 @@ function Welcome() {
                     className="object-cover"
                 />
             </div>
-            <motion.div
+            {/* <motion.div
                 initial={{ opacity: 0, y: -150 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.2 }}
@@ -63,7 +63,7 @@ function Welcome() {
                         className="text-tertiary max-2xl:scale-90"
                     />
                 </motion.button>
-            </motion.div>
+            </motion.div> */}
         </section>
     );
 }

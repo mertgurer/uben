@@ -9,16 +9,17 @@
         "lightMode": "Aydınlık Tema"
     },
     "Common": {
-        "welcome": "Hoş geldin",
-        "goodbye": "Hoşçakal",
+        "welcome": "Hoş Geldiniz",
+        "goodbye": "Güle Güle",
         "home": "Ana Sayfa",
         "products": "Ürünler",
         "about": "Hakkımızda",
-        "contactUs": "Bize Ulaşın",
+        "contactUs": "İletişim",
         "countries": "Ülkeler",
         "ton": "Ton",
         "contact": "İletişim",
-        "pages": "Sayfalar"
+        "pages": "Sayfalar",
+        "all": "Tümü"
     },
     "Footer": {
         "copyright": "Telif Hakkı © 2025 UBEN. Tüm hakları saklıdır.",
@@ -31,64 +32,66 @@
         "new-york": "New York",
         "london": "Londra"
     },
+    "Colors": {
+        "white": "Beyaz",
+        "brown": "Kahverengi"
+    },
     "Home": {
         "Intro": {
             "title": "Profesyonel Kağıt Çözümleri. Küresel Ölçek. Endüstriyel Hassasiyet.",
-            "description": "UBEN olarak, Türkiye'deki son teknoloji tesislerimizden yüksek kaliteli kağıt ürünleri sunmaktan gurur duyuyoruz. Avrupa ve Kuzey Amerika'daki güçlü varlığımızla, her alanda mükemmellik ve sürdürülebilirliği taahhüt ediyoruz.",
+            "description": "UBEN olarak, Türkiye'deki son teknoloji tesislerimizden yüksek kaliteli kağıt ürünleri sunmaktan gurur duyuyoruz. Avrupa ve Kuzey Amerika'da güçlü bir varlığımızla, operasyonlarımızın her alanında mükemmellik ve sürdürülebilirlik konusunda kararlıyız.",
             "explore": "Ürünleri Keşfet"
         },
         "IntroDetail": {
             "title": "Profesyonel Kağıt Çözümleri. Küresel Ölçek. Endüstriyel Hassasiyet.",
-            "description": "UBEN olarak, Türkiye'deki son teknoloji tesislerimizden yüksek kaliteli kağıt ürünleri sunmaktan gurur duyuyoruz. Avrupa ve Kuzey Amerika'daki güçlü varlığımızla, her alanda mükemmellik ve sürdürülebilirliği taahhüt ediyoruz."
+            "description": "UBEN olarak, Türkiye'deki son teknoloji tesislerimizden yüksek kaliteli kağıt ürünleri sunmaktan gurur duyuyoruz. Avrupa ve Kuzey Amerika'da güçlü bir varlığımızla, operasyonlarımızın her alanında mükemmellik ve sürdürülebilirlik konusunda kararlıyız."
         },
         "Stats": {
             "title": "Profesyonel Kağıt Çözümleri. Küresel Ölçek. Endüstriyel Hassasiyet.",
-            "description": "UBEN olarak, Türkiye'deki son teknoloji tesislerimizden yüksek kaliteli kağıt ürünleri sunmaktan gurur duyuyoruz. Avrupa ve Kuzey Amerika'daki güçlü varlığımızla, her alanda mükemmellik ve sürdürülebilirliği taahhüt ediyoruz.",
+            "description": "UBEN olarak, Türkiye'deki son teknoloji tesislerimizden yüksek kaliteli kağıt ürünleri sunmaktan gurur duyuyoruz. Avrupa ve Kuzey Amerika'da güçlü bir varlığımızla, operasyonlarımızın her alanında mükemmellik ve sürdürülebilirlik konusunda kararlıyız.",
             "tagline": "Büyüme",
             "detail": "Detay",
             "yearlyProduction": "Yıllık Üretim",
             "sustainabilityGrowth": "Sürdürülebilirlik Büyümesi"
         },
         "WorldDistribution": {
-            "title": "Dünyada Proto",
-            "description": "Dünya genelinde ofislerimiz var. Canlı demo için bizimle iletişime geçin!",
+            "title": "Proto Dünya Çapında",
+            "description": "Dünya çapında ofislerimiz bulunmaktadır. Bugün CANLI demo için bizimle iletişime geçin!",
             "tagline": "İletişime Geçin"
         },
         "Partners": {
-            "title": "Dünya Genelinde Güvenilen Endüstriler"
+            "title": "Dünya Çapında Farklı Endüstriler Tarafından Güvenilir"
         },
         "Products": {
             "title": "Bu özellik bölümünde gördüğünüz uzun başlık",
-            "items": {
-                "fold": {
-                    "title": "Bu özellik bölümünde gördüğünüz uzun başlık",
-                    "description": "Yüksek emici, hızlı temizlikler için mükemmel.",
-                    "detail": "Ürüne Git"
-                },
-                "towel": {
-                    "title": "Bu özellik bölümünde gördüğünüz uzun başlık",
-                    "description": "Yumuşak ve dayanıklı, her ortam için ideal.",
-                    "detail": "Ürünü Keşfet"
-                },
-                "dispenser": {
-                    "title": "Bu özellik bölümünde gördüğünüz uzun başlık",
-                    "description": "Yoğun kullanım alanları için tasarlanmıştır, uzun ömürlüdür.",
-                    "detail": "Varyantları Karşılaştır"
-                }
+            "zPaper": {
+                "title": "Bu özellik bölümünde gördüğünüz uzun başlık",
+                "description": "Yüksek emici ve hızlı temizlik için mükemmel.",
+                "detail": "Ürüne Git"
+            },
+            "paperTowel": {
+                "title": "Bu özellik bölümünde gördüğünüz uzun başlık",
+                "description": "Yumuşak ve dayanıklı, her ortam için ideal.",
+                "detail": "Ürünü Keşfet"
+            },
+            "centerPullPaper": {
+                "title": "Bu özellik bölümünde gördüğünüz uzun başlık",
+                "description": "Yoğun trafikli ortamlar için tasarlandı, uzun ömür garanti eder.",
+                "detail": "Varyantları Karşılaştır"
             }
         }
     },
     "About": {
         "Intro": {
             "title": "UBEN Hakkında",
-            "description": "UBEN, Bursa'daki son teknoloji tesisinde çok kıtaya hizmet vermektedir."
+            "description": "UBEN, Bursa'da son teknoloji tesisini işleterek birden fazla kıtadaki müşterilere hizmet vermektedir."
         },
         "IntroDetail": {
             "title": "Profesyonel Kağıt Çözümleri. Küresel Ölçek. Endüstriyel Hassasiyet.",
-            "description": "UBEN olarak, Türkiye'deki son teknoloji tesislerimizden yüksek kaliteli kağıt ürünleri sunmaktan gurur duyuyoruz. Avrupa ve Kuzey Amerika'daki güçlü varlığımızla, her alanda mükemmellik ve sürdürülebilirliği taahhüt ediyoruz."
+            "description": "UBEN olarak, Türkiye'deki son teknoloji tesislerimizden yüksek kaliteli kağıt ürünleri sunmaktan gurur duyuyoruz. Avrupa ve Kuzey Amerika'da güçlü bir varlığımızla, operasyonlarımızın her alanında mükemmellik ve sürdürülebilirlik konusunda kararlıyız."
         },
         "Stats": {
-            "title": "Üretim Kapasitemiz: Kıtalar Arasında Hassasiyet ve Güvenilirlik",
+            "title": "Üretim Kapasitemiz: Kıtalar Arası Hassasiyet ve Güvenilirlik",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
             "info-1": {
                 "title": "1 Kısa başlık buraya gelir",
@@ -119,23 +122,114 @@
                 "option-4": "Dördüncü seçenek",
                 "option-5": "Beşinci seçenek"
             },
-            "needsQuestion": "İhtiyaçlarınızı en iyi hangi ifade tanımlar?",
+            "needsQuestion": "İhtiyaçlarınızı en iyi hangisi tanımlar?",
             "needsOptions": {
-                "option-1": "Birinci tercih",
-                "option-2": "İkinci tercih",
-                "option-3": "Üçüncü tercih",
-                "option-4": "Dördüncü tercih",
-                "option-5": "Beşinci tercih",
+                "option-1": "Birinci seçim",
+                "option-2": "İkinci seçim",
+                "option-3": "Üçüncü seçim",
+                "option-4": "Dördüncü seçim",
+                "option-5": "Beşinci seçim",
                 "option-6": "Diğer"
             },
             "message": "Mesaj",
             "messagePlaceholder": "Mesajınızı yazın.",
-            "acceptTerms": "Şartlar ve koşulları kabul ediyorum.",
+            "acceptTerms": "Şartları ve koşulları kabul ediyorum.",
             "submit": "Gönder",
-            "emailInfo": "Tüm Sorular İçin Bize E-posta Gönderin",
-            "phoneInfo": "Bir telefon kadar yakınız.",
+            "emailInfo": "Tüm Sorularınız İçin Bize Mail Atın",
+            "phoneInfo": "Sadece bir arama uzağında.",
             "office": "Ofis",
             "getDirections": "Yol Tarifi Al"
+        }
+    },
+    "Products": {
+        "title": "Ürünlerimiz",
+        "description": "Farklı ülkeler için ürün bulunabilirliği değişiklik gösterebilir",
+        "zPaper": {
+            "title": "Z Katlı Kağıt",
+            "description": "Ticari",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "bulletPoints": {
+                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
+                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
+                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+            }
+        },
+        "paperTowel": {
+            "title": "Kağıt Havlu",
+            "description": "Profesyonel",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "bulletPoints": {
+                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
+                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
+                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+            }
+        },
+        "centerPullPaper": {
+            "title": "Merkezden Çekmeli Kağıt",
+            "description": "Dispenser Ürünleri",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "bulletPoints": {
+                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
+                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
+                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+            }
+        },
+        "dinnerNapkin": {
+            "title": "Yemek Peçetesi",
+            "description": "Mutfak",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "bulletPoints": {
+                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
+                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
+                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+            }
+        },
+        "toiletPaper": {
+            "title": "Jumbo Tuvalet Kağıdı",
+            "description": "Profesyonel",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "bulletPoints": {
+                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
+                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
+                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+            }
+        },
+        "allProducts": "Tüm Ürünler"
+    },
+    "Product": {
+        "variants": "Varyantlar",
+        "pdfDownload": "PDF İndir",
+        "paperKind": "Kağıt Türü",
+        "metric": "Metrik",
+        "imperial": "İmperial",
+        "sheetCount": "Yaprak Sayısı",
+        "sheetSize": "Yaprak Boyutu",
+        "numberOfPiles": "Tabaka Sayısı",
+        "caseCount": "Koli Sayısı",
+        "sheetCountPerCase": "Yaprak Sayısı (Koli Başına)",
+        "caseSize": "Koli Boyutu",
+        "caseWeight": "Koli Ağırlığı",
+        "sheets": "Yaprak",
+        "cm": "cm",
+        "inch": "inç",
+        "kg": "kg",
+        "pound": "lb",
+        "piles": "Tabaka",
+        "packs": "Paket",
+        "productDetail": {
+            "title": "Ürün Detayı",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "subTitle": "Açıklama"
+        },
+        "shippingDetails": {
+            "title": "Kargo Detayları",
+            "info": "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "subTitle": "Kargo Özellikleri"
+        },
+        "comparison": {
+            "title": "Karşılaştır",
+            "info": "consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "subTitle": "Karşılaştırma"
         }
     }
 }
