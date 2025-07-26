@@ -1,0 +1,14 @@
+[
+    {
+        "key": "paperTowl",
+        "ratio": "45%"
+    },
+    {
+        "key": "zPaper",
+        "ratio": "30%"
+    },
+    {
+        "key": "other",
+        "ratio": "25%"
+    }
+]

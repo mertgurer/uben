@@ -7,6 +7,7 @@ import PaperTowelInteraction from "../../../public/images/paper-towel-interactio
 import ToiletRollInteraction from "../../../public/images/toilet-roll-interaction.png";
 import { motion } from "motion/react";
 import { useMobile } from "@/hooks/useMobile";
+import ProductRatio from "@/data/productRatioData.json";
 
 function Stats() {
     const isMobile = useMobile();
@@ -31,12 +32,12 @@ function Stats() {
                 >
                     <span className="text-6xl font-semibold">30%</span>
                     <div className="flex flex-col gap-1">
-                        <SpanL>About.Stats.info-1.title</SpanL>
+                        <SpanL className="text-lg font-medium">{`About.Stats.${ProductRatio[0].key}.title`}</SpanL>
                         <SpanL
                             style={{ textWrap: "stable" }}
                             className="text-sm max-md:text-wrap"
                         >
-                            About.Stats.info-1.detail
+                            {`About.Stats.${ProductRatio[0].key}.detail`}
                         </SpanL>
                     </div>
                 </motion.div>
@@ -73,12 +74,12 @@ function Stats() {
                     >
                         <span className="text-6xl font-semibold">30%</span>
                         <div className="flex flex-col gap-1">
-                            <SpanL>About.Stats.info-2.title</SpanL>
+                            <SpanL className="text-lg font-medium">{`About.Stats.${ProductRatio[1].key}.title`}</SpanL>
                             <SpanL
                                 style={{ textWrap: "stable" }}
                                 className="text-sm"
                             >
-                                About.Stats.info-2.detail
+                                {`About.Stats.${ProductRatio[1].key}.detail`}
                             </SpanL>
                         </div>
                     </motion.div>
@@ -101,12 +102,12 @@ function Stats() {
                     >
                         <span className="text-6xl font-semibold">30%</span>
                         <div className="flex flex-col gap-1">
-                            <SpanL>About.Stats.info-3.title</SpanL>
+                            <SpanL className="text-lg font-medium">{`About.Stats.${ProductRatio[2].key}.title`}</SpanL>
                             <SpanL
                                 style={{ textWrap: "stable" }}
                                 className="text-sm"
                             >
-                                About.Stats.info-3.detail
+                                {`About.Stats.${ProductRatio[2].key}.detail`}
                             </SpanL>
                         </div>
                     </motion.div>

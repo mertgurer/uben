@@ -9,7 +9,21 @@ function SpanL({ children, className, style }: LocaleSpanProps) {
 
     return (
         <span style={{ ...style }} className={`text-balance ${className}`}>
-            {t(children)}
+            {t(children).includes(`\n`)
+                ? t(children)
+                      .split("\n")
+                      .map((line, index, array) => (
+                          <span key={index}>
+                              {line}
+                              {index < array.length - 1 && (
+                                  <>
+                                      <br />
+                                      <br />
+                                  </>
+                              )}
+                          </span>
+                      ))
+                : t(children)}
         </span>
     );
 }
