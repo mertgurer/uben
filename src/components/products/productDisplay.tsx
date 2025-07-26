@@ -26,7 +26,6 @@ function ProductDisplay({ category }: Props) {
                 selectedCategories={selectedCategories}
                 setSelectedCategories={setSelectedCategories}
             />
-
             <ProductList selectedCategories={selectedCategories} />
         </section>
     );
