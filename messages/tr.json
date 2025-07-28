@@ -143,8 +143,22 @@
     },
     "Products": {
         "title": "Ürünlerimiz",
-        "description": "Farklı ülkeler için ürün bulunabilirliği değişiklik gösterebilir",
-        "zPaper": {
+        "description": "Ürünlerin mevcudiyeti ülkelere göre değişebilir",
+        "Categories": {
+            "handTowel": {
+                "title": "El Havlusu",
+                "description": "Ticari"
+            },
+            "toiletPaper": {
+                "title": "Tuvalet Kağıdı",
+                "description": "Ticari | Profesyonel"
+            },
+            "napkin": {
+                "title": "Peçete",
+                "description": "Ticari | Kişisel"
+            }
+        },
+        "zFoldPaper": {
             "title": "Z Katlı Kağıt",
             "description": "Ticari",
             "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
@@ -154,40 +168,70 @@
                 "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
             }
         },
-        "paperTowel": {
-            "title": "Kağıt Havlu",
-            "description": "Profesyonel",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+        "rollPaper": {
+            "title": "Rulo Kağıt",
+            "description": "Ticari",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri...",
             "bulletPoints": {
                 "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
                 "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
                 "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
             }
         },
-        "centerPullPaper": {
-            "title": "Merkezden Çekmeli Kağıt",
-            "description": "Dispenser Ürünleri",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+        "centerPullToiletPaper": {
+            "title": "Orta Çekmeli Tuvalet Kağıdı",
+            "description": "Ticari",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri...",
             "bulletPoints": {
                 "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
                 "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
                 "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
             }
         },
-        "dinnerNapkin": {
-            "title": "Yemek Peçetesi",
-            "description": "Mutfak",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
-            "bulletPoints": {
-                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
-                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
-                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
-            }
-        },
-        "toiletPaper": {
+        "jumboToiletPaper": {
             "title": "Jumbo Tuvalet Kağıdı",
-            "description": "Profesyonel",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "description": "Ticari",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri...",
+            "bulletPoints": {
+                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
+                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
+                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+            }
+        },
+        "foldDispenserNapkin": {
+            "title": "Katlanır Dispenser Peçete",
+            "description": "Ticari",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri...",
+            "bulletPoints": {
+                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
+                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
+                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+            }
+        },
+        "lunchNapkin": {
+            "title": "Öğle Yemeği Peçetesi",
+            "description": "Ticari",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri...",
+            "bulletPoints": {
+                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
+                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
+                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+            }
+        },
+        "paperNapkin": {
+            "title": "Kağıt Peçete",
+            "description": "Ticari",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri...",
+            "bulletPoints": {
+                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
+                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
+                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+            }
+        },
+        "cDispenserPaperNapkin": {
+            "title": "C Tipi Dispenser Kağıt Peçete",
+            "description": "Ticari",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri...",
             "bulletPoints": {
                 "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
                 "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
@@ -201,34 +245,48 @@
         "pdfDownload": "PDF İndir",
         "paperKind": "Kağıt Türü",
         "metric": "Metrik",
-        "imperial": "İmperial",
-        "sheetCount": "Yaprak Sayısı",
+        "imperial": "İngiliz",
+        "sheetCountPerRoll": "Rulo Başına Yaprak Sayısı",
+        "openSheetSize": "Açık Yaprak Boyutu",
         "sheetSize": "Yaprak Boyutu",
-        "numberOfPiles": "Tabaka Sayısı",
+        "numberOfPiles": "Top Sayısı",
         "caseCount": "Koli Sayısı",
-        "sheetCountPerCase": "Yaprak Sayısı (Koli Başına)",
+        "sheetCount": "Yaprak Sayısı",
+        "sheetCountPerCase": "Koli Başına Yaprak Sayısı",
         "caseSize": "Koli Boyutu",
         "caseWeight": "Koli Ağırlığı",
+        "packWeight": "Paket Ağırlığı",
         "sheets": "Yaprak",
         "cm": "cm",
         "inch": "inç",
         "kg": "kg",
         "pound": "lb",
-        "piles": "Tabaka",
-        "packs": "Paket",
+        "plyRating": "Kat Derecesi",
+        "ply": "Kat",
+        "packCount": "Paket Sayısı",
+        "rolls": "Rulo",
+        "color": "Renk",
+        "diameter": "Çap",
+        "150Sheets": "150 Yaprak",
+        "200Sheets": "200 Yaprak",
+        "1ply4kg": "1 Kat 4kg",
+        "2ply4kg": "2 Kat 4kg",
+        "2ply4kgLarge": "2 Kat 4kg Büyük",
+        "mini": "Mini",
+        "standard": "Standart",
         "productDetail": {
             "title": "Ürün Detayı",
-            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit...",
             "subTitle": "Açıklama"
         },
         "shippingDetails": {
-            "title": "Kargo Detayları",
-            "info": "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "Kargo Detayı",
+            "info": "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
             "subTitle": "Kargo Özellikleri"
         },
         "comparison": {
             "title": "Karşılaştır",
-            "info": "consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "info": "consectetur adipisicing elit, sed do eiusmod tempor incididunt...",
             "subTitle": "Karşılaştırma"
         }
     }
