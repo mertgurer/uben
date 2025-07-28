@@ -1,245 +1,327 @@
-import ZPaper from "../../public/images/products/z-paper.png";
-import PaperTowel from "../../public/images/products/paper-towel.png";
-import CenterPullPaper from "../../public/images/products/center-pull-paper.png";
-import DinnerNapkin from "../../public/images/products/dinner-napkin.png";
-import ToiletPaper from "../../public/images/products/toilet-paper.png";
 import { StaticImageData } from "next/image";
-import { CategoryData, CategoryModel } from "./categoryData";
+import { Category } from "./categoryData";
+import ToiletPaper from "../../public/images/products/toilet-paper.png";
+import PaperTowel from "../../public/images/products/paper-towel.png";
+import Napkin from "../../public/images/products/dinner-napkin.png";
+import CenterPull from "../../public/images/products/center-pull-paper.png";
+import ZPaper from "../../public/images/products/z-paper.png";
 
 export interface ProductModel {
     key: string;
+    category: Category;
+    productCode: string;
     cover: StaticImageData;
     images: StaticImageData[];
-    category: CategoryModel;
-    itemCode: string;
-    variants: string[];
-    colors: string[];
     pdf: string;
     bulletPointCount: number;
-    detail: ProductDetailModel;
+    variants: ProductVariantModel[];
 }
 
-export interface ProductDetailModel {
-    sheetCount: { data: number; unit: string };
-    sheetSize: {
-        data: { width: number; height: number };
+export interface ProductVariantModel {
+    key: string;
+    properties: ProductVariantPropertiesModel;
+}
+
+export interface ProductVariantPropertiesModel {
+    color: {
+        data: string;
+        unit: "color";
+    };
+    [key: string]: {
+        data:
+            | string
+            | number
+            | { width: number; height: number; depth?: number };
         unit: string;
     };
-    numberOfPiles: { data: number; unit: string };
-    caseCount: { data: number; unit: string };
-    sheetCountPerCase: { data: number; unit: string };
-    caseSize: {
-        data: { width: number; height: number; depth: number };
-        unit: string;
-    };
-    caseWeight: { data: number; unit: string };
 }
 
 export const ProductData: ProductModel[] = [
     {
-        key: "centerPullPaper",
-        cover: CenterPullPaper,
-        images: [CenterPullPaper, CenterPullPaper, CenterPullPaper],
-        category: CategoryData[2],
-        itemCode: "SKU 5510055",
-        variants: ["10x15", "10x20", "10x25"],
-        colors: ["white", "brown"],
-        pdf: "",
-        bulletPointCount: 3,
-        detail: {
-            sheetCount: {
-                data: 200,
-                unit: "sheets",
-            },
-            sheetSize: {
-                data: { width: 21, height: 21 },
-                unit: "length",
-            },
-            numberOfPiles: {
-                data: 2,
-                unit: "piles",
-            },
-            caseCount: {
-                data: 12,
-                unit: "packs",
-            },
-            sheetCountPerCase: {
-                data: 1800,
-                unit: "sheets",
-            },
-            caseSize: {
-                data: { width: 43, height: 33, depth: 22 },
-                unit: "length",
-            },
-            caseWeight: {
-                data: 2.7,
-                unit: "weight",
-            },
-        },
-    },
-    {
-        key: "toiletPaper",
-        cover: ToiletPaper,
-        images: [ToiletPaper, ToiletPaper, ToiletPaper],
-        category: CategoryData[1],
-        itemCode: "SKU 5510055",
-        variants: ["10x15", "10x20", "10x25"],
-        colors: ["white", "brown"],
-        pdf: "",
-        bulletPointCount: 3,
-        detail: {
-            sheetCount: {
-                data: 200,
-                unit: "sheets",
-            },
-            sheetSize: {
-                data: { width: 21, height: 21 },
-                unit: "length",
-            },
-            numberOfPiles: {
-                data: 2,
-                unit: "piles",
-            },
-            caseCount: {
-                data: 12,
-                unit: "packs",
-            },
-            sheetCountPerCase: {
-                data: 1800,
-                unit: "sheets",
-            },
-            caseSize: {
-                data: { width: 43, height: 33, depth: 22 },
-                unit: "length",
-            },
-            caseWeight: {
-                data: 2.7,
-                unit: "weight",
-            },
-        },
-    },
-    {
-        key: "zPaper",
+        key: "zFoldPaper",
+        category: Category.HAND_TOWEL,
+        productCode: "SKU 5510055",
         cover: ZPaper,
         images: [ZPaper, ZPaper, ZPaper],
-        category: CategoryData[0],
-        itemCode: "SKU 5510055",
-        variants: ["10x15", "10x20", "10x25"],
-        colors: ["white", "brown"],
         pdf: "",
         bulletPointCount: 3,
-        detail: {
-            sheetCount: {
-                data: 200,
-                unit: "sheets",
+        variants: [
+            {
+                key: "150Sheets",
+                properties: {
+                    sheetCount: { data: 150, unit: "sheets" },
+                    sheetSize: {
+                        data: { width: 21, height: 21 },
+                        unit: "length",
+                    },
+                    plyRating: { data: 2, unit: "ply" },
+                    color: { data: "white", unit: "color" },
+                    packCount: { data: 12, unit: "rolls" },
+                    sheetCountPerCase: { data: 1800, unit: "count" },
+                    caseSize: {
+                        data: { width: 43, height: 33, depth: 22 },
+                        unit: "length",
+                    },
+                    caseWeight: { data: 2.7, unit: "weight" },
+                },
             },
-            sheetSize: {
-                data: { width: 21, height: 21 },
-                unit: "length",
+            {
+                key: "200Sheets",
+                properties: {
+                    sheetCount: { data: 200, unit: "sheets" },
+                    sheetSize: {
+                        data: { width: 21, height: 21 },
+                        unit: "length",
+                    },
+                    plyRating: { data: 2, unit: "ply" },
+                    color: { data: "white", unit: "color" },
+                    packCount: { data: 12, unit: "rolls" },
+                    sheetCountPerCase: { data: 2400, unit: "count" },
+                    caseSize: {
+                        data: { width: 43, height: 33, depth: 22 },
+                        unit: "length",
+                    },
+                    caseWeight: { data: 3.8, unit: "weight" },
+                },
             },
-            numberOfPiles: {
-                data: 2,
-                unit: "piles",
-            },
-            caseCount: {
-                data: 12,
-                unit: "packs",
-            },
-            sheetCountPerCase: {
-                data: 1800,
-                unit: "sheets",
-            },
-            caseSize: {
-                data: { width: 43, height: 33, depth: 22 },
-                unit: "length",
-            },
-            caseWeight: {
-                data: 2.7,
-                unit: "weight",
-            },
-        },
+        ],
     },
     {
-        key: "paperTowel",
+        key: "rollPaper",
+        category: Category.HAND_TOWEL,
+        productCode: "SKU 5510055",
         cover: PaperTowel,
         images: [PaperTowel, PaperTowel, PaperTowel],
-        category: CategoryData[1],
-        itemCode: "SKU 5510055",
-        variants: ["10x15", "10x20", "10x25"],
-        colors: ["white", "brown"],
         pdf: "",
         bulletPointCount: 3,
-        detail: {
-            sheetCount: {
-                data: 200,
-                unit: "sheets",
+        variants: [
+            {
+                key: "1ply4kg",
+                properties: {
+                    sheetCountPerRoll: { data: 733, unit: "sheets" },
+                    sheetSize: {
+                        data: { width: 11.5, height: 21 },
+                        unit: "length",
+                    },
+                    plyRating: { data: 1, unit: "ply" },
+                    color: { data: "white", unit: "color" },
+                    packCount: { data: 6, unit: "rolls" },
+                    sheetCountPerCase: { data: 4400, unit: "count" },
+                    packWeight: { data: 4, unit: "weight" },
+                },
             },
-            sheetSize: {
-                data: { width: 21, height: 21 },
-                unit: "length",
+            {
+                key: "2ply4kg",
+                properties: {
+                    sheetCountPerRoll: { data: 566, unit: "sheets" },
+                    sheetSize: {
+                        data: { width: 11.5, height: 21 },
+                        unit: "length",
+                    },
+                    plyRating: { data: 2, unit: "ply" },
+                    color: { data: "white", unit: "color" },
+                    packCount: { data: 6, unit: "rolls" },
+                    sheetCountPerCase: { data: 3400, unit: "count" },
+                    packWeight: { data: 4, unit: "weight" },
+                },
             },
-            numberOfPiles: {
-                data: 2,
-                unit: "piles",
+            {
+                key: "2ply4kgLarge",
+                properties: {
+                    sheetCountPerRoll: { data: 710, unit: "sheets" },
+                    sheetSize: {
+                        data: { width: 11.5, height: 21 },
+                        unit: "length",
+                    },
+                    plyRating: { data: 2, unit: "ply" },
+                    color: { data: "white", unit: "color" },
+                    packCount: { data: 6, unit: "rolls" },
+                    sheetCountPerCase: { data: 4250, unit: "count" },
+                    packWeight: { data: 5, unit: "weight" },
+                },
             },
-            caseCount: {
-                data: 12,
-                unit: "packs",
-            },
-            sheetCountPerCase: {
-                data: 1800,
-                unit: "sheets",
-            },
-            caseSize: {
-                data: { width: 43, height: 33, depth: 22 },
-                unit: "length",
-            },
-            caseWeight: {
-                data: 2.7,
-                unit: "weight",
-            },
-        },
+        ],
     },
-
     {
-        key: "dinnerNapkin",
-        cover: DinnerNapkin,
-        images: [DinnerNapkin, DinnerNapkin, DinnerNapkin],
-        category: CategoryData[3],
-        itemCode: "SKU 5510055",
-        variants: ["10x15", "10x20", "10x25"],
-        colors: ["white", "brown"],
+        key: "centerPullToiletPaper",
+        category: Category.TOILET_PAPER,
+        productCode: "SKU 5510055",
+        cover: CenterPull,
+        images: [CenterPull, CenterPull, CenterPull],
         pdf: "",
         bulletPointCount: 3,
-        detail: {
-            sheetCount: {
-                data: 200,
-                unit: "sheets",
+        variants: [
+            {
+                key: "mini",
+                properties: {
+                    sheetSize: {
+                        data: { width: 21, height: 21 },
+                        unit: "length",
+                    },
+                    diameter: { data: 15.5, unit: "length" },
+                    plyRating: { data: 2, unit: "ply" },
+                    color: { data: "white", unit: "color" },
+                    packCount: { data: 12, unit: "rolls" },
+                    sheetCountPerCase: { data: 3154, unit: "count" },
+                    sheetCountPerRoll: { data: 264, unit: "sheets" },
+                    packWeight: { data: 4, unit: "weight" },
+                },
             },
-            sheetSize: {
-                data: { width: 21, height: 21 },
-                unit: "length",
+            {
+                key: "standard",
+                properties: {
+                    sheetSize: {
+                        data: { width: 21, height: 21 },
+                        unit: "length",
+                    },
+                    diameter: { data: 16.5, unit: "length" },
+                    plyRating: { data: 2, unit: "ply" },
+                    color: { data: "white", unit: "color" },
+                    packCount: { data: 6, unit: "rolls" },
+                    sheetCountPerCase: { data: 5200, unit: "count" },
+                    sheetCountPerRoll: { data: 866, unit: "sheets" },
+                    packWeight: { data: 4, unit: "weight" },
+                },
             },
-            numberOfPiles: {
-                data: 2,
-                unit: "piles",
+        ],
+    },
+    {
+        key: "jumboToiletPaper",
+        category: Category.TOILET_PAPER,
+        productCode: "SKU 5510055",
+        cover: ToiletPaper,
+        images: [ToiletPaper, ToiletPaper, ToiletPaper],
+        pdf: "",
+        bulletPointCount: 3,
+        variants: [
+            {
+                key: "standard",
+                properties: {
+                    sheetSize: {
+                        data: { width: 10, height: 24 },
+                        unit: "length",
+                    },
+                    diameter: { data: 17, unit: "length" },
+                    plyRating: { data: 2, unit: "ply" },
+                    color: { data: "white", unit: "color" },
+                    packCount: { data: 12, unit: "rolls" },
+                    sheetCountPerCase: { data: 4150, unit: "count" },
+                    sheetCountPerRoll: { data: 345, unit: "sheets" },
+                    packWeight: { data: 4, unit: "weight" },
+                },
             },
-            caseCount: {
-                data: 12,
-                unit: "packs",
+        ],
+    },
+    {
+        key: "foldDispenserNapkin",
+        category: Category.NAPKIN,
+        productCode: "SKU 5510055",
+        cover: Napkin,
+        images: [Napkin, Napkin, Napkin],
+        pdf: "",
+        bulletPointCount: 3,
+        variants: [
+            {
+                key: "standard",
+                properties: {
+                    sheetSize: {
+                        data: { width: 21, height: 10 },
+                        unit: "length",
+                    },
+                    plyRating: { data: 2, unit: "ply" },
+                    color: { data: "white", unit: "color" },
+                    packCount: { data: 24, unit: "rolls" },
+                    sheetCount: { data: 4800, unit: "sheets" },
+                    sheetCountPerCase: { data: 200, unit: "count" },
+                    caseWeight: { data: 3.8, unit: "weight" },
+                },
             },
-            sheetCountPerCase: {
-                data: 1800,
-                unit: "sheets",
+        ],
+    },
+    {
+        key: "lunchNapkin",
+        category: Category.NAPKIN,
+        productCode: "SKU 5510055",
+        cover: Napkin,
+        images: [Napkin, Napkin, Napkin],
+        pdf: "",
+        bulletPointCount: 3,
+        variants: [
+            {
+                key: "standard",
+                properties: {
+                    sheetSize: {
+                        data: { width: 21, height: 17 },
+                        unit: "length",
+                    },
+                    plyRating: { data: 2, unit: "ply" },
+                    color: { data: "white", unit: "color" },
+                    packCount: { data: 24, unit: "rolls" },
+                    sheetCount: { data: 2400, unit: "sheets" },
+                    sheetCountPerCase: { data: 100, unit: "count" },
+                    caseWeight: { data: 2.8, unit: "weight" },
+                },
             },
-            caseSize: {
-                data: { width: 43, height: 33, depth: 22 },
-                unit: "length",
+        ],
+    },
+    {
+        key: "paperNapkin",
+        category: Category.NAPKIN,
+        productCode: "SKU 5510055",
+        cover: Napkin,
+        images: [Napkin, Napkin, Napkin],
+        pdf: "",
+        bulletPointCount: 3,
+        variants: [
+            {
+                key: "standard",
+                properties: {
+                    openSheetSize: {
+                        data: { width: 33, height: 33 },
+                        unit: "length",
+                    },
+                    sheetSize: {
+                        data: { width: 15.5, height: 8.5 },
+                        unit: "length",
+                    },
+                    plyRating: { data: 2, unit: "ply" },
+                    color: { data: "white", unit: "color" },
+                    packCount: { data: 12, unit: "rolls" },
+                    sheetCount: { data: 1200, unit: "sheets" },
+                    sheetCountPerCase: { data: 100, unit: "count" },
+                    caseWeight: { data: 4.7, unit: "weight" },
+                },
             },
-            caseWeight: {
-                data: 2.7,
-                unit: "weight",
+        ],
+    },
+    {
+        key: "cDispenserPaperNapkin",
+        category: Category.NAPKIN,
+        productCode: "SKU 5510055",
+        cover: CenterPull,
+        images: [CenterPull, CenterPull, CenterPull],
+        pdf: "",
+        bulletPointCount: 3,
+        variants: [
+            {
+                key: "standard",
+                properties: {
+                    openSheetSize: {
+                        data: { width: 21, height: 17 },
+                        unit: "length",
+                    },
+                    sheetSize: {
+                        data: { width: 9, height: 13.5 },
+                        unit: "length",
+                    },
+                    plyRating: { data: 1, unit: "ply" },
+                    color: { data: "white", unit: "color" },
+                    packCount: { data: 18, unit: "rolls" },
+                    sheetCount: { data: 3600, unit: "sheets" },
+                    sheetCountPerCase: { data: 200, unit: "count" },
+                    caseWeight: { data: 2.8, unit: "weight" },
+                },
             },
-        },
+        ],
     },
 ];

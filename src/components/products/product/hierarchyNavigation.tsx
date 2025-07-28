@@ -13,12 +13,12 @@ function HierarchyNavigation({ product }: { product: ProductModel }) {
             <ChevronRight size={12} strokeWidth={1.75} />
             <LinkL
                 className="opacity-70 text-sm text-nowrap"
-                href={`/products?category=${product.category.key}`}
-            >{`Products.${product.category.key}.title`}</LinkL>
+                href={`/products?category=${product.category}`}
+            >{`Products.Categories.${product.category}.title`}</LinkL>
             <ChevronRight size={12} strokeWidth={1.75} />
             <LinkL
                 className="text-sm text-nowrap font-medium"
-                href={`/products/${product.category.key}`}
+                href={`/products/${product.category}`}
             >{`Products.${product.key}.title`}</LinkL>
         </div>
     );

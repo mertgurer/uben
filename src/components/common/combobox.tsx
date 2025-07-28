@@ -19,7 +19,6 @@ function Combobox({
     label,
     options,
     dark = false,
-    noTranslation = false,
     noEmptySelection = false,
 }: ComboboxProps) {
     const t = useTranslations();
@@ -45,14 +44,14 @@ function Combobox({
                 )}
                 {options.map((option) => (
                     <option key={option} value={option}>
-                        {noTranslation ? option : t(option)}
+                        {t(option)}
                     </option>
                 ))}
             </select>
             <MdArrowDropDown
                 size={30}
                 className={`absolute right-3 pointer-events-none  ${
-                    dark ? "bottom-2.5" : "bottom-1.5"
+                    dark ? "bottom-1" : "bottom-1.5"
                 }`}
             />
         </div>

@@ -144,7 +144,21 @@
     "Products": {
         "title": "Our Products",
         "description": "Product availability for different countries may be vary",
-        "zPaper": {
+        "Categories": {
+            "handTowel": {
+                "title": "Hand Towel",
+                "description": "Commercial"
+            },
+            "toiletPaper": {
+                "title": "Toilet Paper",
+                "description": "Commercial | Professional"
+            },
+            "napkin": {
+                "title": "Napkin",
+                "description": "Commercial | Personal"
+            }
+        },
+        "zFoldPaper": {
             "title": "Z Fold Paper",
             "description": "Commercial",
             "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
@@ -154,9 +168,9 @@
                 "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
             }
         },
-        "paperTowel": {
-            "title": "Paper Towel",
-            "description": "Professional",
+        "rollPaper": {
+            "title": "Roll Paper",
+            "description": "Commercial",
             "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
             "bulletPoints": {
                 "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
@@ -164,9 +178,9 @@
                 "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
             }
         },
-        "centerPullPaper": {
-            "title": "Center-Pull Paper",
-            "description": "Dispenser Products",
+        "centerPullToiletPaper": {
+            "title": "Center Pull Toilet Paper",
+            "description": "Commercial",
             "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
             "bulletPoints": {
                 "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
@@ -174,9 +188,9 @@
                 "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
             }
         },
-        "dinnerNapkin": {
-            "title": "Dinner Napkin",
-            "description": "Kitchen",
+        "jumboToiletPaper": {
+            "title": "Jumbo Toilet Paper",
+            "description": "Commercial",
             "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
             "bulletPoints": {
                 "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
@@ -184,9 +198,39 @@
                 "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
             }
         },
-        "toiletPaper": {
-            "title": "Jumbo Bath Tissues",
-            "description": "Professional",
+        "foldDispenserNapkin": {
+            "title": "Fold Dispenser Napkin",
+            "description": "Commercial",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "bulletPoints": {
+                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
+                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
+                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+            }
+        },
+        "lunchNapkin": {
+            "title": "Lunch Napkin",
+            "description": "Commercial",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "bulletPoints": {
+                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
+                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
+                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+            }
+        },
+        "paperNapkin": {
+            "title": "Paper Napkin",
+            "description": "Commercial",
+            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "bulletPoints": {
+                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
+                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
+                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+            }
+        },
+        "cDispenserPaperNapkin": {
+            "title": "C Dispenser Paper Napkin",
+            "description": "Commercial",
             "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
             "bulletPoints": {
                 "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
@@ -202,20 +246,34 @@
         "paperKind": "Paper Kind",
         "metric": "Metric",
         "imperial": "Imperial",
-        "sheetCount": "Sheet Count",
+        "sheetCountPerRoll": "Sheet Count (Per Roll)",
+        "openSheetSize": "Open Sheet Size",
         "sheetSize": "Sheet Size",
         "numberOfPiles": "Number of Piles",
         "caseCount": "Case Count",
+        "sheetCount": "Sheet Count",
         "sheetCountPerCase": "Sheet Count (Per Case)",
         "caseSize": "Case Size",
         "caseWeight": "Case Weight",
+        "packWeight": "Pack Weight",
         "sheets": "Sheets",
         "cm": "cm",
         "inch": "inch",
         "kg": "kg",
         "pound": "lb",
-        "piles": "Piles",
-        "packs": "Packs",
+        "plyRating": "Ply Rating",
+        "ply": "Ply",
+        "packCount": "Pack Count",
+        "rolls": "Rolls",
+        "color": "Color",
+        "diameter": "Diameter",
+        "150Sheets": "150 Sheets",
+        "200Sheets": "200 Sheets",
+        "1ply4kg": "1-Ply 4kg",
+        "2ply4kg": "2-Ply 4kg",
+        "2ply4kgLarge": "2-Ply 4kg Large",
+        "mini": "Mini",
+        "standard": "Standard",
         "productDetail": {
             "title": "Product Detail",
             "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",

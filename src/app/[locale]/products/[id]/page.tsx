@@ -28,7 +28,7 @@ async function ProductPage({ params }: Props) {
                     <div className="flex flex-col gap-3">
                         <HierarchyNavigation product={product} />
                         <span className="opacity-70 text-sm">
-                            {product.itemCode}
+                            {product.productCode}
                         </span>
                     </div>
                     <SpanL className="text-4xl font-medium mb-2 text-primary">{`Products.${product.key}.title`}</SpanL>
@@ -38,7 +38,7 @@ async function ProductPage({ params }: Props) {
                     <div className="flex flex-col gap-3 max-md:hidden">
                         <HierarchyNavigation product={product} />
                         <span className="opacity-70 text-sm">
-                            {product.itemCode}
+                            {product.productCode}
                         </span>
                     </div>
                     <SpanL className="text-4xl font-medium mb-2 text-primary max-md:hidden">{`Products.${product.key}.title`}</SpanL>

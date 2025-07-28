@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import { ProductModel } from "@/data/productData";
 import SpanL from "@/components/common/spanL";
 import Combobox from "@/components/common/combobox";
@@ -12,33 +12,37 @@ interface Props {
 }
 
 function Info({ product }: Props) {
-    const [selectedColorIndex, setSelectedColorIndex] = useState(0);
-
     return (
         <div className="flex-1 flex flex-col gap-6 mt-3">
-            <Combobox
-                name="Product.variants"
-                label="Product.variants"
-                options={product.variants}
-                dark
-                noEmptySelection
-                noTranslation
-            />
+            {product.variants.length > 1 && (
+                <Combobox
+                    name="Product.variants"
+                    label="Product.variants"
+                    options={product.variants.map(
+                        (variant) => `Product.${variant.key}`
+                    )}
+                    dark
+                    noEmptySelection
+                />
+            )}
             <div className="flex flex-col gap-1">
                 <SpanL>Product.paperKind</SpanL>
                 <div className="flex w-full items-center justify-between">
                     <div className="flex gap-2">
-                        {product.colors.map((color, index) => (
-                            <ButtonL
-                                key={color}
-                                className={`bg-trim px-4 py-2 rounded-md max-2xl:px-3 max-2xl:py-1.5 ${
-                                    selectedColorIndex !== index
-                                        ? "opacity-50"
-                                        : "shadow-[0_2px_5px_-3px] shadow-text"
-                                } duration-300`}
-                                onClick={() => setSelectedColorIndex(index)}
-                            >{`Colors.${color}`}</ButtonL>
-                        ))}
+                        {[
+                            ...new Set(
+                                product.variants.map(
+                                    (variant) => variant.properties.color.data
+                                )
+                            ),
+                        ].map((color, index) => {
+                            return (
+                                <SpanL
+                                    key={index}
+                                    className={`bg-trim px-4 py-2 rounded-md shadow-[0_2px_5px_-3px] shadow-text max-2xl:px-3 max-2xl:py-1.5`}
+                                >{`Colors.${color}`}</SpanL>
+                            );
+                        })}
                     </div>
                     <ButtonL
                         className="bg-trim px-4 py-2 rounded-md shadow-[0_2px_5px_-3px] shadow-text max-2xl:px-3 max-2xl:py-1.5"

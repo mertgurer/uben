@@ -1,5 +1,5 @@
 import { cmToInchesRatio, kgToPoundsRatio } from "@/constants/constants";
-import { ProductDetailModel } from "@/data/productData";
+import { ProductVariantPropertiesModel } from "@/data/productData";
 
 export const DateHelpers = {
     monthToNumber: (month: string): number => {
@@ -62,12 +62,12 @@ export const ContactHelpers = {
 
 export const ProductDisplayHelpers = {
     formatProductValue: (
-        key: keyof ProductDetailModel,
-        productDetail: ProductDetailModel,
+        key: keyof ProductVariantPropertiesModel,
+        properties: ProductVariantPropertiesModel,
         measurement: "metric" | "imperial"
-    ) => {
+    ): string => {
+        const value = properties[key];
         let displayValue;
-        const value = productDetail[key];
 
         if (typeof value.data === "number") {
             if (measurement !== "metric" && value.unit === "length") {
@@ -89,9 +89,11 @@ export const ProductDisplayHelpers = {
             } else {
                 displayValue = Object.values(value.data).join(" x ");
             }
+        } else if (value.unit === "color") {
+            displayValue = `Colors.${value.data}`;
         }
 
-        return displayValue;
+        return String(displayValue);
     },
 
     formatProductUnit: (unit: string, measurement: "metric" | "imperial") => {
@@ -103,6 +105,8 @@ export const ProductDisplayHelpers = {
             ? measurement === "metric"
                 ? `Product.kg`
                 : `Product.pound`
+            : unit === "color" || unit === "count"
+            ? ""
             : `Product.${unit}`;
     },
 };

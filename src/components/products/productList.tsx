@@ -17,7 +17,7 @@ function ProductList({ selectedCategories }: ProductListProps) {
             {ProductData.map((product) => {
                 const isVisible =
                     selectedCategories.length === 0 ||
-                    selectedCategories.includes(product.key);
+                    selectedCategories.includes(product.category);
 
                 return (
                     <Link

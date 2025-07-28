@@ -16,7 +16,13 @@ function Categories({
     return (
         <section
             id="categories"
-            className="grid grid-cols-5 w-max items-center justify-center self-center py-16 gap-3 max-2xl:gap-0 
+            style={{
+                display: "grid",
+                gridTemplateColumns: `repeat(${
+                    CategoryData.length + 1
+                }, minmax(0, 1fr))`,
+            }}
+            className="w-max items-center justify-center self-center py-16 gap-3 max-2xl:gap-0 
             max-md:flex max-md:justify-start max-md:gap-4 max-md:overflow-x-scroll max-md:w-full max-md:py-2 max-md:my-10 max-md:px-5"
         >
             {CategoryData.map((category) => {
@@ -54,8 +60,8 @@ function Categories({
                                 className="object-contain"
                             />
                         </div>
-                        <SpanL className="text-lg font-semibold max-2xl:text-base max-md:whitespace-nowrap">{`Products.${category.key}.title`}</SpanL>
-                        <SpanL>{`Products.${category.key}.description`}</SpanL>
+                        <SpanL className="text-lg font-semibold max-2xl:text-base max-md:whitespace-nowrap">{`Products.Categories.${category.key}.title`}</SpanL>
+                        <SpanL>{`Products.Categories.${category.key}.description`}</SpanL>
                     </button>
                 );
             })}

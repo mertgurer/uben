@@ -23,8 +23,18 @@ function DetailInfo({ product }: Props) {
         <div className="flex flex-col bg-secondary text-tertiary px-[15%] py-14 gap-6 max-2xl:px-[10%] max-md:px-[5%]">
             <div className="flex gap-8">
                 {ProductTabData.map((tab, index) => {
+                    if (
+                        tab.key === "comparison" &&
+                        product.variants.length < 2
+                    ) {
+                        return null;
+                    }
+
                     return (
                         <Fragment key={tab.key}>
+                            {index !== 0 && (
+                                <span className="w-[2px] bg-tertiary opacity-50" />
+                            )}
                             <ButtonL
                                 className={`text-2xl  ${
                                     activeTab === tab.key ? "" : "opacity-70"
@@ -33,9 +43,6 @@ function DetailInfo({ product }: Props) {
                             >
                                 {`Product.${tab.key}.title`}
                             </ButtonL>
-                            {index !== ProductTabData.length - 1 && (
-                                <span className="w-[2px] bg-tertiary opacity-50" />
-                            )}
                         </Fragment>
                     );
                 })}
