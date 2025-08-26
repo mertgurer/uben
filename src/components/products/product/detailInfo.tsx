@@ -3,7 +3,7 @@
 import React, { Fragment, useState } from "react";
 import ProductTabData from "@/data/productTabData.json";
 import ButtonL from "@/components/common/buttonL";
-import SpanL from "@/components/common/spanL";
+// import SpanL from "@/components/common/spanL";
 import { ProductModel } from "@/data/productData";
 import ProductDetail from "./productDetail";
 import Comparison from "./comparison";
