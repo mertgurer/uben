@@ -13,9 +13,7 @@ function Intro() {
                 Home.Intro.title
             </SpanL>
             <div className="flex-1 flex flex-col items-start gap-8 max-2xl:gap-5">
-                <SpanL className="max-md:text-justify">
-                    Home.Intro.description
-                </SpanL>
+                <SpanL>Home.Intro.description</SpanL>
                 <div className="flex gap-12 max-2xl:gap-10">
                     <LinkL
                         href={"/about"}

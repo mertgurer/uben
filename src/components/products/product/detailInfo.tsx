@@ -21,7 +21,7 @@ function DetailInfo({ product }: Props) {
 
     return (
         <div className="flex flex-col bg-secondary text-tertiary px-[15%] py-14 gap-6 max-2xl:px-[10%] max-md:px-[5%]">
-            <div className="flex gap-8">
+            <div className="flex gap-8 max-md:self-center max-md:gap-6">
                 {ProductTabData.map((tab, index) => {
                     if (
                         tab.key === "comparison" &&
@@ -46,12 +46,18 @@ function DetailInfo({ product }: Props) {
                         </Fragment>
                     );
                 })}
-                <div className="ml-auto">
+                <div className="ml-auto max-md:hidden">
                     <MeasurementButton
                         measurement={measurement}
                         setMeasurement={setMeasurement}
                     />
                 </div>
+            </div>
+            <div className="w-max self-center md:hidden">
+                <MeasurementButton
+                    measurement={measurement}
+                    setMeasurement={setMeasurement}
+                />
             </div>
             {/* <SpanL className="text-wrap">{`Product.${activeTab}.info`}</SpanL> */}
             {/* <div className="flex gap-8 h-full items-center max-md:mt-5">

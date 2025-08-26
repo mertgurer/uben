@@ -5,7 +5,7 @@ import Image from "next/image";
 import PaperTowelInteraction from "../../../public/images/paper-towel-interaction.png";
 import SpanL from "@/components/common/spanL";
 import LinkL from "@/components/common/linkL";
-import { ChevronRight, Dot } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import { motion } from "motion/react";
 import { useMobile } from "@/hooks/useMobile";
 
@@ -52,18 +52,16 @@ function Stats() {
             <div className="flex flex-col px-[15%] py-[140px] gap-[100px] bg-text/60 text-tertiary max-2xl:px-[10%] max-md:py-20 max-md:gap-8">
                 <div className="flex gap-[15%] max-2xl:gap-[10%] max-md:flex-col max-md:gap-4">
                     <div className="flex-1 flex flex-col">
-                        <div className="flex items-center -ml-6">
+                        {/* <div className="flex items-center -ml-6">
                             <Dot size={28} strokeWidth={1.75} />
                             <SpanL>Home.Stats.tagline</SpanL>
-                        </div>
-                        <SpanL className="text-5xl mt-1 max-2xl:text-4xl">
+                        </div> */}
+                        <SpanL className="text-5xl max-2xl:text-4xl">
                             Home.Stats.title
                         </SpanL>
                     </div>
-                    <div className="flex-1 flex flex-col mt-7 gap-8 max-2xl:gap-5 max-md:gap-3 max-md:mt-0">
-                        <SpanL className="max-md:text-justify">
-                            Home.Stats.description
-                        </SpanL>
+                    <div className="flex-1 flex flex-col gap-8 max-2xl:gap-5 max-md:gap-3 max-md:mt-0">
+                        <SpanL>Home.Stats.description</SpanL>
                         <LinkL
                             href={"/products"}
                             className="group py-2 hover:translate-x-1 duration-500"

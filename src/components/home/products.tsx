@@ -25,7 +25,7 @@ function Products() {
             <div className="flex justify-between gap-[5%] max-2xl:gap-[6%] max-md:flex-col max-md:gap-6">
                 {ProductItems.map((x, i) => (
                     <div key={i} className="flex-1 flex flex-col items-center">
-                        <div className="relative w-full aspect-[0.95] rounded-md overflow-hidden bg-tertiary">
+                        <div className="relative w-full aspect-[0.95] rounded-md overflow-hidden bg-tertiary max-2xl:aspect-square">
                             <Image
                                 src={x.image}
                                 alt={"product-" + i}

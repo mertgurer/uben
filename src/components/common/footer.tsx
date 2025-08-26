@@ -116,22 +116,32 @@ function Footer() {
                 </div>
             </div>
             <div className="flex justify-between items-center text-xs max-md:flex-col max-md:text-center max-md:gap-4">
-                <div className="flex flex-col items-center md:hidden">
-                    <Link
-                        href={ContactData.instagram}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-1 m-4"
-                    >
-                        <Instagram size={28} strokeWidth={1.75} />
-                    </Link>
+                <div className="flex flex-col items-center gap-6 md:hidden">
+                    <div className="flex items-center justify-center mt-5 gap-2">
+                        <Link
+                            href={ContactData.linkedin}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-1"
+                        >
+                            <Linkedin size={28} strokeWidth={1.75} />
+                        </Link>
+                        <Link
+                            href={ContactData.instagram}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-1"
+                        >
+                            <Instagram size={28} strokeWidth={1.75} />
+                        </Link>
+                    </div>
                     <LocaleButton />
                 </div>
                 <SpanL>Footer.copyright</SpanL>
                 <div className="max-md:hidden">
                     <LocaleButton />
                 </div>
-                <div className="flex gap-3">
+                <div className="flex gap-3 max-md:mb-10">
                     <LinkL href={"/"} className="opacity-70 underline">
                         Footer.terms
                     </LinkL>

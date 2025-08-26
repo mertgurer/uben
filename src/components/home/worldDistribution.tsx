@@ -15,7 +15,7 @@ function WorldDistribution() {
             id="worldDistribution"
             className="flex flex-col px-[15%] pt-[100px] -mb-10 gap-10 max-2xl:px-[10%] max-md:pt-20 max-md:pb-5 max-md:px-0 max-md:gap-8 max-md:mb-0"
         >
-            <div className="flex flex-col gap-2 items-center max-md:flex-col max-md:px-[10%] max-md:gap-4">
+            <div className="flex flex-col gap-2 items-center text-center max-md:flex-col max-md:px-[5%] max-md:gap-4">
                 <SpanL className="flex-1 text-5xl font-medium mt-1 max-2xl:text-4xl">
                     Home.WorldDistribution.title
                 </SpanL>
