@@ -37,8 +37,8 @@ function ProductList({ selectedCategories }: ProductListProps) {
                                 className="object-contain"
                             />
                         </div>
-                        <SpanL className="text-xl font-semibold mt-4 ml-2 max-md:mt-2">{`Products.${product.key}.title`}</SpanL>
-                        <SpanL className="ml-2">{`Products.${product.key}.description`}</SpanL>
+                        <SpanL className="text-xl font-semibold mt-3 ml-2 max-md:mt-2">{`Products.${product.key}.title`}</SpanL>
+                        {/* <SpanL className="ml-2">{`Products.${product.key}.description`}</SpanL> */}
                     </Link>
                 );
             })}

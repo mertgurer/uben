@@ -2,7 +2,6 @@
 
 import React from "react";
 import Image from "next/image";
-import { Dot } from "lucide-react";
 import WorldCities from "@/data/world-cities.json";
 import WorldSvg from "../../../public/images/world.svg";
 import MarkerSvg from "../../../public/images/marker.svg";
@@ -14,18 +13,12 @@ function WorldDistribution() {
     return (
         <section
             id="worldDistribution"
-            className="flex flex-col px-[15%] pt-[100px] -mb-10 max-2xl:px-[10%] max-md:pt-20 max-md:pb-5 max-md:px-0 max-md:gap-8 max-md:mb-0"
+            className="flex flex-col px-[15%] pt-[100px] -mb-10 gap-10 max-2xl:px-[10%] max-md:pt-20 max-md:pb-5 max-md:px-0 max-md:gap-8 max-md:mb-0"
         >
-            <div className="flex gap-[50%] items-end max-md:flex-col max-md:px-[10%] max-md:gap-4">
-                <div className="flex-1 flex flex-col">
-                    <div className="flex items-center -ml-6">
-                        <Dot size={28} strokeWidth={1.75} />
-                        <SpanL>Home.WorldDistribution.tagline</SpanL>
-                    </div>
-                    <SpanL className="text-5xl font-medium mt-1 max-2xl:text-4xl">
-                        Home.WorldDistribution.title
-                    </SpanL>
-                </div>
+            <div className="flex flex-col gap-2 items-center max-md:flex-col max-md:px-[10%] max-md:gap-4">
+                <SpanL className="flex-1 text-5xl font-medium mt-1 max-2xl:text-4xl">
+                    Home.WorldDistribution.title
+                </SpanL>
                 <SpanL className="flex-1 md:text-end">
                     Home.WorldDistribution.description
                 </SpanL>

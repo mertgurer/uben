@@ -3,8 +3,8 @@ import React, { useEffect } from "react";
 import { useLenis } from "lenis/react";
 import SpanL from "@/components/common/spanL";
 import Input from "@/components/common/input";
-import Combobox from "@/components/common/combobox";
-import CheckboxQuestionnaire from "@/components/common/checkboxQuestionnaire";
+// import Combobox from "@/components/common/combobox";
+// import CheckboxQuestionnaire from "@/components/common/checkboxQuestionnaire";
 import ButtonL from "@/components/common/buttonL";
 import { ChevronRight, Mail, Phone } from "lucide-react";
 import ContactInformation from "@/data/contact.json";
@@ -81,7 +81,7 @@ function Contact() {
                         />
                         <Input name="phone" label="About.Contact.phoneNumber" />
                     </div>
-                    <Combobox
+                    {/* <Combobox
                         name="topic"
                         label="About.Contact.topic"
                         options={Array.from(
@@ -99,7 +99,7 @@ function Contact() {
                                 "About.Contact.needsOptions.option-" + (i + 1)
                         )}
                         className="mt-2"
-                    />
+                    /> */}
                     <Input
                         name="message"
                         label="About.Contact.message"

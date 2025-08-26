@@ -44,7 +44,7 @@ export const ProductData: ProductModel[] = [
         cover: ZPaper,
         images: [ZPaper, ZPaper, ZPaper],
         pdf: "",
-        bulletPointCount: 3,
+        bulletPointCount: 4,
         variants: [
             {
                 key: "150Sheets",
@@ -149,7 +149,7 @@ export const ProductData: ProductModel[] = [
         cover: CenterPull,
         images: [CenterPull, CenterPull, CenterPull],
         pdf: "",
-        bulletPointCount: 3,
+        bulletPointCount: 4,
         variants: [
             {
                 key: "mini",
@@ -192,7 +192,7 @@ export const ProductData: ProductModel[] = [
         cover: ToiletPaper,
         images: [ToiletPaper, ToiletPaper, ToiletPaper],
         pdf: "",
-        bulletPointCount: 3,
+        bulletPointCount: 2,
         variants: [
             {
                 key: "standard",
@@ -245,7 +245,7 @@ export const ProductData: ProductModel[] = [
         cover: Napkin,
         images: [Napkin, Napkin, Napkin],
         pdf: "",
-        bulletPointCount: 3,
+        bulletPointCount: 4,
         variants: [
             {
                 key: "standard",
@@ -271,7 +271,7 @@ export const ProductData: ProductModel[] = [
         cover: Napkin,
         images: [Napkin, Napkin, Napkin],
         pdf: "",
-        bulletPointCount: 3,
+        bulletPointCount: 4,
         variants: [
             {
                 key: "standard",
@@ -301,7 +301,7 @@ export const ProductData: ProductModel[] = [
         cover: CenterPull,
         images: [CenterPull, CenterPull, CenterPull],
         pdf: "",
-        bulletPointCount: 3,
+        bulletPointCount: 4,
         variants: [
             {
                 key: "standard",

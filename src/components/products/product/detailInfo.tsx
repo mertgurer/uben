@@ -46,20 +46,32 @@ function DetailInfo({ product }: Props) {
                         </Fragment>
                     );
                 })}
+                <div className="ml-auto">
+                    <MeasurementButton
+                        measurement={measurement}
+                        setMeasurement={setMeasurement}
+                    />
+                </div>
             </div>
-            <SpanL className="text-wrap">{`Product.${activeTab}.info`}</SpanL>
-            <div className="flex gap-8 mt-10 h-full items-center max-md:mt-5">
+            {/* <SpanL className="text-wrap">{`Product.${activeTab}.info`}</SpanL> */}
+            {/* <div className="flex gap-8 h-full items-center max-md:mt-5">
                 <SpanL className="text-xl">{`Product.${activeTab}.subTitle`}</SpanL>
+                <span className="h-7 w-px bg-tertiary opacity-50" />
                 <MeasurementButton
                     measurement={measurement}
                     setMeasurement={setMeasurement}
                 />
+            </div> */}
+            <div>
+                {activeTab === ProductTabData[0].key ? (
+                    <ProductDetail
+                        product={product}
+                        measurement={measurement}
+                    />
+                ) : activeTab === ProductTabData[1].key ? (
+                    <Comparison product={product} measurement={measurement} />
+                ) : null}
             </div>
-            {activeTab === ProductTabData[0].key ? (
-                <ProductDetail product={product} measurement={measurement} />
-            ) : activeTab === ProductTabData[1].key ? (
-                <Comparison product={product} measurement={measurement} />
-            ) : null}
         </div>
     );
 }

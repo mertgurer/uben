@@ -10,7 +10,7 @@
     },
     "Common": {
         "welcome": "Welcome",
-        "goodbye": "Good Bye",
+        "goodbye": "Goodbye",
         "home": "Home",
         "products": "Products",
         "about": "About Us",
@@ -23,8 +23,8 @@
     },
     "Footer": {
         "copyright": "Copyright © 2025 UBEN. All rights reserved.",
-        "terms": "Terms And Conditions",
-        "privacy": "Privacy And Cookies Policy"
+        "terms": "Terms and Conditions",
+        "privacy": "Privacy and Cookie Policy"
     },
     "Cities": {
         "dubai": "Dubai",
@@ -38,45 +38,45 @@
     },
     "Home": {
         "Intro": {
-            "title": "Professional Paper Solutions. Global Scale. Industrial Precision.",
-            "description": "At UBEN, we pride ourselves on delivering high-quality paper products from our state-of-the-art facilities in Turkey. With a strong presence across Europe and North America, we are committed to excellence and sustainability in every aspect of our operations.",
+            "title": "A Clean Business.",
+            "description": "As Uben Professional, we take pride in being one of the leading companies in the industrial cleaning sector with our strong supply chain, production power, and trust-based service approach.",
             "explore": "Explore Products"
         },
         "IntroDetail": {
-            "title": "Professional Paper Solutions. Global Scale. Industrial Precision.",
-            "description": "At UBEN, we pride ourselves on delivering high-quality paper products from our state-of-the-art facilities in Turkey. With a strong presence across Europe and North America, we are committed to excellence and sustainability in every aspect of our operations."
+            "title": "A Clean Solution Partner.",
+            "description": "Specializing in industrial cleaning, Uben Professional offers effective solutions to your needs with high production capacity, a quality-focused approach, and a strong supply chain. With transparency at every stage and trust in every product, we are the cleanest partner for long-term collaborations."
         },
         "Stats": {
-            "title": "Professional Paper Solutions. Global Scale. Industrial Precision.",
-            "description": "At UBEN, we pride ourselves on delivering high-quality paper products from our state-of-the-art facilities in Turkey. With a strong presence across Europe and North America, we are committed to excellence and sustainability in every aspect of our operations.",
+            "title": "A Clean World.",
+            "description": "Despite our high production capacity, our sustainable production approach invests not only in our business but also in the future of our planet.",
             "tagline": "Growth",
             "detail": "Detail",
             "yearlyProduction": "Yearly Production",
             "sustainabilityGrowth": "Sustainability Growth"
         },
         "WorldDistribution": {
-            "title": "Proto Around the World",
-            "description": "We have offices around world. Contact us for a LIVE demo today!",
+            "title": "A Spotless Collaboration",
+            "description": "With our offices around the world, we are always by your side for every need!",
             "tagline": "Get in Touch"
         },
         "Partners": {
-            "title": "Trusted by Different Industries Worldwide"
+            "title": "Trusted by Various Industries Worldwide"
         },
         "Products": {
-            "title": "Long heading is what you see here in this feature section",
-            "zPaper": {
-                "title": "Long heading is what you see here in this feature section",
-                "description": "Highly absorbent and perfect for quick clean-ups.",
+            "title": "Our Diverse Products",
+            "zFoldPaper": {
+                "title": "The long headline you see in this feature section",
+                "description": "Perfect for quick cleaning and high absorption.",
                 "detail": "Go to Product"
             },
-            "paperTowel": {
-                "title": "Long heading is what you see here in this feature section",
-                "description": "Soft and durable, ideal for any setting.",
+            "rollPaper": {
+                "title": "The long headline you see in this feature section",
+                "description": "Soft and durable, ideal for any environment.",
                 "detail": "Explore Product"
             },
-            "centerPullPaper": {
-                "title": "Long heading is what you see here in this feature section",
-                "description": "Designed for high-traffic environments, ensuring longevity.",
+            "foldDispenserNapkin": {
+                "title": "The long headline you see in this feature section",
+                "description": "Designed for high-traffic environments, ensures long-lasting use.",
                 "detail": "Compare Variants"
             }
         }
@@ -84,37 +84,37 @@
     "About": {
         "Intro": {
             "title": "About UBEN",
-            "description": "UBEN operates a state-of-the-art facility in Bursa, serving clients across multiple continents."
+            "description": "Your Reliable Partner in Industrial Cleaning."
         },
         "IntroDetail": {
             "title": "Professional Paper Solutions. Global Scale. Industrial Precision.",
-            "description": "At UBEN, we pride ourselves on delivering high-quality paper products from our state-of-the-art facilities in Turkey. With a strong presence across Europe and North America, we are committed to excellence and sustainability in every aspect of our operations."
+            "description": "Uben Professional, based in Bursa with a 5,700 m² production facility, is a trusted partner in industrial cleaning solutions. With a daily capacity of 1,600 boxes and a monthly production volume of 100 tons, it provides fast, consistent, and high-quality service.\nWith over 50 experienced employees meticulously managing every stage of production, Uben Professional delivers without compromising on quality and efficiency. Offering more than 15 product types, it develops effective solutions for diverse industry needs; delivering the right product at the right time.\nRemaining committed to quality standards at every stage, from raw material to finished product, Uben Professional adopts sustainable and high-quality production as a principle. With a continuous improvement approach, we aim to increase customer satisfaction and build long-term collaborations through innovative solutions.\n“As Uben Professional, we take pride in being one of the leading companies in the industrial cleaning sector with our strong supply chain, production power, and trust-based service approach.”"
         },
         "Stats": {
-            "title": "Our Production Capacity: Precision and Reliability Across Continents",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
-            "info-1": {
-                "title": "1 Short heading goes here",
-                "detail": "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "title": "Strong Supply. Reliable Partnership. Intercontinental Distribution.",
+            "description": "As Uben Professional, we take pride in being one of the leading companies in the industrial cleaning sector with our strong supply chain, production power, and trust-based service approach.",
+            "paperTowl": {
+                "title": "Roll Towel",
+                "detail": "Roll Towel, which makes up the largest part of Uben’s production, stands out with its high capacity and suitability for heavy-use areas."
             },
-            "info-2": {
-                "title": "2 Short heading goes here",
-                "detail": "2 Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "zPaper": {
+                "title": "Z Fold",
+                "detail": "Uben Z Fold Paper covers 30% of production and offers a comfortable drying experience with its extra soft texture."
             },
-            "info-3": {
-                "title": "3 Short heading goes here",
-                "detail": "3 Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "other": {
+                "title": "Other Products",
+                "detail": "Making up 25% of production, other products provide practical and effective solutions for various hygiene needs."
             }
         },
         "Contact": {
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "name": "First name",
-            "lastName": "Last name",
+            "description": "Fill out the form below to get in touch with us.",
+            "name": "First Name",
+            "lastName": "Last Name",
             "email": "Email",
             "phone": "Phone",
-            "phoneNumber": "Phone number",
-            "topic": "Choose a topic",
-            "topicPlaceholder": "Select one.",
+            "phoneNumber": "Phone Number",
+            "topic": "Select a topic",
+            "topicPlaceholder": "Choose one.",
             "topicOptions": {
                 "option-1": "First option",
                 "option-2": "Second option",
@@ -132,18 +132,18 @@
                 "option-6": "Other"
             },
             "message": "Message",
-            "messagePlaceholder": "Type your message.",
+            "messagePlaceholder": "Write your message.",
             "acceptTerms": "I accept the terms and conditions.",
             "submit": "Submit",
-            "emailInfo": "Mail Us For All Inquires",
-            "phoneInfo": "One call away.",
+            "emailInfo": "Email us for all your inquiries",
+            "phoneInfo": "Just a call away.",
             "office": "Office",
             "getDirections": "Get Directions"
         }
     },
     "Products": {
         "title": "Our Products",
-        "description": "Product availability for different countries may be vary",
+        "description": "Product availability may vary by country",
         "Categories": {
             "handTowel": {
                 "title": "Hand Towel",
@@ -161,98 +161,102 @@
         "zFoldPaper": {
             "title": "Z Fold Paper",
             "description": "Commercial",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "detail": "Uben Z Fold Paper, with its large size and extra soft texture, not only provides a premium feel but is also gentle on hands. Ideal for medium-traffic washrooms, and when used with the Uben Z Fold Paper Dispenser, it fits easily into even small spaces. Offers both hygiene and comfort to your guests.",
             "bulletPoints": {
-                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
-                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
-                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+                "item-1": "Its stylish embossed surface creates a professional and high-quality impression.",
+                "item-2": "Extra soft texture ensures a comfortable drying experience.",
+                "item-3": "Quick Dry Technology reduces waste while providing better absorbency.",
+                "item-4": "Single-sheet dispensing enhances hygiene while reducing consumption."
             }
         },
         "rollPaper": {
-            "title": "Roll Paper",
+            "title": "Roll Towel",
             "description": "Commercial",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "detail": "Uben Roll Towel is a practical and hygienic solution for high-traffic areas such as schools and airports, thanks to its high capacity. Compatible with Uben dispenser systems, these rolls simplify maintenance and refilling in busy environments.",
             "bulletPoints": {
-                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
-                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
-                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+                "item-1": "Provides economical use, efficiently meeting basic hand drying needs.",
+                "item-2": "Extra-long rolls reduce refill frequency, saving time.",
+                "item-3": "Dispenses one sheet at a time, increasing hygiene and reducing consumption."
             }
         },
         "centerPullToiletPaper": {
             "title": "Center Pull Toilet Paper",
             "description": "Commercial",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "detail": "Uben Center Pull Toilet Paper dispenses sheets one at a time, reducing usage and helping each roll last longer. Compared to traditional jumbo rolls, it is more economical and hygienic. With different dispenser options, it suits low, medium, and high-traffic washrooms.",
             "bulletPoints": {
-                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
-                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
-                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+                "item-1": "Quickly dissolves in water, minimizing pipe clogging risk.",
+                "item-2": "Practical roll core makes removal and refilling easier.",
+                "item-3": "High capacity reduces maintenance needs and lowers the risk of running out.",
+                "item-4": "Soft texture and high whiteness provide a comfortable cleaning experience."
             }
         },
         "jumboToiletPaper": {
             "title": "Jumbo Toilet Paper",
             "description": "Commercial",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "detail": "Uben Jumbo Toilet Paper lasts much longer than standard rolls, saving both time and costs. Its 2-ply structure increases durability while enhancing user comfort. Ideal for medium to high-traffic areas.",
             "bulletPoints": {
-                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
-                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
-                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+                "item-1": "High capacity reduces maintenance needs and lowers the risk of running out.",
+                "item-2": "Elegant embossed surface gives a premium look to your space."
             }
         },
         "foldDispenserNapkin": {
             "title": "Fold Dispenser Napkin",
             "description": "Commercial",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "detail": "Uben Dispenser Napkins provide a hygienic and practical solution for quick-service restaurants, cafés, bars, and dining points. Compared to traditional napkin dispensers, they take up less space, extend refill intervals, and significantly reduce unused napkin waste. With their 2-ply structure, they are both durable and comfortable.",
             "bulletPoints": {
-                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
-                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
-                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+                "item-1": "Folding system ensures a full-size napkin when opened while saving space.",
+                "item-2": "Compact box design makes storage and loading easier.",
+                "item-3": "Special packaging keeps bundles hygienic and ready for use."
             }
         },
         "lunchNapkin": {
             "title": "Lunch Napkin",
             "description": "Commercial",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "detail": "Uben Lunch Napkins are ideal for serving light meals and snacks. With modern and classic color options, they fit your business style. Optional custom prints allow you to deliver your brand message directly to guests.",
             "bulletPoints": {
-                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
-                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
-                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+                "item-1": "Maintains natural color without additional whitening or dye.",
+                "item-2": "Eco-friendly with industrial recycling.",
+                "item-3": "“100% recycled” label reinforces sustainability message.",
+                "item-4": "Natural brown tone highlights recycling and offers an eco-friendly look."
             }
         },
         "paperNapkin": {
-            "title": "Paper Napkin",
+            "title": "Square Napkin",
             "description": "Commercial",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "detail": "Uben Square Napkin is a practical solution for cafés, restaurants, bars, and catering services to set clean, hygienic, and stylish tables quickly. Its 2-ply structure balances softness and absorbency, while edge embossing provides a premium look. Hygienic block packaging makes storage easier; available in multiple colors and printing options to highlight your brand.",
             "bulletPoints": {
-                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
-                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
-                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+                "item-1": "Easy-to-separate durable structure speeds up service and reduces waste.",
+                "item-2": "Soft texture, high absorbency.",
+                "item-3": "Hygienic block packaging ensures easy storage/transport.",
+                "item-4": "White, kraft, and colored options + optional logo printing."
             }
         },
         "cDispenserPaperNapkin": {
-            "title": "C Dispenser Paper Napkin",
+            "title": "C Fold Dispenser Paper Napkin",
             "description": "Commercial",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "detail": "Uben C Fold Paper, with its compact size and extra soft texture, not only provides a premium feel but is also gentle on hands. Ideal for medium-traffic washrooms, and when used with the Uben C Fold Paper Dispenser, it easily fits even into small spaces. Offers both hygiene and comfort to your guests.",
             "bulletPoints": {
-                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
-                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
-                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+                "item-1": "Its stylish embossed surface creates a professional and high-quality impression.",
+                "item-2": "Extra soft texture ensures a comfortable drying experience.",
+                "item-3": "Quick Dry Technology reduces waste while providing better absorbency.",
+                "item-4": "Single-sheet dispensing enhances hygiene while reducing consumption."
             }
         },
         "allProducts": "All Products"
     },
     "Product": {
         "variants": "Variants",
-        "pdfDownload": "PDF Download",
-        "paperKind": "Paper Kind",
+        "pdfDownload": "Download PDF",
+        "paperKind": "Paper Type",
         "metric": "Metric",
         "imperial": "Imperial",
-        "sheetCountPerRoll": "Sheet Count (Per Roll)",
+        "sheetCountPerRoll": "Sheets Per Roll",
         "openSheetSize": "Open Sheet Size",
         "sheetSize": "Sheet Size",
         "numberOfPiles": "Number of Piles",
-        "caseCount": "Case Count",
-        "sheetCount": "Sheet Count",
-        "sheetCountPerCase": "Sheet Count (Per Case)",
+        "caseCount": "Cases",
+        "sheetCount": "Sheets",
+        "sheetCountPerCase": "Sheets Per Case",
         "caseSize": "Case Size",
         "caseWeight": "Case Weight",
         "packWeight": "Pack Weight",
@@ -269,24 +273,24 @@
         "diameter": "Diameter",
         "150Sheets": "150 Sheets",
         "200Sheets": "200 Sheets",
-        "1ply4kg": "1-Ply 4kg",
-        "2ply4kg": "2-Ply 4kg",
-        "2ply4kgLarge": "2-Ply 4kg Large",
+        "1ply4kg": "1 Ply 4kg",
+        "2ply4kg": "2 Ply 4kg",
+        "2ply4kgLarge": "2 Ply 4kg Large",
         "mini": "Mini",
         "standard": "Standard",
         "productDetail": {
             "title": "Product Detail",
-            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit...",
             "subTitle": "Description"
         },
         "shippingDetails": {
             "title": "Shipping Details",
-            "info": "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "subTitle": "Shipping Specs"
+            "info": "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
+            "subTitle": "Shipping Features"
         },
         "comparison": {
             "title": "Compare",
-            "info": "consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "info": "consectetur adipisicing elit, sed do eiusmod tempor incididunt...",
             "subTitle": "Comparison"
         }
     }

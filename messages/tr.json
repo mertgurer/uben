@@ -55,7 +55,7 @@
             "sustainabilityGrowth": "Sürdürülebilirlik Büyümesi"
         },
         "WorldDistribution": {
-            "title": "Tertemiz Bir İş Birliği.",
+            "title": "Tertemiz Bir İş Birliği",
             "description": "Dünyanın dört bir yanında yer alan ofislerimizle her ihtiyacınızda yanınızdayız!",
             "tagline": "İletişime Geçin"
         },
@@ -64,17 +64,17 @@
         },
         "Products": {
             "title": "Çeşitli Ürünlerimiz",
-            "zPaper": {
+            "zFoldPaper": {
                 "title": "Bu özellik bölümünde gördüğünüz uzun başlık",
                 "description": "Yüksek emici ve hızlı temizlik için mükemmel.",
                 "detail": "Ürüne Git"
             },
-            "paperTowel": {
+            "rollPaper": {
                 "title": "Bu özellik bölümünde gördüğünüz uzun başlık",
                 "description": "Yumuşak ve dayanıklı, her ortam için ideal.",
                 "detail": "Ürünü Keşfet"
             },
-            "centerPullPaper": {
+            "foldDispenserNapkin": {
                 "title": "Bu özellik bölümünde gördüğünüz uzun başlık",
                 "description": "Yoğun trafikli ortamlar için tasarlandı, uzun ömür garanti eder.",
                 "detail": "Varyantları Karşılaştır"
@@ -91,23 +91,23 @@
             "description": "Uben Professional, Bursa merkezli ve 5.700 m² kapalı alanlı üretim tesisiyle endüstriyel temizlik çözümleri alanında güvenilir bir çözüm ortağıdır. Günlük 1.600 koliye ulaşan üretim kapasitesi ve aylık 100 tonluk üretim hacmiyle müşterilerine hızlı, düzenli ve kaliteli hizmet sağlamaktadır.\n50’yi aşkın deneyimli çalışanıyla üretimin her aşamasını titizlikle yöneten Uben Professional, kalite ve verimlilikten ödün vermeden hizmet sunar. 15’in üzerinde ürün çeşidiyle sektördeki farklı ihtiyaçlara etkin çözümler geliştirir; doğru ürünü, doğru zamanda müşterileriyle buluşturur.\nÜretimin her aşamasında kalite standartlarına bağlı kalan Uben Professional, hammaddeden son ürüne kadar sürdürülebilir ve yüksek kaliteli üretimi ilke edinmiştir. Sürekli iyileştirme odaklı çalışma anlayışımızla müşteri memnuniyetini artırmayı, yenilikçi çözümlerle uzun soluklu iş birlikleri kurmayı hedefler.\n“Uben Professional olarak, endüstriyel temizlik alanında güçlü tedarik zincirimiz, üretim gücümüz ve güvene dayalı hizmet anlayışımızla sektörün önde gelen firmalarından biri olmanın gururunu yaşıyoruz.”"
         },
         "Stats": {
-            "title": "Üretim Kapasitemiz: Kıtalar Arası Hassasiyet ve Güvenilirlik",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
+            "title": "Güçlü Tedarik. Güvenilir İş Ortaklığı. Kıtalararası Dağıtım Ağı.",
+            "description": "Uben Professional olarak, endüstriyel temizlik alanında güçlü tedarik zincirimiz, üretim gücümüz ve güvene dayalı hizmet anlayışımızla sektörün önde gelen firmalarından biri olmanın gururunu yaşıyoruz.",
             "paperTowl": {
                 "title": "Hareketli Havlu",
-                "detail": "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                "detail": "Uben’in üretiminin en büyük kısmını oluşturan Hareketli Havlu, yüksek kapasitesi ve yoğun kullanım alanlarına uygunluğu ile öne çıkar."
             },
             "zPaper": {
                 "title": "Z Kat",
-                "detail": "2 Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                "detail": "Uben Z Kat Kağıt, üretimin %30’unu kapsar ve ekstra yumuşak dokusu ile konforlu kurulama sunar."
             },
             "other": {
                 "title": "Diğer Ürünler",
-                "detail": "3 Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                "detail": "Üretimin %25’ini oluşturan diğer ürünler, çeşitli hijyen ihtiyaçlarına pratik ve etkili çözümler sunar."
             }
         },
         "Contact": {
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "description": "Aşağıdaki formu doldurarak, bizimle iletişime geçebilirsiniz.",
             "name": "Ad",
             "lastName": "Soyad",
             "email": "E-posta",
@@ -161,81 +161,85 @@
         "zFoldPaper": {
             "title": "Z Katlı Kağıt",
             "description": "Ticari",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri, kalabalık lavabo alanlarında kesintisiz hizmet için kolay bakım ve her seferinde tek yaprak vermesiyle tüketimi azaltma imkanı sunar. Tork Elevation dispenserler, misafirlerinize akılda kalıcı bir izlenim yaratan fonksiyonel ve modern bir tasarıma sahiptir.",
+            "detail": "Uben Z Katlı Kağıt, geniş boyutu ve ekstra yumuşak dokusuyla hem yüksek kaliteli bir his sunar hem de ellere nazik davranır. Orta yoğunlukta kullanılan lavabo alanları için ideal olan bu ürün, Uben Z Katlı Kağıt Dispenseri ile birlikte kullanıldığında küçük alanlara bile kolayca uyum sağlar. Misafirlerinize hijyen ve konforu bir arada sunar.",
             "bulletPoints": {
-                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
-                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
-                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+                "item-1": "Şık desenli yüzeyi, mekânınızda kaliteli ve profesyonel bir izlenim bırakır.",
+                "item-2": "Ekstra yumuşak dokusu sayesinde konforlu bir kurulama deneyimi sağlar.",
+                "item-3": "Hızlı Kurulama Teknolojisi ile daha az atık üretir, daha etkili emicilik sunar.",
+                "item-4": "Tek yaprak çıkış sistemi, hijyeni artırırken tüketimi azaltır."
             }
         },
         "rollPaper": {
-            "title": "Rulo Kağıt",
+            "title": "Hareketli Havlu",
             "description": "Ticari",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri...",
+            "detail": "Uben Hareketli Havlu, yüksek kapasitesi sayesinde özellikle okul, havaalanı ve benzeri yoğun kullanım alanları için pratik ve hijyenik bir çözümdür. Uben dispenser sistemleriyle uyumlu olan bu rulolar, yoğun ziyaretçi trafiği olan ortamlarda bakım ve dolum süreçlerini kolaylaştırır.",
             "bulletPoints": {
-                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
-                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
-                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+                "item-1": "Ekonomik kullanım sunar, temel el kurutma ihtiyacını verimli şekilde karşılar.",
+                "item-2": "Ekstra uzun rulo özelliğiyle daha az dolum ihtiyacı doğar, zamandan tasarruf sağlar.",
+                "item-3": "Her seferinde tek yaprak vererek hem hijyeni artırır hem de tüketimi azaltır."
             }
         },
         "centerPullToiletPaper": {
-            "title": "Orta Çekmeli Tuvalet Kağıdı",
+            "title": "İçten Çekmeli Tuvalet Kâğıdı",
             "description": "Ticari",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri...",
+            "detail": "Uben İçten Çekmeli Tuvalet Kağıdı, kâğıtların tek tek verilmesini sağlayarak kullanım miktarını azaltır ve her rulonun daha uzun süre dayanmasına yardımcı olur. Geleneksel jumbo rulolara kıyasla daha ekonomik ve hijyenik bir çözümdür. Farklı dispenser seçenekleriyle az, orta ya da yoğun kullanımlı lavabo alanlarına uygundur.",
             "bulletPoints": {
-                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
-                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
-                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+                "item-1": "Suya atıldığında hızlıca çözünür, böylece boru tıkanma riskini en aza indirir.",
+                "item-2": "Pratik Rulo Göbeği sayesinde kolayca çıkarılır ve doldurma işlemi hızlanır.",
+                "item-3": "Yüksek kapasitesi sayesinde daha az bakım ihtiyacı doğar, kâğıdın bitme riski azalır.",
+                "item-4": "Yumuşak dokusu ve yüksek beyazlığıyla kullanıcıya konforlu bir temizlik deneyimi sunar."
             }
         },
         "jumboToiletPaper": {
             "title": "Jumbo Tuvalet Kağıdı",
             "description": "Ticari",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri...",
+            "detail": "Uben Jumbo Tuvalet Kağıdı, standart rulolara göre çok daha uzun süre dayanır; böylece hem zamandan hem de maliyetten tasarruf sağlar. 2 katlı yapısıyla dayanıklılığı artırırken, kullanım konforunu da üst seviyeye taşır. Orta ve yoğun ziyaretçi trafiği olan alanlar için ideal bir çözümdür.",
             "bulletPoints": {
-                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
-                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
-                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+                "item-1": "Yüksek kapasitesi sayesinde daha az bakım gerektirir, kâğıdın bitme riskini azaltır.",
+                "item-2": "Şık desenli yüzeyi, bulunduğu mekânda estetik ve kaliteli bir izlenim bırakır."
             }
         },
         "foldDispenserNapkin": {
             "title": "Katlanır Dispenser Peçete",
             "description": "Ticari",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri...",
+            "detail": "Uben Dispenser Peçeteler, hızlı servis restoranları, kafeler, barlar ve yemek noktaları için hijyenik ve pratik bir çözümdür. Geleneksel peçete dispenserlerine kıyasla, daha az yer kaplar, tekrar dolum aralıklarını uzatır ve kullanılmadan atılan peçete miktarını büyük ölçüde azaltır. 2 katlı yapısıyla hem dayanıklı hem de konforlu bir kullanım sunar.",
             "bulletPoints": {
-                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
-                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
-                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+                "item-1": "Katlama sistemi sayesinde açıldığında tam boy peçete olur, yerden tasarruf sağlar.",
+                "item-2": "Kompakt kutu tasarımı, depolama ve yüklemeyi kolaylaştırır.",
+                "item-3": "Özel ambalaj çözümü sayesinde desteler hijyenik şekilde korunur ve kolayca kullanıma sunulur."
             }
         },
         "lunchNapkin": {
             "title": "Öğle Yemeği Peçetesi",
             "description": "Ticari",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri...",
+            "detail": "Uben Garson Katlama Peçeteler, hafif yiyecekler ve atıştırmalıkların servis edildiği alanlar için ideal bir tercihtir. Modern ve klasik renk seçenekleriyle işletmenizin tarzına uyum sağlar. İsteğe bağlı özel baskılarla markanızın mesajını misafirlerinize doğrudan iletebilirsiniz.",
             "bulletPoints": {
-                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
-                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
-                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+                "item-1": "Ek beyazlatıcı veya boya kullanılmadan doğal rengini korur.",
+                "item-2": "Endüstriyel olarak geri dönüştürülmüş olmasıyla çevre dostudur.",
+                "item-3": "“%100 geri dönüştürülmüş” ifadesiyle sürdürülebilirlik mesajını güçlendirir.",
+                "item-4": "Doğal kahverengi tonu, peçetenin geri dönüştürülmüş olduğunu vurgular ve çevreye duyarlı işletmeler için şık bir görünüm sunar."
             }
         },
         "paperNapkin": {
-            "title": "Kağıt Peçete",
+            "title": "Kare Peçete",
             "description": "Ticari",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri...",
+            "detail": "Uben Kare Peçete; kafe, restoran, bar ve catering servislerinde hızlı, hijyenik ve şık masa düzeni için pratik bir çözümdür. 2 katlı yapısı yumuşaklık–emicilik dengesini sunar, kenar gofrajlı dokusu premium bir görünüm sağlar. Hijyenik blok paketleme depolamayı kolaylaştırır; farklı renk ve baskı seçenekleriyle markanızı öne çıkarır. Farklı paket adetleriyle sunulur.",
             "bulletPoints": {
-                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
-                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
-                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+                "item-1": "Kolay ayrılan, dayanıklı yapı: servis hızlanır, israf azalır.",
+                "item-2": "Yumuşak doku, yüksek emicilik.",
+                "item-3": "Hijyenik blok paketleme; depolama/taşıma kolaylığı.",
+                "item-4": "Beyaz, kraft ve renk seçenekleri + isteğe bağlı logo baskısı."
             }
         },
         "cDispenserPaperNapkin": {
             "title": "C Tipi Dispenser Kağıt Peçete",
             "description": "Ticari",
-            "detail": "Elevation Dizaynlı Tork Matic® Havlu Kâğıt Rulo Dispenseri...",
+            "detail": "Uben C Katlı Kağıt, kompakt boyutu ve ekstra yumuşak dokusuyla hem kaliteli bir his sunar hem de ellere nazik davranır. Orta yoğunlukta kullanılan lavabo alanları için ideal olan bu ürün, Uben C Katlı Kağıt Dispenseri ile birlikte kullanıldığında küçük alanlara bile kolayca uyum sağlar. Misafirlerinize hijyen ve konforu bir arada sunar.",
             "bulletPoints": {
-                "item-1": "Yeni sarf malzemesi ihtiyacının yaklaştığını belirten ürün düzey göstergesi sayesinde kolay bakım",
-                "item-2": "Uzun ömürlü rulolar hizmet süresini artırırken bakım maliyetlerini en aza indirir.",
-                "item-3": "Zahmetsiz temizlik ve sezgisel doldurma özelliği zaman kazandırır"
+                "item-1": "Şık desenli yüzeyi, mekânınızda kaliteli ve profesyonel bir izlenim bırakır.",
+                "item-2": "Ekstra yumuşak dokusu sayesinde konforlu bir kurulama deneyimi sağlar.",
+                "item-3": "Hızlı Kurulama Teknolojisi ile daha az atık üretir, daha etkili emicilik sunar.",
+                "item-4": "Tek yaprak çıkış sistemi, hijyeni artırırken tüketimi azaltır."
             }
         },
         "allProducts": "Tüm Ürünler"
