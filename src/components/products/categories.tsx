@@ -47,7 +47,7 @@ function Categories({
                         } duration-500`}
                     >
                         <div
-                            className={`relative aspect-square w-[75%] rounded-full bg-tertiary overflow-hidden mb-4 max-2xl:w-[75%] max-md:h-28 max-md:w-auto ${
+                            className={`relative aspect-square w-[90%] rounded-full bg-tertiary overflow-hidden mb-4 max-2xl:w-[75%] max-md:h-28 max-md:w-auto ${
                                 isSelected ? "scale-95" : ""
                             } duration-500`}
                         >
@@ -61,7 +61,7 @@ function Categories({
                             />
                         </div>
                         <SpanL className="text-lg font-semibold max-2xl:text-base max-md:whitespace-nowrap">{`Products.Categories.${category.key}.title`}</SpanL>
-                        <SpanL>{`Products.Categories.${category.key}.description`}</SpanL>
+                        {/* <SpanL>{`Products.Categories.${category.key}.description`}</SpanL> */}
                     </button>
                 );
             })}
@@ -72,7 +72,7 @@ function Categories({
                 } duration-500`}
             >
                 <div
-                    className={`relative aspect-square w-[85%] rounded-full bg-primary overflow-hidden mb-4 max-2xl:w-[75%] max-md:h-28 max-md:w-auto ${
+                    className={`relative aspect-square w-[90%] rounded-full bg-primary overflow-hidden mb-4 max-2xl:w-[75%] max-md:h-28 max-md:w-auto ${
                         selectedCategories.length > 0 ? "scale-95" : ""
                     } duration-500`}
                 >
@@ -88,7 +88,7 @@ function Categories({
                 <SpanL className="text-lg font-semibold max-md:whitespace-nowrap">
                     Common.all
                 </SpanL>
-                <SpanL>Products.allProducts</SpanL>
+                {/* <SpanL>Products.allProducts</SpanL> */}
             </button>
         </section>
     );

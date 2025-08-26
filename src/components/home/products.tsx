@@ -5,12 +5,12 @@ import Image from "next/image";
 import { ChevronRight } from "lucide-react";
 import ZPaper from "../../../public/images/products/z-paper.png";
 import PaperTowel from "../../../public/images/products/paper-towel.png";
-import CenterPullPaper from "../../../public/images/products/center-pull-paper.png";
+import CPullPaper from "../../../public/images/products/c-pull-paper.png";
 
 const ProductItems = [
     { key: "zFoldPaper", image: ZPaper },
     { key: "rollPaper", image: PaperTowel },
-    { key: "foldDispenserNapkin", image: CenterPullPaper },
+    { key: "foldDispenserNapkin", image: CPullPaper },
 ];
 
 function Products() {

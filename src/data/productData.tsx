@@ -3,8 +3,11 @@ import { Category } from "./categoryData";
 import ToiletPaper from "../../public/images/products/toilet-paper.png";
 import PaperTowel from "../../public/images/products/paper-towel.png";
 import Napkin from "../../public/images/products/dinner-napkin.png";
-import CenterPull from "../../public/images/products/center-pull-paper.png";
+import CPullPaper from "../../public/images/products/c-pull-paper.png";
 import ZPaper from "../../public/images/products/z-paper.png";
+import LunchNapkin from "../../public/images/products/lunchNapkin.png";
+import CenterPullMaxi from "../../public/images/products/center-pull-maxi.jpg";
+import CenterPullMini from "../../public/images/products/center-pull-mini.jpg";
 
 export interface ProductModel {
     key: string;
@@ -146,8 +149,8 @@ export const ProductData: ProductModel[] = [
         key: "centerPullToiletPaper",
         category: Category.TOILET_PAPER,
         productCode: "SKU 5510055",
-        cover: CenterPull,
-        images: [CenterPull, CenterPull, CenterPull],
+        cover: CenterPullMaxi,
+        images: [CenterPullMaxi, CenterPullMini, CenterPullMini],
         pdf: "",
         bulletPointCount: 4,
         variants: [
@@ -216,8 +219,8 @@ export const ProductData: ProductModel[] = [
         key: "foldDispenserNapkin",
         category: Category.NAPKIN,
         productCode: "SKU 5510055",
-        cover: Napkin,
-        images: [Napkin, Napkin, Napkin],
+        cover: CPullPaper,
+        images: [CPullPaper, CPullPaper, CPullPaper],
         pdf: "",
         bulletPointCount: 3,
         variants: [
@@ -242,8 +245,8 @@ export const ProductData: ProductModel[] = [
         key: "lunchNapkin",
         category: Category.NAPKIN,
         productCode: "SKU 5510055",
-        cover: Napkin,
-        images: [Napkin, Napkin, Napkin],
+        cover: LunchNapkin,
+        images: [LunchNapkin, LunchNapkin, LunchNapkin],
         pdf: "",
         bulletPointCount: 4,
         variants: [
@@ -298,8 +301,8 @@ export const ProductData: ProductModel[] = [
         key: "cDispenserPaperNapkin",
         category: Category.NAPKIN,
         productCode: "SKU 5510055",
-        cover: CenterPull,
-        images: [CenterPull, CenterPull, CenterPull],
+        cover: CPullPaper,
+        images: [CPullPaper, CPullPaper, CPullPaper],
         pdf: "",
         bulletPointCount: 4,
         variants: [
