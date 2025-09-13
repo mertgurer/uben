@@ -1,4 +1,7 @@
-import { API_PATHS, API_URLS } from "@/constants/apiConstants";
+import {
+    API_PATHS,
+    API_URLS,
+} from "@/components/products/constants/apiConstants";
 import { BaseService, CreateObject, Object, UpdateObject } from "./baseService";
 
 interface User extends Object {

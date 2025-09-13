@@ -1,4 +1,7 @@
-import { cmToInchesRatio, kgToPoundsRatio } from "@/constants/constants";
+import {
+    cmToInchesRatio,
+    kgToPoundsRatio,
+} from "@/components/products/constants/constants";
 import { ProductVariantPropertiesModel } from "@/data/productData";
 
 export const DateHelpers = {

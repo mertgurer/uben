@@ -273,9 +273,9 @@
         "diameter": "Çap",
         "150Sheets": "150 Yaprak",
         "200Sheets": "200 Yaprak",
-        "1ply4kg": "1 Kat 4kg",
-        "2ply4kg": "2 Kat 4kg",
-        "2ply4kgLarge": "2 Kat 4kg Büyük",
+        "1ply4kg": "Tek Katlı 4kg",
+        "2ply4kg": "Çift Katlı 4kg",
+        "2ply5kgLarge": "Çift Katlı Büyük 5kg",
         "mini": "Mini",
         "standard": "Standart",
         "productDetail": {

@@ -11,13 +11,17 @@ import MeasurementButton from "./measurementButton";
 
 interface Props {
     product: ProductModel;
+    selectedVariant: string;
 }
 
-function DetailInfo({ product }: Props) {
+function DetailInfo({ product, selectedVariant }: Props) {
     const [activeTab, setActiveTab] = useState(ProductTabData[0].key);
     const [measurement, setMeasurement] = useState<"metric" | "imperial">(
         "metric"
     );
+
+    const variant = product.variants.find((x) => x.key === selectedVariant);
+    console.log(variant, selectedVariant);
 
     return (
         <div className="flex flex-col bg-secondary text-tertiary px-[15%] py-14 gap-6 max-2xl:px-[10%] max-md:px-[5%]">
@@ -68,16 +72,21 @@ function DetailInfo({ product }: Props) {
                     setMeasurement={setMeasurement}
                 />
             </div> */}
-            <div>
-                {activeTab === ProductTabData[0].key ? (
-                    <ProductDetail
-                        product={product}
-                        measurement={measurement}
-                    />
-                ) : activeTab === ProductTabData[1].key ? (
-                    <Comparison product={product} measurement={measurement} />
-                ) : null}
-            </div>
+            {variant && (
+                <div>
+                    {activeTab === ProductTabData[0].key ? (
+                        <ProductDetail
+                            variant={variant}
+                            measurement={measurement}
+                        />
+                    ) : activeTab === ProductTabData[1].key ? (
+                        <Comparison
+                            product={product}
+                            measurement={measurement}
+                        />
+                    ) : null}
+                </div>
+            )}
         </div>
     );
 }

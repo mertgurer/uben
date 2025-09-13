@@ -26,7 +26,11 @@ function ImageCarousel({ images }: ImageCarouselProps) {
                 {images.map((image, index) => (
                     <button
                         key={index}
-                        className="relative w-[23.5%] aspect-square shadow-text shadow-[0_5px_16px_-10px]"
+                        className={`relative w-[23.5%] aspect-square shadow-text shadow-[0_5px_16px_-10px] rounded-sm overflow-hidden ${
+                            selectedImageIndex === index
+                                ? "ring-2 ring-primary/50"
+                                : ""
+                        } duration-500`}
                         onClick={() => setSelectedImageIndex(index)}
                     >
                         <Image

@@ -1,4 +1,4 @@
-import { PROXY_API } from "@/constants/apiConstants";
+import { PROXY_API } from "@/components/products/constants/apiConstants";
 
 export interface Object {
     id: string;

@@ -273,9 +273,9 @@
         "diameter": "Diameter",
         "150Sheets": "150 Sheets",
         "200Sheets": "200 Sheets",
-        "1ply4kg": "1 Ply 4kg",
-        "2ply4kg": "2 Ply 4kg",
-        "2ply4kgLarge": "2 Ply 4kg Large",
+        "1ply4kg": "Single Layer 4kg",
+        "2ply4kg": "Double Layer 4kg",
+        "2ply5kgLarge": "Double Layer Large 5kg",
         "mini": "Mini",
         "standard": "Standard",
         "productDetail": {

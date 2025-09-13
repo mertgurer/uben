@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { Dispatch } from "react";
 import SpanL from "./spanL";
 import { MdArrowDropDown } from "react-icons/md";
 import { useTranslations } from "next-intl";
@@ -8,7 +8,8 @@ import { useTranslations } from "next-intl";
 interface ComboboxProps {
     name: string;
     label: string;
-    options: string[];
+    options: { key: string; label: string }[];
+    setSelected: Dispatch<React.SetStateAction<string>>;
     dark?: boolean;
     noTranslation?: boolean;
     noEmptySelection?: boolean;
@@ -18,10 +19,14 @@ function Combobox({
     name,
     label,
     options,
+    setSelected,
     dark = false,
     noEmptySelection = false,
 }: ComboboxProps) {
     const t = useTranslations();
+
+    console.log(options);
+
     return (
         <div
             className={`relative flex flex-col gap-1 w-full ${
@@ -36,6 +41,7 @@ function Combobox({
                         ? "bg-trim px-5 shadow-[0_3px_5px_-5px] shadow-text"
                         : "border border-primary/30 px-4"
                 }`}
+                onChange={(e) => setSelected(e.target.value)}
             >
                 {!noEmptySelection && (
                     <option value="">
@@ -43,8 +49,8 @@ function Combobox({
                     </option>
                 )}
                 {options.map((option) => (
-                    <option key={option} value={option}>
-                        {t(option)}
+                    <option key={option.key} value={option.key}>
+                        {t(option.label)}
                     </option>
                 ))}
             </select>

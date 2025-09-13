@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { Dispatch } from "react";
 import { ProductModel } from "@/data/productData";
 import SpanL from "@/components/common/spanL";
 import Combobox from "@/components/common/combobox";
@@ -9,18 +9,23 @@ import { Dot, Download } from "lucide-react";
 
 interface Props {
     product: ProductModel;
+    setSelectedVariant: Dispatch<React.SetStateAction<string>>;
 }
 
-function Info({ product }: Props) {
+function Info({ product, setSelectedVariant }: Props) {
     return (
         <div className="flex-1 flex flex-col gap-6 mt-3">
             {product.variants.length > 1 && (
                 <Combobox
                     name="Product.variants"
                     label="Product.variants"
-                    options={product.variants.map(
-                        (variant) => `Product.${variant.key}`
-                    )}
+                    options={product.variants.map((variant) => {
+                        return {
+                            key: variant.key,
+                            label: `Product.${variant.key}`,
+                        };
+                    })}
+                    setSelected={setSelectedVariant}
                     dark
                     noEmptySelection
                 />

@@ -2,9 +2,12 @@ import { StaticImageData } from "next/image";
 import { Category } from "./categoryData";
 import ToiletPaper from "../../public/images/products/toilet-paper.png";
 import PaperTowel from "../../public/images/products/paper-towel.png";
+import PaperTowel2 from "../../public/images/products/paper-towel_2.jpg";
 import Napkin from "../../public/images/products/dinner-napkin.png";
 import CPullPaper from "../../public/images/products/c-pull-paper.png";
 import ZPaper from "../../public/images/products/z-paper.png";
+import ZPaper2 from "../../public/images/products/z-paper_2.jpg";
+import ZPaper3 from "../../public/images/products/z-paper_3.jpg";
 import LunchNapkin from "../../public/images/products/lunchNapkin.png";
 import CenterPullMaxi from "../../public/images/products/center-pull-maxi.jpg";
 import CenterPullMini from "../../public/images/products/center-pull-mini.jpg";
@@ -45,7 +48,7 @@ export const ProductData: ProductModel[] = [
         category: Category.HAND_TOWEL,
         productCode: "SKU 5510055",
         cover: ZPaper,
-        images: [ZPaper, ZPaper, ZPaper],
+        images: [ZPaper2, ZPaper3],
         pdf: "",
         bulletPointCount: 4,
         variants: [
@@ -94,7 +97,7 @@ export const ProductData: ProductModel[] = [
         category: Category.HAND_TOWEL,
         productCode: "SKU 5510055",
         cover: PaperTowel,
-        images: [PaperTowel, PaperTowel, PaperTowel],
+        images: [PaperTowel2],
         pdf: "",
         bulletPointCount: 3,
         variants: [
@@ -129,7 +132,7 @@ export const ProductData: ProductModel[] = [
                 },
             },
             {
-                key: "2ply4kgLarge",
+                key: "2ply5kgLarge",
                 properties: {
                     sheetCountPerRoll: { data: 710, unit: "sheets" },
                     sheetSize: {
