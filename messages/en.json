@@ -1,297 +1,298 @@
 {
-    "Locale": {
-        "en": "English",
-        "tr": "Türkçe",
-        "es": "Español"
+  "Locale": {
+    "en": "English",
+    "tr": "Türkçe",
+    "es": "Español"
+  },
+  "Theme": {
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode"
+  },
+  "Common": {
+    "welcome": "Welcome",
+    "goodbye": "Goodbye",
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "contactUs": "Contact Us",
+    "countries": "Countries",
+    "ton": "Ton",
+    "contact": "Contact",
+    "pages": "Pages",
+    "all": "All"
+  },
+  "Footer": {
+    "copyright": "Copyright © 2025 UBEN. All rights reserved.",
+    "terms": "Terms and Conditions",
+    "privacy": "Privacy and Cookie Policy"
+  },
+  "Cities": {
+    "dubai": "Dubai",
+    "istanbul": "Istanbul",
+    "new-york": "New York",
+    "london": "London",
+    "sofia": "Sofia"
+  },
+  "Colors": {
+    "white": "White",
+    "brown": "Brown"
+  },
+  "Home": {
+    "Intro": {
+      "title": "A Clean Business.",
+      "description": "As Uben Professional, we take pride in being one of the leading companies in the industrial cleaning sector with our strong supply chain, production power, and trust-based service approach.",
+      "explore": "Explore Products"
     },
-    "Theme": {
-        "darkMode": "Dark Mode",
-        "lightMode": "Light Mode"
+    "IntroDetail": {
+      "title": "A Clean Solution Partner.",
+      "description": "Specializing in industrial cleaning, Uben Professional offers effective solutions to your needs with high production capacity, a quality-focused approach, and a strong supply chain. With transparency at every stage and trust in every product, we are the cleanest partner for long-term collaborations."
     },
-    "Common": {
-        "welcome": "Welcome",
-        "goodbye": "Goodbye",
-        "home": "Home",
-        "products": "Products",
-        "about": "About Us",
-        "contactUs": "Contact Us",
-        "countries": "Countries",
-        "ton": "Ton",
-        "contact": "Contact",
-        "pages": "Pages",
-        "all": "All"
+    "Stats": {
+      "title": "A Clean World.",
+      "description": "Despite our high production capacity, our sustainable production approach invests not only in our business but also in the future of our planet.",
+      "tagline": "Growth",
+      "detail": "Detail",
+      "yearlyProduction": "Yearly Production",
+      "sustainabilityGrowth": "Sustainability Growth"
     },
-    "Footer": {
-        "copyright": "Copyright © 2025 UBEN. All rights reserved.",
-        "terms": "Terms and Conditions",
-        "privacy": "Privacy and Cookie Policy"
+    "WorldDistribution": {
+      "title": "A Spotless Collaboration",
+      "description": "With our offices around the world, we are always by your side for every need!",
+      "tagline": "Get in Touch"
     },
-    "Cities": {
-        "dubai": "Dubai",
-        "istanbul": "Istanbul",
-        "new-york": "New York",
-        "london": "London"
-    },
-    "Colors": {
-        "white": "White",
-        "brown": "Brown"
-    },
-    "Home": {
-        "Intro": {
-            "title": "A Clean Business.",
-            "description": "As Uben Professional, we take pride in being one of the leading companies in the industrial cleaning sector with our strong supply chain, production power, and trust-based service approach.",
-            "explore": "Explore Products"
-        },
-        "IntroDetail": {
-            "title": "A Clean Solution Partner.",
-            "description": "Specializing in industrial cleaning, Uben Professional offers effective solutions to your needs with high production capacity, a quality-focused approach, and a strong supply chain. With transparency at every stage and trust in every product, we are the cleanest partner for long-term collaborations."
-        },
-        "Stats": {
-            "title": "A Clean World.",
-            "description": "Despite our high production capacity, our sustainable production approach invests not only in our business but also in the future of our planet.",
-            "tagline": "Growth",
-            "detail": "Detail",
-            "yearlyProduction": "Yearly Production",
-            "sustainabilityGrowth": "Sustainability Growth"
-        },
-        "WorldDistribution": {
-            "title": "A Spotless Collaboration",
-            "description": "With our offices around the world, we are always by your side for every need!",
-            "tagline": "Get in Touch"
-        },
-        "Partners": {
-            "title": "Trusted by Various Industries Worldwide"
-        },
-        "Products": {
-            "title": "Our Diverse Products",
-            "zFoldPaper": {
-                "title": "The long headline you see in this feature section",
-                "description": "Perfect for quick cleaning and high absorption.",
-                "detail": "Go to Product"
-            },
-            "rollPaper": {
-                "title": "The long headline you see in this feature section",
-                "description": "Soft and durable, ideal for any environment.",
-                "detail": "Explore Product"
-            },
-            "foldDispenserNapkin": {
-                "title": "The long headline you see in this feature section",
-                "description": "Designed for high-traffic environments, ensures long-lasting use.",
-                "detail": "Compare Variants"
-            }
-        }
-    },
-    "About": {
-        "Intro": {
-            "title": "About UBEN",
-            "description": "Your Reliable Partner in Industrial Cleaning."
-        },
-        "IntroDetail": {
-            "title": "Professional Paper Solutions. Global Scale. Industrial Precision.",
-            "description": "Uben Professional, based in Bursa with a 5,700 m² production facility, is a trusted partner in industrial cleaning solutions. With a daily capacity of 1,600 boxes and a monthly production volume of 100 tons, it provides fast, consistent, and high-quality service.\nWith over 50 experienced employees meticulously managing every stage of production, Uben Professional delivers without compromising on quality and efficiency. Offering more than 15 product types, it develops effective solutions for diverse industry needs; delivering the right product at the right time.\nRemaining committed to quality standards at every stage, from raw material to finished product, Uben Professional adopts sustainable and high-quality production as a principle. With a continuous improvement approach, we aim to increase customer satisfaction and build long-term collaborations through innovative solutions.\n“As Uben Professional, we take pride in being one of the leading companies in the industrial cleaning sector with our strong supply chain, production power, and trust-based service approach.”"
-        },
-        "Stats": {
-            "title": "Strong Supply. Reliable Partnership. Intercontinental Distribution.",
-            "description": "As Uben Professional, we take pride in being one of the leading companies in the industrial cleaning sector with our strong supply chain, production power, and trust-based service approach.",
-            "paperTowl": {
-                "title": "Roll Towel",
-                "detail": "Roll Towel, which makes up the largest part of Uben’s production, stands out with its high capacity and suitability for heavy-use areas."
-            },
-            "zPaper": {
-                "title": "Z Fold",
-                "detail": "Uben Z Fold Paper covers 30% of production and offers a comfortable drying experience with its extra soft texture."
-            },
-            "other": {
-                "title": "Other Products",
-                "detail": "Making up 25% of production, other products provide practical and effective solutions for various hygiene needs."
-            }
-        },
-        "Contact": {
-            "description": "Fill out the form below to get in touch with us.",
-            "name": "First Name",
-            "lastName": "Last Name",
-            "email": "Email",
-            "phone": "Phone",
-            "phoneNumber": "Phone Number",
-            "topic": "Select a topic",
-            "topicPlaceholder": "Choose one.",
-            "topicOptions": {
-                "option-1": "First option",
-                "option-2": "Second option",
-                "option-3": "Third option",
-                "option-4": "Fourth option",
-                "option-5": "Fifth option"
-            },
-            "needsQuestion": "Which best describes your needs?",
-            "needsOptions": {
-                "option-1": "First choice",
-                "option-2": "Second choice",
-                "option-3": "Third choice",
-                "option-4": "Fourth choice",
-                "option-5": "Fifth choice",
-                "option-6": "Other"
-            },
-            "message": "Message",
-            "messagePlaceholder": "Write your message.",
-            "acceptTerms": "I accept the terms and conditions.",
-            "submit": "Submit",
-            "emailInfo": "Email us for all your inquiries",
-            "phoneInfo": "Just a call away.",
-            "office": "Office",
-            "getDirections": "Get Directions"
-        }
+    "Partners": {
+      "title": "Trusted by Various Industries Worldwide"
     },
     "Products": {
-        "title": "Our Products",
-        "description": "Product availability may vary by country",
-        "Categories": {
-            "handTowel": {
-                "title": "Hand Towel",
-                "description": "Commercial"
-            },
-            "toiletPaper": {
-                "title": "Toilet Paper",
-                "description": "Commercial | Professional"
-            },
-            "napkin": {
-                "title": "Napkin",
-                "description": "Commercial | Personal"
-            }
-        },
-        "zFoldPaper": {
-            "title": "Z Fold Paper",
-            "description": "Commercial",
-            "detail": "Uben Z Fold Paper, with its large size and extra soft texture, not only provides a premium feel but is also gentle on hands. Ideal for medium-traffic washrooms, and when used with the Uben Z Fold Paper Dispenser, it fits easily into even small spaces. Offers both hygiene and comfort to your guests.",
-            "bulletPoints": {
-                "item-1": "Its stylish embossed surface creates a professional and high-quality impression.",
-                "item-2": "Extra soft texture ensures a comfortable drying experience.",
-                "item-3": "Quick Dry Technology reduces waste while providing better absorbency.",
-                "item-4": "Single-sheet dispensing enhances hygiene while reducing consumption."
-            }
-        },
-        "rollPaper": {
-            "title": "Roll Towel",
-            "description": "Commercial",
-            "detail": "Uben Roll Towel is a practical and hygienic solution for high-traffic areas such as schools and airports, thanks to its high capacity. Compatible with Uben dispenser systems, these rolls simplify maintenance and refilling in busy environments.",
-            "bulletPoints": {
-                "item-1": "Provides economical use, efficiently meeting basic hand drying needs.",
-                "item-2": "Extra-long rolls reduce refill frequency, saving time.",
-                "item-3": "Dispenses one sheet at a time, increasing hygiene and reducing consumption."
-            }
-        },
-        "centerPullToiletPaper": {
-            "title": "Center Pull Toilet Paper",
-            "description": "Commercial",
-            "detail": "Uben Center Pull Toilet Paper dispenses sheets one at a time, reducing usage and helping each roll last longer. Compared to traditional jumbo rolls, it is more economical and hygienic. With different dispenser options, it suits low, medium, and high-traffic washrooms.",
-            "bulletPoints": {
-                "item-1": "Quickly dissolves in water, minimizing pipe clogging risk.",
-                "item-2": "Practical roll core makes removal and refilling easier.",
-                "item-3": "High capacity reduces maintenance needs and lowers the risk of running out.",
-                "item-4": "Soft texture and high whiteness provide a comfortable cleaning experience."
-            }
-        },
-        "jumboToiletPaper": {
-            "title": "Jumbo Toilet Paper",
-            "description": "Commercial",
-            "detail": "Uben Jumbo Toilet Paper lasts much longer than standard rolls, saving both time and costs. Its 2-ply structure increases durability while enhancing user comfort. Ideal for medium to high-traffic areas.",
-            "bulletPoints": {
-                "item-1": "High capacity reduces maintenance needs and lowers the risk of running out.",
-                "item-2": "Elegant embossed surface gives a premium look to your space."
-            }
-        },
-        "foldDispenserNapkin": {
-            "title": "Fold Dispenser Napkin",
-            "description": "Commercial",
-            "detail": "Uben Dispenser Napkins provide a hygienic and practical solution for quick-service restaurants, cafés, bars, and dining points. Compared to traditional napkin dispensers, they take up less space, extend refill intervals, and significantly reduce unused napkin waste. With their 2-ply structure, they are both durable and comfortable.",
-            "bulletPoints": {
-                "item-1": "Folding system ensures a full-size napkin when opened while saving space.",
-                "item-2": "Compact box design makes storage and loading easier.",
-                "item-3": "Special packaging keeps bundles hygienic and ready for use."
-            }
-        },
-        "lunchNapkin": {
-            "title": "Lunch Napkin",
-            "description": "Commercial",
-            "detail": "Uben Lunch Napkins are ideal for serving light meals and snacks. With modern and classic color options, they fit your business style. Optional custom prints allow you to deliver your brand message directly to guests.",
-            "bulletPoints": {
-                "item-1": "Maintains natural color without additional whitening or dye.",
-                "item-2": "Eco-friendly with industrial recycling.",
-                "item-3": "“100% recycled” label reinforces sustainability message.",
-                "item-4": "Natural brown tone highlights recycling and offers an eco-friendly look."
-            }
-        },
-        "paperNapkin": {
-            "title": "Square Napkin",
-            "description": "Commercial",
-            "detail": "Uben Square Napkin is a practical solution for cafés, restaurants, bars, and catering services to set clean, hygienic, and stylish tables quickly. Its 2-ply structure balances softness and absorbency, while edge embossing provides a premium look. Hygienic block packaging makes storage easier; available in multiple colors and printing options to highlight your brand.",
-            "bulletPoints": {
-                "item-1": "Easy-to-separate durable structure speeds up service and reduces waste.",
-                "item-2": "Soft texture, high absorbency.",
-                "item-3": "Hygienic block packaging ensures easy storage/transport.",
-                "item-4": "White, kraft, and colored options + optional logo printing."
-            }
-        },
-        "cDispenserPaperNapkin": {
-            "title": "C Fold Dispenser Paper Napkin",
-            "description": "Commercial",
-            "detail": "Uben C Fold Paper, with its compact size and extra soft texture, not only provides a premium feel but is also gentle on hands. Ideal for medium-traffic washrooms, and when used with the Uben C Fold Paper Dispenser, it easily fits even into small spaces. Offers both hygiene and comfort to your guests.",
-            "bulletPoints": {
-                "item-1": "Its stylish embossed surface creates a professional and high-quality impression.",
-                "item-2": "Extra soft texture ensures a comfortable drying experience.",
-                "item-3": "Quick Dry Technology reduces waste while providing better absorbency.",
-                "item-4": "Single-sheet dispensing enhances hygiene while reducing consumption."
-            }
-        },
-        "allProducts": "All Products"
-    },
-    "Product": {
-        "variants": "Variants",
-        "pdfDownload": "Download PDF",
-        "paperKind": "Paper Type",
-        "metric": "Metric",
-        "imperial": "Imperial",
-        "sheetCountPerRoll": "Sheets Per Roll",
-        "openSheetSize": "Open Sheet Size",
-        "sheetSize": "Sheet Size",
-        "numberOfPiles": "Number of Piles",
-        "caseCount": "Cases",
-        "sheetCount": "Sheets",
-        "sheetCountPerCase": "Sheets Per Case",
-        "caseSize": "Case Size",
-        "caseWeight": "Case Weight",
-        "packWeight": "Pack Weight",
-        "sheets": "Sheets",
-        "cm": "cm",
-        "inch": "inch",
-        "kg": "kg",
-        "pound": "lb",
-        "plyRating": "Ply Rating",
-        "ply": "Ply",
-        "packCount": "Pack Count",
-        "rolls": "Rolls",
-        "color": "Color",
-        "diameter": "Diameter",
-        "150Sheets": "150 Sheets",
-        "200Sheets": "200 Sheets",
-        "1ply4kg": "Single Layer 4kg",
-        "2ply4kg": "Double Layer 4kg",
-        "2ply5kgLarge": "Double Layer Large 5kg",
-        "mini": "Mini",
-        "standard": "Standard",
-        "productDetail": {
-            "title": "Product Detail",
-            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit...",
-            "subTitle": "Description"
-        },
-        "shippingDetails": {
-            "title": "Shipping Details",
-            "info": "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
-            "subTitle": "Shipping Features"
-        },
-        "comparison": {
-            "title": "Compare",
-            "info": "consectetur adipisicing elit, sed do eiusmod tempor incididunt...",
-            "subTitle": "Comparison"
-        }
+      "title": "Our Diverse Products",
+      "zFoldPaper": {
+        "title": "The long headline you see in this feature section",
+        "description": "Perfect for quick cleaning and high absorption.",
+        "detail": "Go to Product"
+      },
+      "rollPaper": {
+        "title": "The long headline you see in this feature section",
+        "description": "Soft and durable, ideal for any environment.",
+        "detail": "Explore Product"
+      },
+      "foldDispenserNapkin": {
+        "title": "The long headline you see in this feature section",
+        "description": "Designed for high-traffic environments, ensures long-lasting use.",
+        "detail": "Compare Variants"
+      }
     }
+  },
+  "About": {
+    "Intro": {
+      "title": "About UBEN",
+      "description": "Your Reliable Partner in Industrial Cleaning."
+    },
+    "IntroDetail": {
+      "title": "Professional Paper Solutions. Global Scale. Industrial Precision.",
+      "description": "Uben Professional, based in Bursa with a 5,700 m² production facility, is a trusted partner in industrial cleaning solutions. With a daily capacity of 1,600 boxes and a monthly production volume of 100 tons, it provides fast, consistent, and high-quality service.\nWith over 50 experienced employees meticulously managing every stage of production, Uben Professional delivers without compromising on quality and efficiency. Offering more than 15 product types, it develops effective solutions for diverse industry needs; delivering the right product at the right time.\nRemaining committed to quality standards at every stage, from raw material to finished product, Uben Professional adopts sustainable and high-quality production as a principle. With a continuous improvement approach, we aim to increase customer satisfaction and build long-term collaborations through innovative solutions.\n“As Uben Professional, we take pride in being one of the leading companies in the industrial cleaning sector with our strong supply chain, production power, and trust-based service approach.”"
+    },
+    "Stats": {
+      "title": "Strong Supply. Reliable Partnership. Intercontinental Distribution.",
+      "description": "As Uben Professional, we take pride in being one of the leading companies in the industrial cleaning sector with our strong supply chain, production power, and trust-based service approach.",
+      "paperTowl": {
+        "title": "Roll Towel",
+        "detail": "Roll Towel, which makes up the largest part of Uben’s production, stands out with its high capacity and suitability for heavy-use areas."
+      },
+      "zPaper": {
+        "title": "Z Fold",
+        "detail": "Uben Z Fold Paper covers 30% of production and offers a comfortable drying experience with its extra soft texture."
+      },
+      "other": {
+        "title": "Other Products",
+        "detail": "Making up 25% of production, other products provide practical and effective solutions for various hygiene needs."
+      }
+    },
+    "Contact": {
+      "description": "Fill out the form below to get in touch with us.",
+      "name": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "phoneNumber": "Phone Number",
+      "topic": "Select a topic",
+      "topicPlaceholder": "Choose one.",
+      "topicOptions": {
+        "option-1": "First option",
+        "option-2": "Second option",
+        "option-3": "Third option",
+        "option-4": "Fourth option",
+        "option-5": "Fifth option"
+      },
+      "needsQuestion": "Which best describes your needs?",
+      "needsOptions": {
+        "option-1": "First choice",
+        "option-2": "Second choice",
+        "option-3": "Third choice",
+        "option-4": "Fourth choice",
+        "option-5": "Fifth choice",
+        "option-6": "Other"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Write your message.",
+      "acceptTerms": "I accept the terms and conditions.",
+      "submit": "Submit",
+      "emailInfo": "Email us for all your inquiries",
+      "phoneInfo": "Just a call away.",
+      "office": "Office",
+      "getDirections": "Get Directions"
+    }
+  },
+  "Products": {
+    "title": "Our Products",
+    "description": "Product availability may vary by country",
+    "Categories": {
+      "handTowel": {
+        "title": "Hand Towel",
+        "description": "Commercial"
+      },
+      "toiletPaper": {
+        "title": "Toilet Paper",
+        "description": "Commercial | Professional"
+      },
+      "napkin": {
+        "title": "Napkin",
+        "description": "Commercial | Personal"
+      }
+    },
+    "zFoldPaper": {
+      "title": "Z Fold Paper",
+      "description": "Commercial",
+      "detail": "Uben Z Fold Paper, with its large size and extra soft texture, not only provides a premium feel but is also gentle on hands. Ideal for medium-traffic washrooms, and when used with the Uben Z Fold Paper Dispenser, it fits easily into even small spaces. Offers both hygiene and comfort to your guests.",
+      "bulletPoints": {
+        "item-1": "Its stylish embossed surface creates a professional and high-quality impression.",
+        "item-2": "Extra soft texture ensures a comfortable drying experience.",
+        "item-3": "Quick Dry Technology reduces waste while providing better absorbency.",
+        "item-4": "Single-sheet dispensing enhances hygiene while reducing consumption."
+      }
+    },
+    "rollPaper": {
+      "title": "Roll Towel",
+      "description": "Commercial",
+      "detail": "Uben Roll Towel is a practical and hygienic solution for high-traffic areas such as schools and airports, thanks to its high capacity. Compatible with Uben dispenser systems, these rolls simplify maintenance and refilling in busy environments.",
+      "bulletPoints": {
+        "item-1": "Provides economical use, efficiently meeting basic hand drying needs.",
+        "item-2": "Extra-long rolls reduce refill frequency, saving time.",
+        "item-3": "Dispenses one sheet at a time, increasing hygiene and reducing consumption."
+      }
+    },
+    "centerPullToiletPaper": {
+      "title": "Center Pull Toilet Paper",
+      "description": "Commercial",
+      "detail": "Uben Center Pull Toilet Paper dispenses sheets one at a time, reducing usage and helping each roll last longer. Compared to traditional jumbo rolls, it is more economical and hygienic. With different dispenser options, it suits low, medium, and high-traffic washrooms.",
+      "bulletPoints": {
+        "item-1": "Quickly dissolves in water, minimizing pipe clogging risk.",
+        "item-2": "Practical roll core makes removal and refilling easier.",
+        "item-3": "High capacity reduces maintenance needs and lowers the risk of running out.",
+        "item-4": "Soft texture and high whiteness provide a comfortable cleaning experience."
+      }
+    },
+    "jumboToiletPaper": {
+      "title": "Jumbo Toilet Paper",
+      "description": "Commercial",
+      "detail": "Uben Jumbo Toilet Paper lasts much longer than standard rolls, saving both time and costs. Its 2-ply structure increases durability while enhancing user comfort. Ideal for medium to high-traffic areas.",
+      "bulletPoints": {
+        "item-1": "High capacity reduces maintenance needs and lowers the risk of running out.",
+        "item-2": "Elegant embossed surface gives a premium look to your space."
+      }
+    },
+    "foldDispenserNapkin": {
+      "title": "Fold Dispenser Napkin",
+      "description": "Commercial",
+      "detail": "Uben Dispenser Napkins provide a hygienic and practical solution for quick-service restaurants, cafés, bars, and dining points. Compared to traditional napkin dispensers, they take up less space, extend refill intervals, and significantly reduce unused napkin waste. With their 2-ply structure, they are both durable and comfortable.",
+      "bulletPoints": {
+        "item-1": "Folding system ensures a full-size napkin when opened while saving space.",
+        "item-2": "Compact box design makes storage and loading easier.",
+        "item-3": "Special packaging keeps bundles hygienic and ready for use."
+      }
+    },
+    "lunchNapkin": {
+      "title": "Lunch Napkin",
+      "description": "Commercial",
+      "detail": "Uben Lunch Napkins are ideal for serving light meals and snacks. With modern and classic color options, they fit your business style. Optional custom prints allow you to deliver your brand message directly to guests.",
+      "bulletPoints": {
+        "item-1": "Maintains natural color without additional whitening or dye.",
+        "item-2": "Eco-friendly with industrial recycling.",
+        "item-3": "“100% recycled” label reinforces sustainability message.",
+        "item-4": "Natural brown tone highlights recycling and offers an eco-friendly look."
+      }
+    },
+    "paperNapkin": {
+      "title": "Square Napkin",
+      "description": "Commercial",
+      "detail": "Uben Square Napkin is a practical solution for cafés, restaurants, bars, and catering services to set clean, hygienic, and stylish tables quickly. Its 2-ply structure balances softness and absorbency, while edge embossing provides a premium look. Hygienic block packaging makes storage easier; available in multiple colors and printing options to highlight your brand.",
+      "bulletPoints": {
+        "item-1": "Easy-to-separate durable structure speeds up service and reduces waste.",
+        "item-2": "Soft texture, high absorbency.",
+        "item-3": "Hygienic block packaging ensures easy storage/transport.",
+        "item-4": "White, kraft, and colored options + optional logo printing."
+      }
+    },
+    "cDispenserPaperNapkin": {
+      "title": "C Fold Dispenser Paper Napkin",
+      "description": "Commercial",
+      "detail": "Uben C Fold Paper, with its compact size and extra soft texture, not only provides a premium feel but is also gentle on hands. Ideal for medium-traffic washrooms, and when used with the Uben C Fold Paper Dispenser, it easily fits even into small spaces. Offers both hygiene and comfort to your guests.",
+      "bulletPoints": {
+        "item-1": "Its stylish embossed surface creates a professional and high-quality impression.",
+        "item-2": "Extra soft texture ensures a comfortable drying experience.",
+        "item-3": "Quick Dry Technology reduces waste while providing better absorbency.",
+        "item-4": "Single-sheet dispensing enhances hygiene while reducing consumption."
+      }
+    },
+    "allProducts": "All Products"
+  },
+  "Product": {
+    "variants": "Variants",
+    "pdfDownload": "Download PDF",
+    "paperKind": "Paper Type",
+    "metric": "Metric",
+    "imperial": "Imperial",
+    "sheetCountPerRoll": "Sheets Per Roll",
+    "openSheetSize": "Open Sheet Size",
+    "sheetSize": "Sheet Size",
+    "numberOfPiles": "Number of Piles",
+    "caseCount": "Cases",
+    "sheetCount": "Sheets",
+    "sheetCountPerCase": "Sheets Per Case",
+    "caseSize": "Case Size",
+    "caseWeight": "Case Weight",
+    "packWeight": "Pack Weight",
+    "sheets": "Sheets",
+    "cm": "cm",
+    "inch": "inch",
+    "kg": "kg",
+    "pound": "lb",
+    "plyRating": "Ply Rating",
+    "ply": "Ply",
+    "packCount": "Pack Count",
+    "rolls": "Rolls",
+    "color": "Color",
+    "diameter": "Diameter",
+    "150Sheets": "150 Sheets",
+    "200Sheets": "200 Sheets",
+    "1ply4kg": "Single Layer 4kg",
+    "2ply4kg": "Double Layer 4kg",
+    "2ply5kgLarge": "Double Layer Large 5kg",
+    "maxi": "Maxi",
+    "mini": "Mini",
+    "productDetail": {
+      "title": "Product Detail",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit...",
+      "subTitle": "Description"
+    },
+    "shippingDetails": {
+      "title": "Shipping Details",
+      "info": "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
+      "subTitle": "Shipping Features"
+    },
+    "comparison": {
+      "title": "Compare",
+      "info": "consectetur adipisicing elit, sed do eiusmod tempor incididunt...",
+      "subTitle": "Comparison"
+    }
+  }
 }
