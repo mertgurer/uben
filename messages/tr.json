@@ -19,7 +19,9 @@
     "ton": "Ton",
     "contact": "İletişim",
     "pages": "Sayfalar",
-    "all": "Tümü"
+    "all": "Tümü",
+    "textCopied": "Metin Kopyalandı",
+    "failedTextCopy": "Metin Kopyalanamadı"
   },
   "Footer": {
     "copyright": "Telif Hakkı © 2025 UBEN. Tüm hakları saklıdır.",
@@ -109,7 +111,7 @@
     },
     "Contact": {
       "description": "Aşağıdaki formu doldurarak, bizimle iletişime geçebilirsiniz.",
-      "name": "Ad",
+      "firstName": "Ad",
       "lastName": "Soyad",
       "email": "E-posta",
       "phone": "Telefon",
@@ -139,7 +141,17 @@
       "emailInfo": "Tüm Sorularınız İçin Bize Mail Atın",
       "phoneInfo": "Sadece bir arama uzağında.",
       "office": "Ofis",
-      "getDirections": "Yol Tarifi Al"
+      "getDirections": "Yol Tarifi Al",
+      "sending": "Mesaj gönderiliyor.",
+      "Error": {
+        "required": "Lütfen tüm gerekli alanları doldurun.",
+        "invalidEmail": "Lütfen geçerli bir e-posta adresi girin.",
+        "invalidMessage": "Mesaj en az 10 karakter uzunluğunda olmalıdır.",
+        "messageFailed": "Mesaj gönderilemedi."
+      },
+      "Success": {
+        "messageSent": "Mesaj başarıyla gönderildi!"
+      }
     }
   },
   "Products": {

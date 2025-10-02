@@ -19,7 +19,9 @@
     "ton": "Ton",
     "contact": "Contact",
     "pages": "Pages",
-    "all": "All"
+    "all": "All",
+    "textCopied": "Text Copied to Clipboard",
+    "failedTextCopy": "Failed to Copy Text"
   },
   "Footer": {
     "copyright": "Copyright © 2025 UBEN. All rights reserved.",
@@ -109,7 +111,7 @@
     },
     "Contact": {
       "description": "Fill out the form below to get in touch with us.",
-      "name": "First Name",
+      "firstName": "First Name",
       "lastName": "Last Name",
       "email": "Email",
       "phone": "Phone",
@@ -139,7 +141,17 @@
       "emailInfo": "Email us for all your inquiries",
       "phoneInfo": "Just a call away.",
       "office": "Office",
-      "getDirections": "Get Directions"
+      "getDirections": "Get Directions",
+      "sending": "Sending message.",
+      "Error": {
+        "required": "Please fill in all required fields.",
+        "invalidEmail": "Please enter a valid email address.",
+        "invalidMessage": "Message must be at least 10 characters long.",
+        "messageFailed": "Failed to send message."
+      },
+      "Success": {
+        "messageSent": "Message sent successfully!"
+      }
     }
   },
   "Products": {
