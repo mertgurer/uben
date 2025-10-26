@@ -7,17 +7,17 @@ import Partners from "@/components/home/partners";
 import Products from "@/components/home/products";
 
 function Home() {
-    return (
-        <main className="flex flex-col">
-            <Welcome />
-            <Intro />
-            <IntroDetail />
-            <Stats />
-            <WorldDistribution />
-            <Partners />
-            <Products />
-        </main>
-    );
+  return (
+    <main className="flex flex-col">
+      <Welcome />
+      <Intro />
+      <IntroDetail />
+      <Stats />
+      <WorldDistribution />
+      <Partners />
+      <Products />
+    </main>
+  );
 }
 
 export default Home;

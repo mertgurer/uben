@@ -10,9 +10,10 @@ import DetailInfo from "./detailInfo";
 
 interface Props {
   product: ProductModel;
+  images: string[];
 }
 
-function Body({ product }: Props) {
+function Body({ product, images }: Props) {
   const [selectedVariant, setSelectedVariant] = useState(
     product.variants[0].key
   );
@@ -32,7 +33,7 @@ function Body({ product }: Props) {
           </div>
           <SpanL className="text-4xl font-medium mb-2 text-primary">{`Products.${product.key}.title`}</SpanL>
         </div>
-        <ImageCarousel images={[product.cover, ...product.images]} />
+        <ImageCarousel images={images} />
         <div className="flex-1 flex flex-col gap-5">
           <div className="flex flex-col gap-3 max-md:hidden">
             <HierarchyNavigation product={product} />
