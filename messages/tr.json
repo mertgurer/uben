@@ -306,5 +306,17 @@
       "info": "consectetur adipisicing elit, sed do eiusmod tempor incididunt...",
       "subTitle": "Karşılaştırma"
     }
+  },
+  "Admin": {
+    "Login": {
+      "title": "Yönetici Girişi",
+      "email": "E-posta adresi",
+      "password": "Şifre",
+      "submit": "Giriş Yap",
+      "errorMessage": "Giriş başarısız. Lütfen e-posta ve şifrenizi kontrol edin."
+    },
+    "Dashboard": {
+      "logout": "Çıkış Yap"
+    }
   }
 }

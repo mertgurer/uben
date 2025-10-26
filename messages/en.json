@@ -306,5 +306,17 @@
       "info": "consectetur adipisicing elit, sed do eiusmod tempor incididunt...",
       "subTitle": "Comparison"
     }
+  },
+  "Admin": {
+    "Login": {
+      "title": "Admin Login",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Login",
+      "errorMessage": "Invalid email or password."
+    },
+    "Dashboard": {
+      "logout": "Logout"
+    }
   }
 }
