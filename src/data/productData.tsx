@@ -37,3 +37,19 @@ export type LocaleField = Record<LocaleTypes, string>;
 
 export const ColorOptions = ["white"] as const;
 export type ColorOption = (typeof ColorOptions)[number];
+
+export const createEmptyProduct = (): ProductModel => ({
+  id: "",
+  key: "new",
+  title: { en: "", tr: "" },
+  description: { en: "", tr: "" },
+  bulletPoints: [],
+  category: Category.NAPKIN,
+  pdf: "",
+  variants: [],
+});
+
+export const createEmptyLocaleField = (): LocaleField => ({
+  en: "",
+  tr: "",
+});

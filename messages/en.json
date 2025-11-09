@@ -233,7 +233,24 @@
     },
     "Dashboard": {
       "logout": "Logout",
-      "new": "+ Add New Product"
+      "update": "Update Product",
+      "create": "Create Product",
+      "key": "Product Key",
+      "category": "Category",
+      "title": "Title",
+      "description": "Description",
+      "bulletPoint": "Bullet Point",
+      "new": "+ Add New Product",
+      "updating": "Product Updating...",
+      "creating": "Product Creating...",
+      "Success": {
+        "productUpdated": "Product updated successfully!",
+        "productCreated": "Product created successfully!"
+      },
+      "Error": {
+        "productUpdateFailed": "Product update failed. Please try again.",
+        "productCreateFailed": "Product creation failed. Please try again."
+      }
     }
   }
 }

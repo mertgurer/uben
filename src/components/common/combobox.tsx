@@ -9,7 +9,9 @@ interface ComboboxProps {
   name: string;
   label: string;
   options: { key: string; label: string }[];
-  setSelected: Dispatch<React.SetStateAction<string>>;
+  defaultValue?: string;
+  setSelected?: Dispatch<React.SetStateAction<string>>;
+  className?: string;
   dark?: boolean;
   noTranslation?: boolean;
   noEmptySelection?: boolean;
@@ -19,7 +21,9 @@ function Combobox({
   name,
   label,
   options,
+  defaultValue,
   setSelected,
+  className,
   dark = false,
   noEmptySelection = false,
 }: ComboboxProps) {
@@ -38,8 +42,9 @@ function Combobox({
           dark
             ? "bg-trim px-5 shadow-[0_3px_5px_-5px] shadow-text"
             : "border border-primary/30 px-4"
-        }`}
-        onChange={(e) => setSelected(e.target.value)}
+        } ${className}`}
+        onChange={(e) => setSelected && setSelected(e.target.value)}
+        defaultValue={defaultValue}
       >
         {!noEmptySelection && (
           <option value="">{t("About.Contact.topicPlaceholder")}</option>

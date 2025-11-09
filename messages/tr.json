@@ -233,7 +233,24 @@
     },
     "Dashboard": {
       "logout": "Çıkış Yap",
-      "new": "+ Yeni Ürün Ekle"
+      "update": "Ürünü Güncelle",
+      "create": "Ürün Oluştur",
+      "key": "Ürün Anahtarı",
+      "category": "Kategori",
+      "title": "Başlık",
+      "description": "Açıklama",
+      "bulletPoint": "Detay Maddesi",
+      "new": "+ Yeni Ürün Ekle",
+      "updating": "Ürün Güncelleniyor...",
+      "creating": "Ürün Oluşturuluyor...",
+      "Success": {
+        "productUpdated": "Ürün başarıyla güncellendi!",
+        "productCreated": "Ürün başarıyla oluşturuldu!"
+      },
+      "Error": {
+        "productUpdateFailed": "Ürün güncellenemedi. Lütfen tekrar deneyin.",
+        "productCreateFailed": "Ürün oluşturulamadı. Lütfen tekrar deneyin."
+      }
     }
   }
 }
