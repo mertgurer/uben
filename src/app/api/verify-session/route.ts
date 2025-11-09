@@ -1,12 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
 import admin from "firebase-admin";
 import { serialize } from "cookie";
+import { db } from "@/firebase";
 
 export async function POST(req: NextRequest) {
   try {
     const { sessionCookie } = await req.json();
 
     if (!sessionCookie) {
+      return NextResponse.json({ valid: false }, { status: 401 });
+    }
+
+    const verifyDb = db;
+    if (!verifyDb) {
       return NextResponse.json({ valid: false }, { status: 401 });
     }
 

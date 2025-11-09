@@ -68,17 +68,17 @@
     "Products": {
       "title": "Our Diverse Products",
       "zFoldPaper": {
-        "title": "The long headline you see in this feature section",
+        "title": "Z Fold Paper",
         "description": "Perfect for quick cleaning and high absorption.",
         "detail": "Go to Product"
       },
       "rollPaper": {
-        "title": "The long headline you see in this feature section",
+        "title": "Roll Paper",
         "description": "Soft and durable, ideal for any environment.",
         "detail": "Explore Product"
       },
       "foldDispenserNapkin": {
-        "title": "The long headline you see in this feature section",
+        "title": "Fold Dispenser Napkin",
         "description": "Designed for high-traffic environments, ensures long-lasting use.",
         "detail": "Compare Variants"
       }
@@ -171,90 +171,6 @@
         "description": "Commercial | Personal"
       }
     },
-    "zFoldPaper": {
-      "title": "Z Fold Paper",
-      "description": "Commercial",
-      "detail": "Uben Z Fold Paper, with its large size and extra soft texture, not only provides a premium feel but is also gentle on hands. Ideal for medium-traffic washrooms, and when used with the Uben Z Fold Paper Dispenser, it fits easily into even small spaces. Offers both hygiene and comfort to your guests.",
-      "bulletPoints": {
-        "item-1": "Its stylish embossed surface creates a professional and high-quality impression.",
-        "item-2": "Extra soft texture ensures a comfortable drying experience.",
-        "item-3": "Quick Dry Technology reduces waste while providing better absorbency.",
-        "item-4": "Single-sheet dispensing enhances hygiene while reducing consumption."
-      }
-    },
-    "rollPaper": {
-      "title": "Roll Towel",
-      "description": "Commercial",
-      "detail": "Uben Roll Towel is a practical and hygienic solution for high-traffic areas such as schools and airports, thanks to its high capacity. Compatible with Uben dispenser systems, these rolls simplify maintenance and refilling in busy environments.",
-      "bulletPoints": {
-        "item-1": "Provides economical use, efficiently meeting basic hand drying needs.",
-        "item-2": "Extra-long rolls reduce refill frequency, saving time.",
-        "item-3": "Dispenses one sheet at a time, increasing hygiene and reducing consumption."
-      }
-    },
-    "centerPullToiletPaper": {
-      "title": "Center Pull Toilet Paper",
-      "description": "Commercial",
-      "detail": "Uben Center Pull Toilet Paper dispenses sheets one at a time, reducing usage and helping each roll last longer. Compared to traditional jumbo rolls, it is more economical and hygienic. With different dispenser options, it suits low, medium, and high-traffic washrooms.",
-      "bulletPoints": {
-        "item-1": "Quickly dissolves in water, minimizing pipe clogging risk.",
-        "item-2": "Practical roll core makes removal and refilling easier.",
-        "item-3": "High capacity reduces maintenance needs and lowers the risk of running out.",
-        "item-4": "Soft texture and high whiteness provide a comfortable cleaning experience."
-      }
-    },
-    "jumboToiletPaper": {
-      "title": "Jumbo Toilet Paper",
-      "description": "Commercial",
-      "detail": "Uben Jumbo Toilet Paper lasts much longer than standard rolls, saving both time and costs. Its 2-ply structure increases durability while enhancing user comfort. Ideal for medium to high-traffic areas.",
-      "bulletPoints": {
-        "item-1": "High capacity reduces maintenance needs and lowers the risk of running out.",
-        "item-2": "Elegant embossed surface gives a premium look to your space."
-      }
-    },
-    "foldDispenserNapkin": {
-      "title": "Fold Dispenser Napkin",
-      "description": "Commercial",
-      "detail": "Uben Dispenser Napkins provide a hygienic and practical solution for quick-service restaurants, cafés, bars, and dining points. Compared to traditional napkin dispensers, they take up less space, extend refill intervals, and significantly reduce unused napkin waste. With their 2-ply structure, they are both durable and comfortable.",
-      "bulletPoints": {
-        "item-1": "Folding system ensures a full-size napkin when opened while saving space.",
-        "item-2": "Compact box design makes storage and loading easier.",
-        "item-3": "Special packaging keeps bundles hygienic and ready for use."
-      }
-    },
-    "lunchNapkin": {
-      "title": "Lunch Napkin",
-      "description": "Commercial",
-      "detail": "Uben Lunch Napkins are ideal for serving light meals and snacks. With modern and classic color options, they fit your business style. Optional custom prints allow you to deliver your brand message directly to guests.",
-      "bulletPoints": {
-        "item-1": "Maintains natural color without additional whitening or dye.",
-        "item-2": "Eco-friendly with industrial recycling.",
-        "item-3": "“100% recycled” label reinforces sustainability message.",
-        "item-4": "Natural brown tone highlights recycling and offers an eco-friendly look."
-      }
-    },
-    "paperNapkin": {
-      "title": "Square Napkin",
-      "description": "Commercial",
-      "detail": "Uben Square Napkin is a practical solution for cafés, restaurants, bars, and catering services to set clean, hygienic, and stylish tables quickly. Its 2-ply structure balances softness and absorbency, while edge embossing provides a premium look. Hygienic block packaging makes storage easier; available in multiple colors and printing options to highlight your brand.",
-      "bulletPoints": {
-        "item-1": "Easy-to-separate durable structure speeds up service and reduces waste.",
-        "item-2": "Soft texture, high absorbency.",
-        "item-3": "Hygienic block packaging ensures easy storage/transport.",
-        "item-4": "White, kraft, and colored options + optional logo printing."
-      }
-    },
-    "cDispenserPaperNapkin": {
-      "title": "C Fold Dispenser Paper Napkin",
-      "description": "Commercial",
-      "detail": "Uben C Fold Paper, with its compact size and extra soft texture, not only provides a premium feel but is also gentle on hands. Ideal for medium-traffic washrooms, and when used with the Uben C Fold Paper Dispenser, it easily fits even into small spaces. Offers both hygiene and comfort to your guests.",
-      "bulletPoints": {
-        "item-1": "Its stylish embossed surface creates a professional and high-quality impression.",
-        "item-2": "Extra soft texture ensures a comfortable drying experience.",
-        "item-3": "Quick Dry Technology reduces waste while providing better absorbency.",
-        "item-4": "Single-sheet dispensing enhances hygiene while reducing consumption."
-      }
-    },
     "allProducts": "All Products"
   },
   "Product": {
@@ -316,7 +232,8 @@
       "errorMessage": "Invalid email or password."
     },
     "Dashboard": {
-      "logout": "Logout"
+      "logout": "Logout",
+      "new": "+ Add New Product"
     }
   }
 }

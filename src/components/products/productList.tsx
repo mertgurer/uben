@@ -1,9 +1,9 @@
 import React from "react";
 import { ProductModel } from "@/data/productData";
 import Image from "next/image";
-import SpanL from "../common/spanL";
 import { Link } from "@/i18n/navigation";
 import { FirebaseImages } from "@/lib/firebaseImage";
+import SpanL from "../common/spanL";
 
 interface ProductListProps {
   selectedCategories: string[];
@@ -39,7 +39,9 @@ function ProductList({ selectedCategories, products }: ProductListProps) {
                 className="object-contain"
               />
             </div>
-            <SpanL className="text-xl font-semibold mt-3 ml-2 max-md:mt-2">{`Products.${product.key}.title`}</SpanL>
+            <SpanL className="text-xl font-semibold mt-3 ml-2 max-md:mt-2">
+              {product.title}
+            </SpanL>
             {/* <SpanL className="ml-2">{`Products.${product.key}.description`}</SpanL> */}
           </Link>
         );

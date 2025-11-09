@@ -31,7 +31,9 @@ function Body({ product, images }: Props) {
               }
             </span>
           </div>
-          <SpanL className="text-4xl font-medium mb-2 text-primary">{`Products.${product.key}.title`}</SpanL>
+          <SpanL className="text-4xl font-medium mb-2 text-primary">
+            {product.title}
+          </SpanL>
         </div>
         <ImageCarousel images={images} />
         <div className="flex-1 flex flex-col gap-5">
@@ -44,8 +46,14 @@ function Body({ product, images }: Props) {
               }
             </span>
           </div>
-          <SpanL className="text-4xl font-medium mb-2 text-primary max-md:hidden">{`Products.${product.key}.title`}</SpanL>
-          <Info product={product} setSelectedVariant={setSelectedVariant} />
+          <SpanL className="text-4xl font-medium mb-2 text-primary max-md:hidden">
+            {product.title}
+          </SpanL>
+          <Info
+            product={product}
+            selectedVariant={selectedVariant}
+            setSelectedVariant={setSelectedVariant}
+          />
         </div>
       </div>
       <DetailInfo product={product} selectedVariant={selectedVariant} />

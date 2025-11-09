@@ -13,6 +13,7 @@ async function Products({ searchParams }: Props) {
 
   const snapshot = await adminDb.collection("products").get();
   const products = snapshot.docs.map((doc) => ({
+    id: doc.id,
     ...doc.data(),
   })) as ProductModel[];
 

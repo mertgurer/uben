@@ -23,7 +23,7 @@ async function ProductPage({ params }: Props) {
   }
 
   const doc = snapshot.docs[0];
-  const product = doc.data() as ProductModel;
+  const product = { id: doc.id, ...doc.data() } as ProductModel;
 
   if (!product) {
     redirect({ href: "/products", locale });
