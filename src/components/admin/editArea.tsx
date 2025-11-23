@@ -2,15 +2,19 @@
 
 import React, { useState } from "react";
 import ProductList from "./productList";
-import { ProductModel } from "@/data/productData";
 import LogoutButton from "./logoutButton";
 import ProductFields from "./productFields";
+import { ProductModel, ProductModelType } from "@/models/ProductModel";
 
 interface Props {
-  products: ProductModel[];
+  rawProducts: ProductModelType[];
+  images: Record<string, string[]>;
 }
 
-function EditArea({ products }: Props) {
+function EditArea({ rawProducts, images }: Props) {
+  const products = rawProducts.map(
+    (p) => new ProductModel(p as ProductModelType)
+  );
   const [selectedProduct, setSelectedProduct] = useState<ProductModel>(
     products[0]
   );
@@ -26,7 +30,10 @@ function EditArea({ products }: Props) {
         <LogoutButton />
       </div>
       <div className="w-3/4">
-        <ProductFields product={selectedProduct} />
+        <ProductFields
+          initialProduct={selectedProduct}
+          initialImages={images[selectedProduct.key]}
+        />
       </div>
     </div>
   );

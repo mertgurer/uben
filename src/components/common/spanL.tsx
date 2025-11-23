@@ -10,8 +10,9 @@ function SpanL({ children, className, style }: LocaleSpanProps) {
   const locale = useLocale() as LocaleTypes;
 
   let text: string;
+
   if (typeof children === "object" && children !== null) {
-    text = children[locale] || children["en"];
+    text = children.displayText(locale);
   } else {
     try {
       text = t(children);

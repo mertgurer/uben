@@ -1,9 +1,8 @@
 import React from "react";
-import { ProductModel } from "@/data/productData";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
-import { FirebaseImages } from "@/lib/firebaseImage";
 import SpanL from "../common/spanL";
+import { ProductModel } from "@/models/ProductModel";
 
 interface ProductListProps {
   selectedCategories: string[];
@@ -31,7 +30,7 @@ function ProductList({ selectedCategories, products }: ProductListProps) {
           >
             <div className="relative aspect-[6/7] w-full rounded-md bg-tertiary overflow-hidden">
               <Image
-                src={FirebaseImages.getCover(product.key)}
+                src={product.getCover()}
                 alt={product.key}
                 fill
                 priority

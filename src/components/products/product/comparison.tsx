@@ -1,6 +1,8 @@
 import SpanL from "@/components/common/spanL";
-import { ProductModel } from "@/data/productData";
-import { ProductDisplayHelpers } from "@/helpers/helpers";
+import { PropertyHelpers } from "@/helpers/helpers";
+import { LocaleTypes } from "@/i18n/routing";
+import { ProductModel } from "@/models/ProductModel";
+import { useLocale } from "next-intl";
 import React, { Fragment } from "react";
 
 interface Props {
@@ -9,8 +11,10 @@ interface Props {
 }
 
 function Comparison({ product, measurement }: Props) {
+  const locale = useLocale() as LocaleTypes;
+
   return (
-    <div className="max-md:overflow-x-auto my-4">
+    <div className="overflow-x-auto my-4">
       <div
         className={`min-w-max grid ${
           product.variants.length === 2
@@ -29,25 +33,26 @@ function Comparison({ product, measurement }: Props) {
                 index % 2 === 0 ? "bg-primary" : ""
               }`}
             >
-              <SpanL>{`Product.${variant.key}`}</SpanL>
+              <span>{variant.title.displayText(locale)}</span>
             </div>
           );
         })}
-        {Object.entries(product.variants[0].properties).map(([key, value]) => {
+        {product.variants[0].properties.map((property) => {
           return (
-            <Fragment key={key}>
-              <SpanL className="flex h-full py-6 px-10 opacity-80 self-center text-nowrap border-b border-tertiary/50 max-md:px-4">{`Product.${key}`}</SpanL>
+            <Fragment key={property.key}>
+              <SpanL className="flex h-full py-6 px-10 opacity-80 self-center text-nowrap border-b border-tertiary/50 max-md:px-4">
+                {property.title.displayText(locale)}
+              </SpanL>
               {product.variants.map((variant, index) => {
-                const displayValue = ProductDisplayHelpers.formatProductValue(
-                  key,
-                  product.variants[index].properties,
+                const variantProperty = variant.properties.find(
+                  (x) => x.key === property.key
+                );
+                const value = PropertyHelpers.renderDataModel(
+                  variantProperty!.data,
+                  locale,
                   measurement
                 );
 
-                const displayUnit = ProductDisplayHelpers.formatProductUnit(
-                  product.variants[index].properties[key].unit,
-                  measurement
-                );
                 return (
                   <div
                     key={variant.key}
@@ -55,21 +60,7 @@ function Comparison({ product, measurement }: Props) {
                       index % 2 === 0 ? "bg-primary" : ""
                     }`}
                   >
-                    {value.unit !== "color" ? (
-                      <span className="text-lg">{displayValue}</span>
-                    ) : (
-                      <>
-                        {(value.data as Array<string>).map((color, index) => (
-                          <Fragment key={index}>
-                            {index !== 0 ? ", " : ""}
-                            <SpanL className="text-lg">{`Colors.${color}`}</SpanL>
-                          </Fragment>
-                        ))}
-                      </>
-                    )}
-                    {displayUnit && (
-                      <SpanL className="mb-px">{displayUnit}</SpanL>
-                    )}
+                    <span className="text-lg">{value}</span>
                   </div>
                 );
               })}

@@ -14,7 +14,7 @@ export class FirebaseImages {
   /**
    * Get download URLs for all images in a folder
    * @param folderId - folder name in storage
-   * @param imageNames - array of image file names (optional)
+   * @param imageCount - number of images to fetch
    */
   public static async getImages(
     folderId: string,

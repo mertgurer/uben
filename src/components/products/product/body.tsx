@@ -2,21 +2,26 @@
 
 import React, { useState } from "react";
 import SpanL from "@/components/common/spanL";
-import { ProductModel } from "@/data/productData";
 import HierarchyNavigation from "./hierarchyNavigation";
 import ImageCarousel from "./imageCarousel";
 import Info from "./info";
 import DetailInfo from "./detailInfo";
+import { ProductModel, ProductModelType } from "@/models/ProductModel";
 
 interface Props {
-  product: ProductModel;
+  rawProduct: ProductModelType;
   images: string[];
 }
 
-function Body({ product, images }: Props) {
-  const [selectedVariant, setSelectedVariant] = useState(
-    product.variants[0].key
+function Body({ rawProduct, images }: Props) {
+  const product = new ProductModel(rawProduct);
+  const [selectedVariantKey, setSelectedVariantKey] = useState(
+    rawProduct.variants[0].key
   );
+
+  if (product == null) {
+    return null;
+  }
 
   return (
     <>
@@ -26,7 +31,7 @@ function Body({ product, images }: Props) {
             <HierarchyNavigation product={product} />
             <span className="opacity-70 text-sm">
               {
-                product.variants.find((x) => x.key === selectedVariant)
+                product.variants.find((x) => x.key === selectedVariantKey)
                   ?.productCode
               }
             </span>
@@ -41,7 +46,7 @@ function Body({ product, images }: Props) {
             <HierarchyNavigation product={product} />
             <span className="opacity-70 text-sm">
               {
-                product.variants.find((x) => x.key === selectedVariant)
+                product.variants.find((x) => x.key === selectedVariantKey)
                   ?.productCode
               }
             </span>
@@ -51,12 +56,12 @@ function Body({ product, images }: Props) {
           </SpanL>
           <Info
             product={product}
-            selectedVariant={selectedVariant}
-            setSelectedVariant={setSelectedVariant}
+            selectedVariantKey={selectedVariantKey}
+            setSelectedVariantKey={setSelectedVariantKey}
           />
         </div>
       </div>
-      <DetailInfo product={product} selectedVariant={selectedVariant} />
+      <DetailInfo product={product} selectedVariant={selectedVariantKey} />
     </>
   );
 }

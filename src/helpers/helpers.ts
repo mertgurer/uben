@@ -1,8 +1,9 @@
-import {
-  cmToInchesRatio,
-  kgToPoundsRatio,
-} from "@/components/products/constants/constants";
-import { ColorOption, ProductVariantPropertiesModel } from "@/data/productData";
+import { LocaleTypes } from "@/i18n/routing";
+import { CountDataModel } from "@/models/CountDataModel";
+import { DataModel, DataUnitType, UnitType } from "@/models/DataModel";
+import { LengthDataModel } from "@/models/LengthDataModel";
+import { TextDataModel } from "@/models/TextDataModel";
+import { WeightDataModel } from "@/models/WeightDataModel";
 
 export const DateHelpers = {
   monthToNumber: (month: string): number => {
@@ -63,58 +64,32 @@ export const ContactHelpers = {
   },
 };
 
-export const ProductDisplayHelpers = {
-  formatProductValue: (
-    key: keyof ProductVariantPropertiesModel,
-    properties: ProductVariantPropertiesModel,
-    measurement: "metric" | "imperial"
-  ): string => {
-    const value = properties[key];
-    let displayValue;
-
-    if (typeof value.data === "number") {
-      if (measurement !== "metric" && value.unit === "length") {
-        displayValue = (value.data / cmToInchesRatio).toFixed(2);
-      } else if (measurement !== "metric" && value.unit === "weight") {
-        displayValue = (value.data * kgToPoundsRatio).toFixed(2);
-      } else {
-        displayValue = value.data;
-      }
-    } else if (typeof value.data === "object" && value.data !== null) {
-      if (measurement !== "metric" && value.unit === "length") {
-        displayValue = Object.values(value.data)
-          .map((x) => (x / cmToInchesRatio).toFixed(2))
-          .join(" x ");
-      } else if (measurement !== "metric" && value.unit === "weight") {
-        displayValue = Object.values(value.data)
-          .map((x) => (x * kgToPoundsRatio).toFixed(2))
-          .join(" x ");
-      } else {
-        displayValue = Object.values(value.data).join(" x ");
-      }
-    } else if (value.unit === "color") {
-      if (Array.isArray(value.data)) {
-        const colors = value.data as ColorOption[];
-        displayValue = colors.join(", ");
-      } else {
-        displayValue = value.data as ColorOption;
-      }
+export const PropertyHelpers = {
+  renderDataModel(
+    data: DataModel<DataUnitType, unknown, unknown>,
+    locale: LocaleTypes,
+    measurementType: UnitType
+  ): string {
+    if (CountDataModel.isType(data.unit)) {
+      return (data as CountDataModel).displayText({ displayLocale: locale });
     }
 
-    return String(displayValue);
-  },
+    if (TextDataModel.isType(data.unit)) {
+      return (data as TextDataModel).displayText({ displayLocale: locale });
+    }
 
-  formatProductUnit: (unit: string, measurement: "metric" | "imperial") => {
-    return unit === "length"
-      ? measurement === "metric"
-        ? `Product.cm`
-        : `Product.inch`
-      : unit === "weight"
-      ? measurement === "metric"
-        ? `Product.kg`
-        : `Product.pound`
-      : unit === "color" || unit === "count"
-      ? ""
-      : `Product.${unit}`;
+    if (LengthDataModel.isType(data.unit)) {
+      return (data as LengthDataModel).displayText({
+        lengthUnit: measurementType,
+      });
+    }
+
+    if (WeightDataModel.isType(data.unit)) {
+      return (data as WeightDataModel).displayText({
+        weightUnit: measurementType,
+      });
+    }
+
+    return "";
   },
 };

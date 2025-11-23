@@ -1,71 +1,71 @@
 @import "tailwindcss";
 
 :root {
-    /* light values */
-    --background: #efefef;
-    --primary: #113b65;
-    --secondary: #0b2545;
-    --tertiary: #fff;
-    --trim: #ddd;
-    --text: #000;
+  /* light values */
+  --background: #efefef;
+  --primary: #113b65;
+  --secondary: #0b2545;
+  --tertiary: #fff;
+  --trim: #ddd;
+  --text: #000;
 }
 
 .dark {
-    /* dark values */
-    --background: #efefef;
-    --primary: #113b65;
-    --secondary: #0b2545;
-    --tertiary: #fff;
-    --trim: #d3d3d3;
-    --text: #000;
+  /* dark values */
+  --background: #efefef;
+  --primary: #113b65;
+  --secondary: #0b2545;
+  --tertiary: #fff;
+  --trim: #d3d3d3;
+  --text: #000;
 }
 
 @theme {
-    --color-background: var(--background);
-    --color-primary: var(--primary);
-    --color-secondary: var(--secondary);
-    --color-tertiary: var(--tertiary);
-    --color-trim: var(--trim);
-    --color-text: var(--text);
+  --color-background: var(--background);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-tertiary: var(--tertiary);
+  --color-trim: var(--trim);
+  --color-text: var(--text);
 }
 
 @layer base {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-    html {
-        scroll-behavior: smooth;
-        scroll-padding-top: 75px;
-    }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+  }
 
-    body {
-        color: var(--text);
-        background: var(--background);
-    }
+  body {
+    color: var(--text);
+    background: var(--background);
+  }
 
-    button {
-        cursor: pointer;
-    }
+  button {
+    cursor: pointer;
+  }
 
-    input {
-        outline: none;
-    }
+  input {
+    outline: none;
+  }
 
-    textarea {
-        outline: none;
-        resize: none;
-    }
+  textarea {
+    outline: none;
+    resize: none;
+  }
 
-    select {
-        background-color: transparent;
-        cursor: pointer;
-        outline: none;
-    }
+  select {
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+  }
 
-    .text-balance {
-        text-wrap: balance;
-    }
+  .text-balance {
+    text-wrap: balance;
+  }
 }

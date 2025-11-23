@@ -1,6 +1,6 @@
-import { createEmptyProduct, ProductModel } from "@/data/productData";
 import React from "react";
 import ButtonL from "../common/buttonL";
+import { ProductModel } from "@/models/ProductModel";
 
 interface Props {
   products: ProductModel[];
@@ -23,7 +23,7 @@ function ProductList({ products, selectedProduct, setSelectedProduct }: Props) {
         </ButtonL>
       ))}
       <ButtonL
-        onClick={() => setSelectedProduct(createEmptyProduct())}
+        onClick={() => setSelectedProduct(ProductModel.empty())}
         className={`border-b border-primary px-2 text-left !w-full text-sm ${
           selectedProduct.key === "new" ? "font-bold text-primary" : ""
         }`}

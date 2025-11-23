@@ -4,14 +4,17 @@ import React, { useEffect, useState } from "react";
 import Categories from "./categories";
 import ProductList from "./productList";
 import { CategoryData } from "@/data/categoryData";
-import { ProductModel } from "@/data/productData";
+import { ProductModel, ProductModelType } from "@/models/ProductModel";
 
 interface Props {
   category?: string;
-  products: ProductModel[];
+  rawProducts: ProductModelType[];
 }
 
-function ProductDisplay({ category, products }: Props) {
+function ProductDisplay({ category, rawProducts }: Props) {
+  const products = rawProducts.map(
+    (p) => new ProductModel(p as ProductModelType)
+  );
   const [selectedCategories, setSelectedCategories] = useState<string[]>(
     category ? [category] : []
   );

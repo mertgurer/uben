@@ -1,7 +1,7 @@
 import React from "react";
 import LinkL from "@/components/common/linkL";
-import { ProductModel } from "@/data/productData";
 import { ChevronRight } from "lucide-react";
+import { ProductModel } from "@/models/ProductModel";
 
 function HierarchyNavigation({ product }: { product: ProductModel }) {
   return (

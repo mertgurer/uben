@@ -1,8 +1,8 @@
-import { LocaleField } from "@/data/productData";
+import { LocaleModel } from "@/models/LocaleModel";
 import { CSSProperties } from "react";
 
 export interface LocaleComponentProps {
-  children: string | LocaleField;
+  children: string | LocaleModel;
   className?: string;
   style?: CSSProperties;
 }

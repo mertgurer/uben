@@ -1,0 +1,822 @@
+[
+  {
+    "id": "4wfCxEmnpJ161yNgiTNV",
+    "key": "lunchNapkin",
+    "category": "napkin",
+    "pdf": "",
+    "title": {
+      "tr": "Garson Katlama Peçete",
+      "en": "Lunch Napkin"
+    },
+    "description": {
+      "tr": "Uben Garson Katlama Peçeteler, hafif yiyecekler ve atıştırmalıkların servis edildiği alanlar için ideal bir tercihtir. Modern ve klasik renk seçenekleriyle işletmenizin tarzına uyum sağlar. İsteğe bağlı özel baskılarla markanızın mesajını misafirlerinize doğrudan iletebilirsiniz.",
+      "en": "Uben Lunch Napkins are ideal for serving light meals and snacks. With modern and classic color options, they fit your business style. Optional custom prints allow you to deliver your brand message directly to guests."
+    },
+    "bulletPoints": [
+      {
+        "tr": "Ek beyazlatıcı veya boya kullanılmadan doğal rengini korur.",
+        "en": "Maintains natural color without additional whitening or dye."
+      },
+      {
+        "tr": "Endüstriyel olarak geri dönüştürülmüş olmasıyla çevre dostudur.",
+        "en": "Eco-friendly with industrial recycling."
+      },
+      {
+        "tr": "“%100 geri dönüştürülmüş” ifadesiyle sürdürülebilirlik mesajını güçlendirir.",
+        "en": "“100% recycled” label reinforces sustainability message."
+      },
+      {
+        "en": "Natural brown tone highlights recycling and offers an eco-friendly look.",
+        "tr": "Doğal kahverengi tonu, peçetenin geri dönüştürülmüş olduğunu vurgular ve çevreye duyarlı işletmeler için şık bir görünüm sunar."
+      }
+    ],
+    "isActive": true,
+    "variants": [
+      {
+        "key": "standard",
+        "properties": {
+          "caseWeight": {
+            "data": 2.8,
+            "unit": "weight"
+          },
+          "plyRating": {
+            "data": 2,
+            "unit": "ply"
+          },
+          "color": {
+            "data": [
+              "white"
+            ],
+            "unit": "color"
+          },
+          "sheetCountPerCase": {
+            "unit": "count",
+            "data": 100
+          },
+          "packCount": {
+            "data": 24,
+            "unit": "rolls"
+          },
+          "sheetCount": {
+            "data": 2400,
+            "unit": "sheets"
+          },
+          "sheetSize": {
+            "data": {
+              "width": 21,
+              "height": 17
+            },
+            "unit": "length"
+          }
+        },
+        "productCode": "UBP5510",
+        "title": {
+          "en": "Standard",
+          "tr": "Standart"
+        }
+      }
+    ]
+  },
+  {
+    "id": "CI286MGh0N5tM713d4Rs",
+    "key": "cDispenserPaperNapkin",
+    "category": "napkin",
+    "pdf": "",
+    "title": {
+      "en": "C Fold Dispenser Paper Napkin",
+      "tr": "C Tipi Dispenser Kağıt Peçete"
+    },
+    "description": {
+      "tr": "Uben C Katlı Kağıt, kompakt boyutu ve ekstra yumuşak dokusuyla hem kaliteli bir his sunar hem de ellere nazik davranır. Orta yoğunlukta kullanılan lavabo alanları için ideal olan bu ürün, Uben C Katlı Kağıt Dispenseri ile birlikte kullanıldığında küçük alanlara bile kolayca uyum sağlar. Misafirlerinize hijyen ve konforu bir arada sunar.",
+      "en": "Uben C Fold Paper, with its compact size and extra soft texture, not only provides a premium feel but is also gentle on hands. Ideal for medium-traffic washrooms, and when used with the Uben C Fold Paper Dispenser, it easily fits even into small spaces. Offers both hygiene and comfort to your guests."
+    },
+    "bulletPoints": [
+      {
+        "tr": "Şık desenli yüzeyi, mekânınızda kaliteli ve profesyonel bir izlenim bırakır.",
+        "en": "Its stylish embossed surface creates a professional and high-quality impression."
+      },
+      {
+        "tr": "Ekstra yumuşak dokusu sayesinde konforlu bir kurulama deneyimi sağlar.",
+        "en": "Extra soft texture ensures a comfortable drying experience."
+      },
+      {
+        "tr": "Hızlı Kurulama Teknolojisi ile daha az atık üretir, daha etkili emicilik sunar.",
+        "en": "Quick Dry Technology reduces waste while providing better absorbency."
+      },
+      {
+        "tr": "Tek yaprak çıkış sistemi, hijyeni artırırken tüketimi azaltır.",
+        "en": "Single-sheet dispensing enhances hygiene while reducing consumption."
+      }
+    ],
+    "isActive": false,
+    "variants": [
+      {
+        "key": "standard",
+        "properties": {
+          "plyRating": {
+            "data": 1,
+            "unit": "ply"
+          },
+          "packCount": {
+            "unit": "rolls",
+            "data": 18
+          },
+          "sheetCountPerCase": {
+            "data": 200,
+            "unit": "count"
+          },
+          "caseWeight": {
+            "data": 2.8,
+            "unit": "weight"
+          },
+          "sheetSize": {
+            "unit": "length",
+            "data": {
+              "width": 9,
+              "height": 13.5
+            }
+          },
+          "sheetCount": {
+            "data": 3600,
+            "unit": "sheets"
+          },
+          "openSheetSize": {
+            "unit": "length",
+            "data": {
+              "width": 21,
+              "height": 17
+            }
+          },
+          "color": {
+            "data": [
+              "white"
+            ],
+            "unit": "color"
+          }
+        },
+        "productCode": "UBC200",
+        "title": {
+          "en": "Standard",
+          "tr": "Standart"
+        }
+      }
+    ]
+  },
+  {
+    "id": "CbMLdb7vT3u2N0kNbErE",
+    "key": "paperNapkin",
+    "category": "napkin",
+    "pdf": "",
+    "title": {
+      "tr": "Kare Peçete",
+      "en": "Square Napkin"
+    },
+    "description": {
+      "tr": "Uben Kare Peçete; kafe, restoran, bar ve catering servislerinde hızlı, hijyenik ve şık masa düzeni için pratik bir çözümdür. 2 katlı yapısı yumuşaklık–emicilik dengesini sunar, kenar gofrajlı dokusu premium bir görünüm sağlar. Hijyenik blok paketleme depolamayı kolaylaştırır; farklı renk ve baskı seçenekleriyle markanızı öne çıkarır. Farklı paket adetleriyle sunulur.",
+      "en": "Uben Square Napkin is a practical solution for cafés, restaurants, bars, and catering services to set clean, hygienic, and stylish tables quickly. Its 2-ply structure balances softness and absorbency, while edge embossing provides a premium look. Hygienic block packaging makes storage easier; available in multiple colors and printing options to highlight your brand."
+    },
+    "bulletPoints": [
+      {
+        "tr": "Kolay ayrılan, dayanıklı yapı: servis hızlanır, israf azalır.",
+        "en": "Easy-to-separate durable structure speeds up service and reduces waste."
+      },
+      {
+        "tr": "Yumuşak doku, yüksek emicilik.",
+        "en": "Soft texture, high absorbency."
+      },
+      {
+        "tr": "Hijyenik blok paketleme; depolama/taşıma kolaylığı.",
+        "en": "Hygienic block packaging ensures easy storage/transport."
+      },
+      {
+        "tr": "Beyaz, kraft ve renk seçenekleri + isteğe bağlı logo baskısı.",
+        "en": "White, kraft, and colored options + optional logo printing."
+      }
+    ],
+    "isActive": true,
+    "variants": [
+      {
+        "properties": {
+          "plyRating": {
+            "unit": "ply",
+            "data": 2
+          },
+          "packCount": {
+            "data": 12,
+            "unit": "rolls"
+          },
+          "openSheetSize": {
+            "unit": "length",
+            "data": {
+              "width": 33,
+              "height": 33
+            }
+          },
+          "sheetSize": {
+            "unit": "length",
+            "data": {
+              "width": 15.5,
+              "height": 8.5
+            }
+          },
+          "sheetCount": {
+            "data": 1200,
+            "unit": "sheets"
+          },
+          "color": {
+            "unit": "color",
+            "data": [
+              "white"
+            ]
+          },
+          "caseWeight": {
+            "data": 4.7,
+            "unit": "weight"
+          },
+          "sheetCountPerCase": {
+            "unit": "count",
+            "data": 100
+          }
+        },
+        "productCode": "UBP5555",
+        "key": "standard",
+        "title": {
+          "en": "Standard",
+          "tr": "Standart"
+        }
+      }
+    ]
+  },
+  {
+    "id": "OYkjrwkw0uS4kz9FpUrF",
+    "key": "rollPaper",
+    "category": "handTowel",
+    "pdf": "",
+    "title": {
+      "en": "Roll Towel",
+      "tr": "Hareketli Havlu"
+    },
+    "description": {
+      "en": "Uben Roll Towel is a practical and hygienic solution for high-traffic areas such as schools and airports, thanks to its high capacity. Compatible with Uben dispenser systems, these rolls simplify maintenance and refilling in busy environments.",
+      "tr": "Uben Hareketli Havlu, yüksek kapasitesi sayesinde özellikle okul, havaalanı ve benzeri yoğun kullanım alanları için pratik ve hijyenik bir çözümdür. Uben dispenser sistemleriyle uyumlu olan bu rulolar, yoğun ziyaretçi trafiği olan ortamlarda bakım ve dolum süreçlerini kolaylaştırır."
+    },
+    "bulletPoints": [
+      {
+        "tr": "Ekonomik kullanım sunar, temel el kurutma ihtiyacını verimli şekilde karşılar.",
+        "en": "Provides economical use, efficiently meeting basic hand drying needs."
+      },
+      {
+        "tr": "Ekstra uzun rulo özelliğiyle daha az dolum ihtiyacı doğar, zamandan tasarruf sağlar.",
+        "en": "Extra-long rolls reduce refill frequency, saving time."
+      },
+      {
+        "tr": "Her seferinde tek yaprak vererek hem hijyeni artırır hem de tüketimi azaltır.",
+        "en": "Dispenses one sheet at a time, increasing hygiene and reducing consumption."
+      }
+    ],
+    "isActive": true,
+    "variants": [
+      {
+        "productCode": "UBHT4",
+        "key": "1ply4kg",
+        "properties": {
+          "packWeight": {
+            "unit": "weight",
+            "data": 4
+          },
+          "sheetCountPerRoll": {
+            "unit": "sheets",
+            "data": 733
+          },
+          "color": {
+            "unit": "color",
+            "data": [
+              "white"
+            ]
+          },
+          "plyRating": {
+            "unit": "ply",
+            "data": 1
+          },
+          "sheetSize": {
+            "unit": "length",
+            "data": {
+              "width": 11.5,
+              "height": 21
+            }
+          },
+          "packCount": {
+            "data": 6,
+            "unit": "rolls"
+          },
+          "sheetCountPerCase": {
+            "data": 4400,
+            "unit": "count"
+          }
+        },
+        "title": {
+          "en": "Single Layer 4kg",
+          "tr": "Tek Katlı 4kg"
+        }
+      },
+      {
+        "productCode": "UBHC4",
+        "properties": {
+          "sheetCountPerRoll": {
+            "data": 566,
+            "unit": "sheets"
+          },
+          "sheetSize": {
+            "data": {
+              "height": 21,
+              "width": 11.5
+            },
+            "unit": "length"
+          },
+          "sheetCountPerCase": {
+            "unit": "count",
+            "data": 3400
+          },
+          "plyRating": {
+            "data": 2,
+            "unit": "ply"
+          },
+          "color": {
+            "unit": "color",
+            "data": [
+              "white"
+            ]
+          },
+          "packCount": {
+            "unit": "rolls",
+            "data": 6
+          },
+          "packWeight": {
+            "data": 4,
+            "unit": "weight"
+          }
+        },
+        "key": "2ply4kg",
+        "title": {
+          "tr": "Çift Katlı 4kg",
+          "en": "Double Layer 4kg"
+        }
+      },
+      {
+        "productCode": "UBHC5",
+        "key": "2ply5kgLarge",
+        "properties": {
+          "sheetSize": {
+            "data": {
+              "height": 21,
+              "width": 11.5
+            },
+            "unit": "length"
+          },
+          "packCount": {
+            "unit": "rolls",
+            "data": 6
+          },
+          "sheetCountPerCase": {
+            "unit": "count",
+            "data": 4250
+          },
+          "plyRating": {
+            "data": 2,
+            "unit": "ply"
+          },
+          "sheetCountPerRoll": {
+            "unit": "sheets",
+            "data": 710
+          },
+          "packWeight": {
+            "data": 5,
+            "unit": "weight"
+          },
+          "color": {
+            "data": "white",
+            "unit": "color"
+          }
+        },
+        "title": {
+          "en": "Double Layer Large 5kg",
+          "tr": "Çift Katlı Büyük 5kg"
+        }
+      }
+    ]
+  },
+  {
+    "id": "VKoqXqnXcvbqJ4QNi3qP",
+    "key": "foldDispenserNapkin",
+    "category": "napkin",
+    "pdf": "",
+    "title": {
+      "tr": "Katlanır Dispenser Peçete",
+      "en": "Fold Dispenser Napkin"
+    },
+    "description": {
+      "tr": "Uben Dispenser Peçeteler, hızlı servis restoranları, kafeler, barlar ve yemek noktaları için hijyenik ve pratik bir çözümdür. Geleneksel peçete dispenserlerine kıyasla, daha az yer kaplar, tekrar dolum aralıklarını uzatır ve kullanılmadan atılan peçete miktarını büyük ölçüde azaltır. 2 katlı yapısıyla hem dayanıklı hem de konforlu bir kullanım sunar.",
+      "en": "Uben Dispenser Napkins provide a hygienic and practical solution for quick-service restaurants, cafés, bars, and dining points. Compared to traditional napkin dispensers, they take up less space, extend refill intervals, and significantly reduce unused napkin waste. With their 2-ply structure, they are both durable and comfortable."
+    },
+    "bulletPoints": [
+      {
+        "tr": "Katlama sistemi sayesinde açıldığında tam boy peçete olur, yerden tasarruf sağlar.",
+        "en": "Folding system ensures a full-size napkin when opened while saving space."
+      },
+      {
+        "tr": "Kompakt kutu tasarımı, depolama ve yüklemeyi kolaylaştırır.",
+        "en": "Compact box design makes storage and loading easier."
+      },
+      {
+        "tr": "Özel ambalaj çözümü sayesinde desteler hijyenik şekilde korunur ve kolayca kullanıma sunulur.",
+        "en": "Special packaging keeps bundles hygienic and ready for use."
+      }
+    ],
+    "isActive": true,
+    "variants": [
+      {
+        "productCode": "UBZF200",
+        "properties": {
+          "caseWeight": {
+            "unit": "weight",
+            "data": 3.8
+          },
+          "sheetCount": {
+            "data": 4800,
+            "unit": "sheets"
+          },
+          "sheetSize": {
+            "unit": "length",
+            "data": {
+              "height": 10,
+              "width": 21
+            }
+          },
+          "color": {
+            "data": [
+              "white"
+            ],
+            "unit": "color"
+          },
+          "sheetCountPerCase": {
+            "unit": "count",
+            "data": 200
+          },
+          "plyRating": {
+            "data": 2,
+            "unit": "ply"
+          },
+          "packCount": {
+            "unit": "rolls",
+            "data": 24
+          }
+        },
+        "key": "standard",
+        "title": {
+          "en": "Standard",
+          "tr": "Standart"
+        }
+      }
+    ]
+  },
+  {
+    "id": "WUlSlRTsjsYOms9tt2aF",
+    "key": "jumboToiletPaper",
+    "category": "toiletPaper",
+    "pdf": "",
+    "title": {
+      "tr": "Jumbo Tuvalet Kağıdı",
+      "en": "Jumbo Toilet Paper"
+    },
+    "description": {
+      "tr": "Uben Jumbo Tuvalet Kağıdı, standart rulolara göre çok daha uzun süre dayanır; böylece hem zamandan hem de maliyetten tasarruf sağlar. 2 katlı yapısıyla dayanıklılığı artırırken, kullanım konforunu da üst seviyeye taşır. Orta ve yoğun ziyaretçi trafiği olan alanlar için ideal bir çözümdür.",
+      "en": "Uben Jumbo Toilet Paper lasts much longer than standard rolls, saving both time and costs. Its 2-ply structure increases durability while enhancing user comfort. Ideal for medium to high-traffic areas."
+    },
+    "bulletPoints": [
+      {
+        "tr": "Yüksek kapasitesi sayesinde daha az bakım gerektirir, kâğıdın bitme riskini azaltır.",
+        "en": "High capacity reduces maintenance needs and lowers the risk of running out."
+      },
+      {
+        "tr": "Şık desenli yüzeyi, bulunduğu mekânda estetik ve kaliteli bir izlenim bırakır.",
+        "en": "Elegant embossed surface gives a premium look to your space."
+      }
+    ],
+    "isActive": true,
+    "variants": [
+      {
+        "productCode": "UBJ4150",
+        "key": "standard",
+        "properties": {
+          "sheetCountPerCase": {
+            "data": 4150,
+            "unit": "count"
+          },
+          "diameter": {
+            "unit": "length",
+            "data": 17
+          },
+          "color": {
+            "unit": "color",
+            "data": [
+              "white"
+            ]
+          },
+          "packWeight": {
+            "data": 4,
+            "unit": "weight"
+          },
+          "sheetCountPerRoll": {
+            "unit": "sheets",
+            "data": 345
+          },
+          "plyRating": {
+            "unit": "ply",
+            "data": 2
+          },
+          "sheetSize": {
+            "data": {
+              "width": 10,
+              "height": 24
+            },
+            "unit": "length"
+          },
+          "packCount": {
+            "data": 12,
+            "unit": "rolls"
+          }
+        },
+        "title": {
+          "en": "Standard",
+          "tr": "Standart"
+        }
+      }
+    ]
+  },
+  {
+    "id": "gASRgVCBIy5qqWBf9EEw",
+    "key": "zFoldPaper",
+    "category": "handTowel",
+    "pdf": "",
+    "description": {
+      "tr": "Uben Z Katlı Kağıt, geniş boyutu ve ekstra yumuşak dokusuyla hem yüksek kaliteli bir his sunar hem de ellere nazik davranır. Orta yoğunlukta kullanılan lavabo alanları için ideal olan bu ürün, Uben Z Katlı Kağıt Dispenseri ile birlikte kullanıldığında küçük alanlara bile kolayca uyum sağlar. Misafirlerinize hijyen ve konforu bir arada sunar.",
+      "en": "Uben Z Fold Paper, with its large size and extra soft texture, not only provides a premium feel but is also gentle on hands. Ideal for medium-traffic washrooms, and when used with the Uben Z Fold Paper Dispenser, it fits easily into even small spaces. Offers both hygiene and comfort to your guests."
+    },
+    "title": {
+      "tr": "Z Katlı Kağıt",
+      "en": "Z Fold Paper"
+    },
+    "bulletPoints": [
+      {
+        "en": "Its stylish embossed surface creates a professional and high-quality impression.",
+        "tr": "Şık desenli yüzeyi, mekânınızda kaliteli ve profesyonel bir izlenim bırakır."
+      },
+      {
+        "tr": "Ekstra yumuşak dokusu sayesinde konforlu bir kurulama deneyimi sağlar.",
+        "en": "Extra soft texture ensures a comfortable drying experience."
+      },
+      {
+        "tr": "Hızlı Kurulama Teknolojisi ile daha az atık üretir, daha etkili emicilik sunar.",
+        "en": "Quick Dry Technology reduces waste while providing better absorbency."
+      },
+      {
+        "en": "Single-sheet dispensing enhances hygiene while reducing consumption.",
+        "tr": "Tek yaprak çıkış sistemi, hijyeni artırırken tüketimi azaltır."
+      }
+    ],
+    "isActive": true,
+    "variants": [
+      {
+        "properties": {
+          "color": {
+            "data": [
+              "white"
+            ],
+            "unit": "color"
+          },
+          "caseSize": {
+            "unit": "length",
+            "data": {
+              "width": 43,
+              "height": 33,
+              "depth": 22
+            }
+          },
+          "sheetCountPerCase": {
+            "unit": "count",
+            "data": 1800
+          },
+          "sheetCount": {
+            "data": 150,
+            "unit": "sheets"
+          },
+          "caseWeight": {
+            "data": 2.7,
+            "unit": "weight"
+          },
+          "packCount": {
+            "data": 12,
+            "unit": "rolls"
+          },
+          "plyRating": {
+            "unit": "ply",
+            "data": 2
+          },
+          "sheetSize": {
+            "unit": "length",
+            "data": {
+              "width": 21,
+              "height": 21
+            }
+          }
+        },
+        "title": {
+          "en": "150 Sheets",
+          "tr": "150 Yaprak"
+        },
+        "productCode": "UBZ150",
+        "key": "150Sheets"
+      },
+      {
+        "properties": {
+          "sheetSize": {
+            "data": {
+              "width": 21,
+              "height": 21
+            },
+            "unit": "length"
+          },
+          "packCount": {
+            "unit": "rolls",
+            "data": 12
+          },
+          "caseWeight": {
+            "data": 3.8,
+            "unit": "weight"
+          },
+          "sheetCountPerCase": {
+            "unit": "count",
+            "data": 2400
+          },
+          "sheetCount": {
+            "unit": "sheets",
+            "data": 200
+          },
+          "plyRating": {
+            "unit": "ply",
+            "data": 2
+          },
+          "color": {
+            "data": [
+              "white"
+            ],
+            "unit": "color"
+          },
+          "caseSize": {
+            "unit": "length",
+            "data": {
+              "depth": 22,
+              "width": 43,
+              "height": 33
+            }
+          }
+        },
+        "productCode": "UBZ200",
+        "key": "200Sheets",
+        "title": {
+          "en": "200 Sheets",
+          "tr": "200 Yaprak"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pvvrcseL14CoivGbxJNC",
+    "key": "centerPullToiletPaper",
+    "category": "toiletPaper",
+    "pdf": "",
+    "description": {
+      "tr": "Uben İçten Çekmeli Tuvalet Kağıdı, kâğıtların tek tek verilmesini sağlayarak kullanım miktarını azaltır ve her rulonun daha uzun süre dayanmasına yardımcı olur. Geleneksel jumbo rulolara kıyasla daha ekonomik ve hijyenik bir çözümdür. Farklı dispenser seçenekleriyle az, orta ya da yoğun kullanımlı lavabo alanlarına uygundur.",
+      "en": "Uben Center Pull Toilet Paper dispenses sheets one at a time, reducing usage and helping each roll last longer. Compared to traditional jumbo rolls, it is more economical and hygienic. With different dispenser options, it suits low, medium, and high-traffic washrooms."
+    },
+    "bulletPoints": [
+      {
+        "tr": "Suya atıldığında hızlıca çözünür, böylece boru tıkanma riskini en aza indirir.",
+        "en": "Quickly dissolves in water, minimizing pipe clogging risk."
+      },
+      {
+        "en": "Practical roll core makes removal and refilling easier.",
+        "tr": "Pratik Rulo Göbeği sayesinde kolayca çıkarılır ve doldurma işlemi hızlanır."
+      },
+      {
+        "en": "High capacity reduces maintenance needs and lowers the risk of running out.",
+        "tr": "Yüksek kapasitesi sayesinde daha az bakım ihtiyacı doğar, kâğıdın bitme riski azalır."
+      },
+      {
+        "en": "Soft texture and high whiteness provide a comfortable cleaning experience.",
+        "tr": "Yumuşak dokusu ve yüksek beyazlığıyla kullanıcıya konforlu bir temizlik deneyimi sunar."
+      }
+    ],
+    "title": {
+      "tr": "İçten Çekmeli Tuvalet Kâğıdı",
+      "en": "Center Pull Toilet Paper"
+    },
+    "isActive": true,
+    "variants": [
+      {
+        "key": "mini",
+        "productCode": "UBMT5200",
+        "properties": {
+          "sheetCountPerCase": {
+            "unit": "count",
+            "data": 5200
+          },
+          "color": {
+            "unit": "color",
+            "data": [
+              "white"
+            ]
+          },
+          "diameter": {
+            "unit": "length",
+            "data": 16.5
+          },
+          "packWeight": {
+            "unit": "weight",
+            "data": 4
+          },
+          "packCount": {
+            "unit": "rolls",
+            "data": 6
+          },
+          "sheetSize": {
+            "data": {
+              "height": 21,
+              "width": 21
+            },
+            "unit": "length"
+          },
+          "plyRating": {
+            "data": 2,
+            "unit": "ply"
+          },
+          "sheetCountPerRoll": {
+            "unit": "sheets",
+            "data": 866
+          }
+        },
+        "title": {
+          "tr": "Mini",
+          "en": "Mini"
+        }
+      },
+      {
+        "productCode": "UBMT3150",
+        "properties": {
+          "packWeight": {
+            "data": 4,
+            "unit": "weight"
+          },
+          "diameter": {
+            "data": 15.5,
+            "unit": "length"
+          },
+          "color": {
+            "unit": "color",
+            "data": [
+              "white"
+            ]
+          },
+          "sheetSize": {
+            "unit": "length",
+            "data": {
+              "height": 21,
+              "width": 21
+            }
+          },
+          "sheetCountPerCase": {
+            "unit": "count",
+            "data": 3154
+          },
+          "packCount": {
+            "data": 12,
+            "unit": "rolls"
+          },
+          "sheetCountPerRoll": {
+            "data": 264,
+            "unit": "sheets"
+          },
+          "plyRating": {
+            "unit": "ply",
+            "data": 2
+          }
+        },
+        "key": "maxi",
+        "title": {
+          "en": "Maxi",
+          "tr": "Maxi"
+        }
+      }
+    ]
+  }
+]

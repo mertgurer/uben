@@ -2,8 +2,8 @@ import React from "react";
 import { redirect } from "@/i18n/navigation";
 import Body from "@/components/products/product/body";
 import { adminDb } from "@/lib/firebaseAdmin";
-import { ProductModel } from "@/data/productData";
 import { FirebaseImages } from "@/lib/firebaseImage";
+import { ProductModelType } from "@/models/ProductModel";
 
 interface Props {
   params: Promise<{ id: string; locale: string }>;
@@ -15,6 +15,7 @@ async function ProductPage({ params }: Props) {
   const snapshot = await adminDb
     .collection("products")
     .where("key", "==", id)
+    .where("isActive", "==", true)
     .limit(1)
     .get();
 
@@ -23,7 +24,7 @@ async function ProductPage({ params }: Props) {
   }
 
   const doc = snapshot.docs[0];
-  const product = { id: doc.id, ...doc.data() } as ProductModel;
+  const product = { id: doc.id, ...doc.data() } as ProductModelType;
 
   if (!product) {
     redirect({ href: "/products", locale });
@@ -32,12 +33,12 @@ async function ProductPage({ params }: Props) {
 
   const images = [
     FirebaseImages.getCover(product.key),
-    ...(await FirebaseImages.getImages(product.key, 4)),
+    ...(await FirebaseImages.getImages(product.key, 3)),
   ];
 
   return (
     <main className="flex flex-col pt-12 gap-14 max-md:pt-8">
-      <Body product={product} images={images} />
+      <Body rawProduct={product} images={images} />
     </main>
   );
 }

@@ -5,7 +5,7 @@ import SpanL from "./spanL";
 import { useTranslations } from "next-intl";
 
 interface InputProps {
-  name: string;
+  name?: string;
   label?: string;
   placeholder?: string;
   defaultValue?: string;
@@ -13,6 +13,9 @@ interface InputProps {
   textArea?: boolean;
   password?: boolean;
   className?: string;
+  value?: string;
+  onValueChange?: (value: string) => void;
+  onBlur?: boolean;
 }
 
 function Input({
@@ -24,8 +27,33 @@ function Input({
   textArea,
   password,
   className,
+  value,
+  onValueChange,
+  onBlur,
 }: InputProps) {
   const t = useTranslations();
+  const translatedPlaceholder = placeholder ? t(placeholder) : "";
+
+  const commonProps = {
+    name,
+    placeholder: translatedPlaceholder,
+    required,
+    className: `border border-primary/30 rounded-xl px-4 py-2 ${
+      className || ""
+    }`,
+    value,
+    defaultValue,
+    onChange:
+      onValueChange && !onBlur
+        ? (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) =>
+            onValueChange(e.target.value)
+        : undefined,
+    onBlur:
+      onValueChange && onBlur
+        ? (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) =>
+            onValueChange(e.target.value)
+        : undefined,
+  };
 
   return (
     <div className="flex flex-col gap-1 w-full text-primary">
@@ -34,24 +62,16 @@ function Input({
           <SpanL>{label}</SpanL> {required && "*"}
         </div>
       )}
+
       {textArea ? (
         <textarea
-          name={name}
-          placeholder={placeholder ? t(placeholder) : ""}
-          defaultValue={defaultValue}
-          className={`border border-primary/30 rounded-xl px-4 py-2 min-h-44 max-md:min-h-32 ${className}`}
+          {...commonProps}
+          className={`${commonProps.className} min-h-44 max-md:min-h-32`}
         />
       ) : (
-        <input
-          name={name}
-          type={password ? "password" : "text"}
-          placeholder={placeholder ? t(placeholder) : ""}
-          defaultValue={defaultValue}
-          className={`border border-primary/30 rounded-xl px-4 py-2 ${className}`}
-        />
+        <input {...commonProps} type={password ? "password" : "text"} />
       )}
     </div>
   );
 }
-
 export default Input;
