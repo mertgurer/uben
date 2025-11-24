@@ -12,7 +12,8 @@ export async function POST(request: Request) {
 
     if (!product.id || product.id === "") {
       docRef = productsRef.doc();
-      const productToSave: Omit<typeof product, "id"> = { ...product };
+      const { id, ...productToSave } = product;
+      console.log(id);
 
       await docRef.set(productToSave);
 
@@ -27,7 +28,9 @@ export async function POST(request: Request) {
     await docRef.set(product, { merge: true });
 
     if (oldKey && oldKey !== product.key) {
-      const [files] = await adminStorage.getFiles({ prefix: oldKey + "/" });
+      const [files] = await adminStorage.getFiles({
+        prefix: oldKey + "/",
+      });
 
       const copyPromises = files.map(async (file) => {
         const newPath = file.name.replace(oldKey + "/", product.key + "/");

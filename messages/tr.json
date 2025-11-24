@@ -211,6 +211,7 @@
       "logout": "Çıkış Yap",
       "update": "Ürünü Güncelle",
       "create": "Ürün Oluştur",
+      "areYouSureDeleteProduct": "Bu ürünü silmek istediğinize emin misiniz?",
       "updateImages": "Resimleri Güncelle",
       "coverImage": "Kapak Resmi",
       "images": "Resimler",

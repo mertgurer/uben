@@ -211,6 +211,7 @@
       "logout": "Logout",
       "update": "Update Product",
       "create": "Create Product",
+      "areYouSureDeleteProduct": "Are you sure you want to delete this product?",
       "updateImages": "Update Images",
       "coverImage": "Cover Image",
       "images": "Images",

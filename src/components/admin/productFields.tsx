@@ -69,6 +69,13 @@ function ProductFields({ initialProduct, initialImages }: Props) {
       .finally(() => setLoading(false));
   };
 
+  const handleDeleteProduct = async (id: string) => {
+    const ok = window.confirm(t("Admin.Dashboard.areYouSureDeleteProduct"));
+    if (ok) {
+      deleteProduct(id);
+    }
+  };
+
   const deleteProduct = async (id: string) => {
     setLoading(true);
     toast
@@ -136,7 +143,10 @@ function ProductFields({ initialProduct, initialImages }: Props) {
         fetch("/api/product/images/delete", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ productKey: initialProduct.key, index }),
+          body: JSON.stringify({
+            productKey: initialProduct.key,
+            index,
+          }),
         }).then(async (res) => {
           const result = await res.json();
           if (!result.success) {
@@ -183,7 +193,7 @@ function ProductFields({ initialProduct, initialImages }: Props) {
             type="button"
             className="bg-primary text-tertiary px-9 py-2 rounded-full hover:-translate-y-1 duration-500 max-2xl:px-7 max-md:self-center max-md:px-12 max-md:py-2.5"
             disabled={loading}
-            onClick={() => deleteProduct(product.id)}
+            onClick={() => handleDeleteProduct(product.id)}
           >
             Admin.Dashboard.delete
           </ButtonL>
@@ -200,7 +210,10 @@ function ProductFields({ initialProduct, initialImages }: Props) {
             onChange={(e) =>
               setProduct(
                 (prev) =>
-                  ({ ...prev, isActive: e.target.checked } as ProductModel)
+                  ({
+                    ...prev,
+                    isActive: e.target.checked,
+                  } as ProductModel)
               )
             }
           />
@@ -416,7 +429,10 @@ function ProductFields({ initialProduct, initialImages }: Props) {
                 }
                 setProduct((prev) => {
                   const newVariants = [...prev.variants, VariantModel.empty()];
-                  return { ...prev, variants: newVariants } as ProductModel;
+                  return {
+                    ...prev,
+                    variants: newVariants,
+                  } as ProductModel;
                 });
                 setSelectedVariantIndex(product.variants.length);
               }}
@@ -458,7 +474,10 @@ function ProductFields({ initialProduct, initialImages }: Props) {
                     : variant
                 );
 
-                return { ...prev, variants: updatedVariants } as ProductModel;
+                return {
+                  ...prev,
+                  variants: updatedVariants,
+                } as ProductModel;
               });
             }}
           />
@@ -475,7 +494,10 @@ function ProductFields({ initialProduct, initialImages }: Props) {
                     : variant
                 );
 
-                return { ...prev, variants: updatedVariants } as ProductModel;
+                return {
+                  ...prev,
+                  variants: updatedVariants,
+                } as ProductModel;
               });
             }}
           />
@@ -1037,11 +1059,19 @@ function ProductFields({ initialProduct, initialImages }: Props) {
                             depth?: number;
                           } = {
                             ...(oldPropertyValue.width !== undefined
-                              ? { width: oldPropertyValue.width }
+                              ? {
+                                  width: oldPropertyValue.width,
+                                }
                               : {}),
-                            ...(newValue !== 0 ? { height: newValue } : {}),
+                            ...(newValue !== 0
+                              ? {
+                                  height: newValue,
+                                }
+                              : {}),
                             ...(oldPropertyValue.depth !== undefined
-                              ? { depth: oldPropertyValue.depth }
+                              ? {
+                                  depth: oldPropertyValue.depth,
+                                }
                               : {}),
                           };
 
@@ -1103,12 +1133,20 @@ function ProductFields({ initialProduct, initialImages }: Props) {
                             depth?: number;
                           } = {
                             ...(oldPropertyValue.width !== undefined
-                              ? { width: oldPropertyValue.width }
+                              ? {
+                                  width: oldPropertyValue.width,
+                                }
                               : {}),
                             ...(oldPropertyValue.height !== undefined
-                              ? { height: oldPropertyValue.height }
+                              ? {
+                                  height: oldPropertyValue.height,
+                                }
                               : {}),
-                            ...(newValue !== 0 ? { depth: newValue } : {}),
+                            ...(newValue !== 0
+                              ? {
+                                  depth: newValue,
+                                }
+                              : {}),
                           };
                           setProduct(
                             (prev) =>
